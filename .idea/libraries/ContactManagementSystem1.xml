@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="ContactManagementSystem1">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/dist/ContactManagementSystem1.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
