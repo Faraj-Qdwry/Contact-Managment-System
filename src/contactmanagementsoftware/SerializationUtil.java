@@ -9,6 +9,7 @@ import java.io.ObjectOutputStream;
 import java.io.Serializable;
 
 //todo Can be Singleton
+//bisher: static methods are enough, no need for an object, Singleton is only used when we need a single referenced object
 public class SerializationUtil implements Serializable {
 
     public static Object deserialize(File file) throws IOException,

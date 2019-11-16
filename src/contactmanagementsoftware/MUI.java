@@ -36,6 +36,7 @@ public class MUI extends javax.swing.JFrame {
     private String op;
     private String str;
 
+    // todo Singleton pattern
     public void setMg(MUI mg) {
         this.mg = mg;
     }
@@ -44,7 +45,7 @@ public class MUI extends javax.swing.JFrame {
         this.a = a;
     }
 
-    //todo strategy pattern for cases
+    //todo strategy pattern for cases, visible and editable
     public void setDescription() {
         name.setText("");
         mobile.setText("");
@@ -70,6 +71,7 @@ public class MUI extends javax.swing.JFrame {
             name.setText(e.getName());
             mobile.setText(e.getMobileNo());
             email.setText(e.getEmail());
+            //todo decorator pattern for acquaintances folder classes
             switch (x) {
                 case 0:
                     PersonalFriends perF = (PersonalFriends) e;
@@ -171,7 +173,8 @@ public class MUI extends javax.swing.JFrame {
     public MUI() {
         initComponents();
         String[] columnNames = {"S.No", "Name", "Mobile", " Email"};
-        //todo factory
+        //todo factory method
+        //bisher: no need since we need a single MUI object, Singleton must be applied
         DefaultTableModel model = new DefaultTableModel(null, columnNames);
         jXTable1.setModel(model);
         setUpTableData();
@@ -550,6 +553,7 @@ public class MUI extends javax.swing.JFrame {
     }// </editor-fold>//GEN-END:initComponents
 
     //todo command pattern for all actions here
+    //todo: and apply their logic as observer pattern
     private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
         int index = jList1.getSelectedIndex();
         if (index < 0) {
@@ -838,6 +842,7 @@ public class MUI extends javax.swing.JFrame {
         String One, Two, Three;
         switch (x) {
             //todo strategy pattern
+            //bisher: same as the first comment's strategies
             case 0: //perF
                 One = one.getText();
                 if (One.isEmpty() || One.length() > 300) {
@@ -980,6 +985,7 @@ public class MUI extends javax.swing.JFrame {
                 }
             }
             //todo maybe strategy can be used here
+            //bisher: can't use exceptions as strategy
         } catch (ClassNotFoundException ex) {
             java.util.logging.Logger.getLogger(MUI.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         } catch (InstantiationException ex) {
