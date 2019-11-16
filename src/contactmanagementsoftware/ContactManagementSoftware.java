@@ -1,9 +1,11 @@
 package contactmanagementsoftware;
 
+import contactmanagementsoftware.acquaintances.Acquaintances;
+
 import java.io.Serializable;
 import java.util.ArrayList;
 
-public class ContactManagementSoftware implements Serializable{
+public class ContactManagementSoftware implements Serializable {
 
     private static MUI mg;
     private static ArrayList<ArrayList<Acquaintances>> a = new ArrayList<>();
@@ -11,7 +13,7 @@ public class ContactManagementSoftware implements Serializable{
     private static ArrayList<Acquaintances> rel1 = new ArrayList<>();
     private static ArrayList<Acquaintances> proF1 = new ArrayList<>();
     private static ArrayList<Acquaintances> ca1 = new ArrayList<>();
-    
+
     public static void main(String[] args) {
         mg = new MUI();
         a.add(perF1);

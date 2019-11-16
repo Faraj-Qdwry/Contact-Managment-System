@@ -1,19 +1,18 @@
-package contactmanagementsoftware;
+package contactmanagementsoftware.acquaintances;
 
 import java.io.Serializable;
-import java.time.LocalDate;
 import java.util.Scanner;
 
-public class Relatives extends Acquaintances implements Serializable{
+public class Relatives extends Acquaintances implements Serializable {
     private String BDate;
     private String LDate;
     public static int numberRel = 0;
     private static Scanner reader = new Scanner(System.in);
-    
-    Relatives(){
+
+    public Relatives() {
         numberRel++;
     }
-    
+
     @Override
     public String getName() {
         return super.getName();
@@ -21,7 +20,7 @@ public class Relatives extends Acquaintances implements Serializable{
 
     @Override
     public void setName(String Name) {
-        super.setName(Name); 
+        super.setName(Name);
     }
 
     @Override
@@ -43,7 +42,7 @@ public class Relatives extends Acquaintances implements Serializable{
     public void setEmail(String Email) {
         super.setEmail(Email);
     }
-    
+
     public String getBDate() {
         return BDate;
     }

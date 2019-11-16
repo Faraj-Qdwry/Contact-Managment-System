@@ -1,18 +1,20 @@
-package contactmanagementsoftware;
+package contactmanagementsoftware.acquaintances;
+
+import contactmanagementsoftware.acquaintances.Acquaintances;
 
 import java.io.Serializable;
 import java.util.Scanner;
 
-public class CasualAcquaintances extends Acquaintances implements Serializable{
+public class CasualAcquaintances extends Acquaintances implements Serializable {
     private String WhenWhere;
     private String Circumstances;
     private String OtherInfo;
     public static int numberCA = 0;
-    
-    CasualAcquaintances(){
+
+    public CasualAcquaintances() {
         numberCA++;
     }
-    
+
     @Override
     public String getName() {
         return super.getName();
@@ -20,7 +22,7 @@ public class CasualAcquaintances extends Acquaintances implements Serializable{
 
     @Override
     public void setName(String Name) {
-        super.setName(Name); 
+        super.setName(Name);
     }
 
     @Override
@@ -42,16 +44,16 @@ public class CasualAcquaintances extends Acquaintances implements Serializable{
     public void setEmail(String Email) {
         super.setEmail(Email);
     }
-    
+
     public String getWhenWhere() {
         return WhenWhere;
     }
 
     public void setWhenWhere(String WhenWhere) {
         Scanner reader = new Scanner(System.in);
-        if(!WhenWhere.isEmpty())
+        if (!WhenWhere.isEmpty())
             this.WhenWhere = WhenWhere;
-        else{
+        else {
             System.out.println("Enter atleast one character");
             setWhenWhere(reader.nextLine());
         }
@@ -63,9 +65,9 @@ public class CasualAcquaintances extends Acquaintances implements Serializable{
 
     public void setCircumstances(String Circumstances) {
         Scanner reader = new Scanner(System.in);
-        if(!Circumstances.isEmpty())
+        if (!Circumstances.isEmpty())
             this.Circumstances = Circumstances;
-        else{
+        else {
             System.out.println("Enter atleast one character");
             setCircumstances(reader.nextLine());
         }
@@ -77,9 +79,9 @@ public class CasualAcquaintances extends Acquaintances implements Serializable{
 
     public void setOtherInfo(String OtherInfo) {
         Scanner reader = new Scanner(System.in);
-        if(!OtherInfo.isEmpty())
+        if (!OtherInfo.isEmpty())
             this.OtherInfo = OtherInfo;
-        else{
+        else {
             System.out.println("Enter atleast one character");
             setOtherInfo(reader.nextLine());
         }
