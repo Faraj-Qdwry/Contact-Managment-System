@@ -2,53 +2,134 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8a5a2eec-4f52-4b69-9421-86579331ef2e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../EASE/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CBSE/section_3_5_src/Launcher/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CBSE/section_3_5_src/Launcher/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Iterator/Candidates.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Iterator/src/AllCandidates.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Iterator/src/AllCandidatesIterator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Iterator/src/Candidate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Iterator/src/CertifiedCandidatesIterator.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../SampleApp/app/src/main/java/com/ease_holdings/sampleapp/Main2Activity.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../SampleApp/app/src/main/res/layout/activity_main2.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../SampleApp/app/src/main/res/menu/menu.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java-cheat-sheet-master/src/training.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CBSE/Lab Practice Virtual Store Application-20191015.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CBSE/Source Code for Lab Practice Section 2.4 to 2.6-20191015.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CBSE/section_2_4_to_2_6_bin.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CBSE/section_2_4_to_2_6_bin/AgeCalculator02.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CBSE/section_2_4_to_2_6_bin/AgeCalculatorApp02.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CBSE/section_2_4_to_2_6_bin/AgeCalculatorGlue.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CBSE/section_2_4_to_2_6_bin/AgeCalculatorIfce.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CBSE/section_2_4_to_2_6_bin/README.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CBSE/section_2_4_to_2_6_src.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CBSE/section_2_4_to_2_6_src/AgeCalculator02/.classpath" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CBSE/section_2_4_to_2_6_src/AgeCalculator02/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CBSE/section_2_4_to_2_6_src/AgeCalculator02/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CBSE/section_2_4_to_2_6_src/AgeCalculator02/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CBSE/section_2_4_to_2_6_src/AgeCalculator02/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CBSE/section_2_4_to_2_6_src/AgeCalculator02/.project" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CBSE/section_2_4_to_2_6_src/AgeCalculator02/.settings/org.eclipse.jdt.core.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CBSE/section_2_4_to_2_6_src/AgeCalculator02/AgeCalculator02.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CBSE/section_2_4_to_2_6_src/AgeCalculator02/bin/AgeCalculatorIfce.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CBSE/section_2_4_to_2_6_src/AgeCalculator02/src/AgeCalculatorIfce.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CBSE/section_2_4_to_2_6_src/AgeCalculator02/src/codabook/agecalculator/AgeCalculator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CBSE/section_2_4_to_2_6_src/AgeCalculatorApp02/.classpath" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CBSE/section_2_4_to_2_6_src/AgeCalculatorApp02/.project" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CBSE/section_2_4_to_2_6_src/AgeCalculatorApp02/.settings/org.eclipse.jdt.core.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CBSE/section_2_4_to_2_6_src/AgeCalculatorApp02/bin/codabook/agecalculator/app/AgeCalculatorApp.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CBSE/section_2_4_to_2_6_src/AgeCalculatorApp02/src/codabook/agecalculator/app/AgeCalculatorApp.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CBSE/section_2_4_to_2_6_src/AgeCalculatorGlue/.classpath" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CBSE/section_2_4_to_2_6_src/AgeCalculatorGlue/.project" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CBSE/section_2_4_to_2_6_src/AgeCalculatorGlue/.settings/org.eclipse.jdt.core.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CBSE/section_2_4_to_2_6_src/AgeCalculatorGlue/bin/codabook/agecalculator/glue/AgeCalculatorGlue.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CBSE/section_2_4_to_2_6_src/AgeCalculatorGlue/src/codabook/agecalculator/glue/AgeCalculatorGlue.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CBSE/section_2_4_to_2_6_src/AgeCalculatorIfce/.classpath" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CBSE/section_2_4_to_2_6_src/AgeCalculatorIfce/.project" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CBSE/section_2_4_to_2_6_src/AgeCalculatorIfce/.settings/org.eclipse.jdt.core.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CBSE/section_2_4_to_2_6_src/AgeCalculatorIfce/bin/codabook/agecalculator/ifce/AgeCalculatorIfce.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CBSE/section_2_4_to_2_6_src/AgeCalculatorIfce/src/codabook/agecalculator/ifce/AgeCalculatorIfce.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CBSE/section_2_4_to_2_6_src/README.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CBSE/section_2_4_to_2_6_src/untitled/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CBSE/section_2_4_to_2_6_src/untitled/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CBSE/section_2_4_to_2_6_src/untitled/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CBSE/section_2_4_to_2_6_src/untitled/untitled.iml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Contact-Management-System-master/contactmanagementsoftware/Acquaintances.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Contact-Management-System-master/contactmanagementsoftware/CLJApplet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Contact-Management-System-master/contactmanagementsoftware/CLJApplet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Contact-Management-System-master/contactmanagementsoftware/CasualAcquaintances.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Contact-Management-System-master/contactmanagementsoftware/ContactManagementSoftware.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Contact-Management-System-master/contactmanagementsoftware/ContactManagementSoftware.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Contact-Management-System-master/contactmanagementsoftware/MUI$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Contact-Management-System-master/contactmanagementsoftware/MUI$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Contact-Management-System-master/contactmanagementsoftware/MUI$10.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Contact-Management-System-master/contactmanagementsoftware/MUI$10.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Contact-Management-System-master/contactmanagementsoftware/MUI$11.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Contact-Management-System-master/contactmanagementsoftware/MUI$11.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Contact-Management-System-master/contactmanagementsoftware/MUI$12.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Contact-Management-System-master/contactmanagementsoftware/MUI$12.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Contact-Management-System-master/contactmanagementsoftware/MUI$13.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Contact-Management-System-master/contactmanagementsoftware/MUI$13.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Contact-Management-System-master/contactmanagementsoftware/MUI$14.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Contact-Management-System-master/contactmanagementsoftware/MUI$14.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Contact-Management-System-master/contactmanagementsoftware/MUI$15.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Contact-Management-System-master/contactmanagementsoftware/MUI$15.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Contact-Management-System-master/contactmanagementsoftware/MUI$16.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Contact-Management-System-master/contactmanagementsoftware/MUI$16.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Contact-Management-System-master/contactmanagementsoftware/MUI$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Contact-Management-System-master/contactmanagementsoftware/MUI$2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Contact-Management-System-master/contactmanagementsoftware/MUI$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Contact-Management-System-master/contactmanagementsoftware/MUI$3.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Contact-Management-System-master/contactmanagementsoftware/MUI$4.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Contact-Management-System-master/contactmanagementsoftware/MUI$4.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Contact-Management-System-master/contactmanagementsoftware/MUI$5.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Contact-Management-System-master/contactmanagementsoftware/MUI$5.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Contact-Management-System-master/contactmanagementsoftware/MUI$6.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Contact-Management-System-master/contactmanagementsoftware/MUI$6.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Contact-Management-System-master/contactmanagementsoftware/MUI$7.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Contact-Management-System-master/contactmanagementsoftware/MUI$7.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Contact-Management-System-master/contactmanagementsoftware/MUI$8.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Contact-Management-System-master/contactmanagementsoftware/MUI$8.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Contact-Management-System-master/contactmanagementsoftware/MUI$9.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Contact-Management-System-master/contactmanagementsoftware/MUI$9.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Contact-Management-System-master/contactmanagementsoftware/MUI.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Contact-Management-System-master/contactmanagementsoftware/MUI.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Contact-Management-System-master/contactmanagementsoftware/PersonalFriends.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Contact-Management-System-master/contactmanagementsoftware/ProfessionalFriends.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Contact-Management-System-master/contactmanagementsoftware/Relatives.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Contact-Management-System-master/contactmanagementsoftware/SerializationUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Contact-Management-System-master/contactmanagementsoftware/SerializationUtil.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/contactmanagementsoftware/Acquaintances.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/contactmanagementsoftware/acquaintances/Acquaintances.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/contactmanagementsoftware/CLJApplet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/contactmanagementsoftware/CLJApplet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/contactmanagementsoftware/CasualAcquaintances.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/contactmanagementsoftware/acquaintances/CasualAcquaintances.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/contactmanagementsoftware/ContactManagementSoftware.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/contactmanagementsoftware/ContactManagementSoftware.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/contactmanagementsoftware/MUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/contactmanagementsoftware/MUI.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/contactmanagementsoftware/PersonalFriends.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/contactmanagementsoftware/acquaintances/PersonalFriends.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/contactmanagementsoftware/ProfessionalFriends.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/contactmanagementsoftware/acquaintances/ProfessionalFriends.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/contactmanagementsoftware/Relatives.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/contactmanagementsoftware/acquaintances/Relatives.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/contactmanagementsoftware/SerializationUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/contactmanagementsoftware/SerializationUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Hat" beforeDir="false" afterPath="$PROJECT_DIR$/../Hat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Hatters" beforeDir="false" afterPath="$PROJECT_DIR$/../Hatters" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hatters" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../LibrarySystem/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../LibrarySystem/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../StudentManager/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../StudentManager/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../StudentManager/app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/../StudentManager/app/build.gradle" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../StudentsTaskManager/app/src/main/java/com/appers/students_task_manager/MainActivity.kt" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../StudentsTaskManager/app/src/main/res/layout/activity_main.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pick-up-trash/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pick-up-trash/.idea/.name" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pick-up-trash/.idea/codeStyles/Project.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pick-up-trash/.idea/codeStyles/codeStyleConfig.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pick-up-trash/.idea/gradle.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pick-up-trash/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pick-up-trash/.idea/runConfigurations.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pick-up-trash/app/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pick-up-trash/app/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pick-up-trash/app/proguard-rules.pro" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pick-up-trash/app/src/androidTest/java/com/aqsoft/pickuptrashgame/ExampleInstrumentedTest.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pick-up-trash/app/src/main/AndroidManifest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pick-up-trash/app/src/main/java/com/aqsoft/pickuptrashgame/City_1_Activity.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pick-up-trash/app/src/main/java/com/aqsoft/pickuptrashgame/City_2_Activity.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pick-up-trash/app/src/main/java/com/aqsoft/pickuptrashgame/City_3_Activity.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pick-up-trash/app/src/main/java/com/aqsoft/pickuptrashgame/MainActivity.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pick-up-trash/app/src/main/java/com/aqsoft/pickuptrashgame/MyService.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pick-up-trash/app/src/main/java/com/aqsoft/pickuptrashgame/app.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pick-up-trash/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pick-up-trash/app/src/main/res/drawable/banana.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pick-up-trash/app/src/main/res/drawable/bangsar.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pick-up-trash/app/src/main/res/drawable/bangsar_level.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pick-up-trash/app/src/main/res/drawable/bangsar_main.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pick-up-trash/app/src/main/res/drawable/beach_map.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pick-up-trash/app/src/main/res/drawable/bg_round_corners.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pick-up-trash/app/src/main/res/drawable/cyber_jaya.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pick-up-trash/app/src/main/res/drawable/cyber_level_3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pick-up-trash/app/src/main/res/drawable/glass.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pick-up-trash/app/src/main/res/drawable/ic_launcher_background.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pick-up-trash/app/src/main/res/drawable/level_2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pick-up-trash/app/src/main/res/drawable/level_2_next.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pick-up-trash/app/src/main/res/drawable/next_level.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pick-up-trash/app/src/main/res/drawable/plastic_bag.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pick-up-trash/app/src/main/res/drawable/plastic_bottle.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pick-up-trash/app/src/main/res/drawable/straw.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pick-up-trash/app/src/main/res/drawable/villain.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pick-up-trash/app/src/main/res/drawable/villain_v_2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pick-up-trash/app/src/main/res/layout/activity_city_1_.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pick-up-trash/app/src/main/res/layout/activity_city_2_.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pick-up-trash/app/src/main/res/layout/activity_city_3_.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pick-up-trash/app/src/main/res/layout/activity_main.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pick-up-trash/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pick-up-trash/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pick-up-trash/app/src/main/res/mipmap-hdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pick-up-trash/app/src/main/res/mipmap-hdpi/ic_launcher_round.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pick-up-trash/app/src/main/res/mipmap-mdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pick-up-trash/app/src/main/res/mipmap-mdpi/ic_launcher_round.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pick-up-trash/app/src/main/res/mipmap-xhdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pick-up-trash/app/src/main/res/mipmap-xhdpi/ic_launcher_round.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pick-up-trash/app/src/main/res/mipmap-xxhdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pick-up-trash/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pick-up-trash/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pick-up-trash/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pick-up-trash/app/src/main/res/raw/celebrate.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pick-up-trash/app/src/main/res/raw/happy_songg.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pick-up-trash/app/src/main/res/raw/purr.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pick-up-trash/app/src/main/res/raw/screetch.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pick-up-trash/app/src/main/res/raw/trash.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pick-up-trash/app/src/main/res/values/colors.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pick-up-trash/app/src/main/res/values/strings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pick-up-trash/app/src/main/res/values/styles.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pick-up-trash/app/src/test/java/com/aqsoft/pickuptrashgame/ExampleUnitTest.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pick-up-trash/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pick-up-trash/gradle.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pick-up-trash/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pick-up-trash/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pick-up-trash/gradlew" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pick-up-trash/gradlew.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pick-up-trash/settings.gradle" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -65,7 +146,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/contactmanagementsoftware/acquaintances/PersonalFriends.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-136">
+            <state relative-caret-position="68">
               <caret line="5" column="69" selection-start-line="5" selection-start-column="69" selection-end-line="5" selection-end-column="69" />
             </state>
           </provider>
@@ -83,7 +164,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/contactmanagementsoftware/acquaintances/Relatives.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-102">
+            <state relative-caret-position="187">
               <caret line="14" selection-start-line="14" selection-end-line="14" />
             </state>
           </provider>
@@ -98,22 +179,139 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/contactmanagementsoftware/MUI.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="8806">
-              <caret line="555" column="49" lean-forward="true" selection-start-line="555" selection-start-column="49" selection-end-line="555" selection-end-column="49" />
+            <state relative-caret-position="291">
+              <caret line="190" column="29" selection-start-line="190" selection-start-column="29" selection-end-line="190" selection-end-column="29" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#991#992#0" expanded="true" />
                 <element signature="e#1019#1020#0" expanded="true" />
-                <element signature="e#1045#1046#0" expanded="true" />
-                <element signature="e#7834#7923#0" expanded="true" />
-                <element signature="e#11404#11405#0" expanded="true" />
-                <element signature="e#11457#11458#0" expanded="true" />
-                <element signature="e#11506#11507#0" expanded="true" />
-                <element signature="e#11555#11556#0" expanded="true" />
-                <element signature="e#44811#44898#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="uml://JAVA/contactmanagementsoftware">
+          <provider selected="true" editor-type-id="UmlEditorProvider">
+            <state>
+              <ID>JAVA</ID>
+              <OriginalElement>contactmanagementsoftware</OriginalElement>
+              <nodes>
+                <node x="401.31186868686865" y="331.0">contactmanagementsoftware.acquaintances.Relatives</node>
+                <node x="438.3535353535353" y="0.0">contactmanagementsoftware.acquaintances.Acquaintances</node>
+                <node x="11.31186868686865" y="342.0">contactmanagementsoftware.acquaintances.ProfessionalFriends</node>
+                <node x="237.0618686868687" y="2236.0">contactmanagementsoftware.CLJApplet</node>
+                <node x="538.3118686868686" y="298.0">contactmanagementsoftware.acquaintances.PersonalFriends</node>
+                <node x="206.31186868686865" y="298.0">contactmanagementsoftware.acquaintances.CasualAcquaintances</node>
+                <node x="716.3118686868686" y="398.0">contactmanagementsoftware.SerializationUtil</node>
+                <node x="354.5618686868687" y="649.0">contactmanagementsoftware.MUI</node>
+                <node x="499.06186868686865" y="2225.0">contactmanagementsoftware.ContactManagementSoftware</node>
+              </nodes>
+              <notes />
+              <edges>
+                <edge source="contactmanagementsoftware.acquaintances.PersonalFriends" target="contactmanagementsoftware.acquaintances.Acquaintances">
+                  <point x="0.0" y="-135.5" />
+                  <point x="611.3118686868686" y="278.0" />
+                  <point x="558.1660353535353" y="278.0" />
+                  <point x="13.3125" y="114.0" />
+                </edge>
+                <edge source="contactmanagementsoftware.ContactManagementSoftware" target="contactmanagementsoftware.acquaintances.Acquaintances">
+                  <point x="80.66666666666663" y="-91.0" />
+                  <point x="700.7285353535353" y="2200.0" />
+                  <point x="905.8118686868686" y="2200.0" />
+                  <point x="905.8118686868686" y="248.0" />
+                  <point x="638.0410353535353" y="248.0" />
+                  <point x="93.1875" y="114.0" />
+                </edge>
+                <edge source="contactmanagementsoftware.CLJApplet" target="contactmanagementsoftware.acquaintances.Acquaintances">
+                  <point x="-80.66666666666669" y="-80.0" />
+                  <point x="277.395202020202" y="2200.0" />
+                  <point x="0.0" y="2200.0" />
+                  <point x="0.0" y="248.0" />
+                  <point x="451.6660353535353" y="248.0" />
+                  <point x="-93.1875" y="114.0" />
+                </edge>
+                <edge source="contactmanagementsoftware.MUI" target="contactmanagementsoftware.SerializationUtil">
+                  <point x="122.2727272727272" y="-763.0" />
+                  <point x="611.3345959595958" y="629.0" />
+                  <point x="805.8118686868686" y="629.0" />
+                  <point x="0.0" y="35.5" />
+                </edge>
+                <edge source="contactmanagementsoftware.MUI" target="contactmanagementsoftware.acquaintances.Acquaintances">
+                  <point x="97.8181818181817" y="-763.0" />
+                  <point x="586.8800505050503" y="619.0" />
+                  <point x="705.8118686868686" y="619.0" />
+                  <point x="705.8118686868686" y="258.0" />
+                  <point x="611.4160353535353" y="258.0" />
+                  <point x="66.5625" y="114.0" />
+                </edge>
+                <edge source="contactmanagementsoftware.acquaintances.CasualAcquaintances" target="contactmanagementsoftware.acquaintances.Acquaintances">
+                  <point x="0.0" y="-135.5" />
+                  <point x="293.81186868686865" y="268.0" />
+                  <point x="504.9160353535353" y="268.0" />
+                  <point x="-39.9375" y="114.0" />
+                </edge>
+                <edge source="contactmanagementsoftware.CLJApplet" target="contactmanagementsoftware.MUI">
+                  <point x="0.0" y="-80.0" />
+                  <point x="358.0618686868687" y="2200.0" />
+                  <point x="388.1868686868687" y="2200.0" />
+                  <point x="-100.875" y="763.0" />
+                </edge>
+                <edge source="contactmanagementsoftware.acquaintances.Relatives" target="contactmanagementsoftware.acquaintances.Acquaintances">
+                  <point x="-5.6843418860808015E-14" y="-102.5" />
+                  <point x="459.8118686868686" y="278.0" />
+                  <point x="531.5410353535353" y="278.0" />
+                  <point x="-13.3125" y="114.0" />
+                </edge>
+                <edge source="contactmanagementsoftware.MUI" target="contactmanagementsoftware.acquaintances.ProfessionalFriends">
+                  <point x="-97.81818181818181" y="-763.0" />
+                  <point x="391.2436868686869" y="619.0" />
+                  <point x="142.56186868686865" y="619.0" />
+                  <point x="43.75" y="91.5" />
+                </edge>
+                <edge source="contactmanagementsoftware.MUI" target="contactmanagementsoftware.acquaintances.PersonalFriends">
+                  <point x="48.90909090909082" y="-763.0" />
+                  <point x="537.9709595959596" y="599.0" />
+                  <point x="647.8118686868686" y="599.0" />
+                  <point x="36.5" y="135.5" />
+                </edge>
+                <edge source="contactmanagementsoftware.acquaintances.ProfessionalFriends" target="contactmanagementsoftware.acquaintances.Acquaintances">
+                  <point x="0.0" y="-91.5" />
+                  <point x="98.81186868686865" y="258.0" />
+                  <point x="478.2910353535353" y="258.0" />
+                  <point x="-66.5625" y="114.0" />
+                </edge>
+                <edge source="contactmanagementsoftware.MUI" target="contactmanagementsoftware.acquaintances.CasualAcquaintances">
+                  <point x="-73.36363636363637" y="-763.0" />
+                  <point x="415.69823232323233" y="609.0" />
+                  <point x="250.06186868686865" y="609.0" />
+                  <point x="-43.75" y="135.5" />
+                </edge>
+                <edge source="contactmanagementsoftware.ContactManagementSoftware" target="contactmanagementsoftware.MUI">
+                  <point x="-80.66666666666674" y="-91.0" />
+                  <point x="539.3952020202019" y="2200.0" />
+                  <point x="522.6868686868686" y="2200.0" />
+                  <point x="33.62499999999994" y="763.0" />
+                </edge>
+                <edge source="contactmanagementsoftware.MUI" target="contactmanagementsoftware.acquaintances.Relatives">
+                  <point x="-5.6843418860808015E-14" y="-763.0" />
+                  <point x="29.25" y="102.5" />
+                </edge>
+              </edges>
+              <settings layout="Hierarchic Group" zoom="0.2867737948084054" x="491.0" y="1203.5" />
+              <SelectedNodes />
+              <Categories>
+                <Category>Properties</Category>
+                <Category>Constructors</Category>
+                <Category>Inner Classes</Category>
+                <Category>Fields</Category>
+                <Category>Methods</Category>
+              </Categories>
+              <SCOPE>All</SCOPE>
+              <VISIBILITY>private</VISIBILITY>
             </state>
           </provider>
         </entry>
@@ -139,7 +337,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/contactmanagementsoftware/CLJApplet.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="527">
+            <state relative-caret-position="476">
               <caret line="35" column="13" selection-start-line="35" selection-start-column="13" selection-end-line="35" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -151,7 +349,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/contactmanagementsoftware/ContactManagementSoftware.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
+            <state relative-caret-position="68">
               <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -182,10 +380,10 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="170" />
-    <option name="y" value="50" />
-    <option name="width" value="3500" />
-    <option name="height" value="1960" />
+    <option name="x" value="1195" />
+    <option name="y" value="110" />
+    <option name="width" value="1950" />
+    <option name="height" value="2175" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -193,7 +391,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -223,6 +420,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
       <pane id="Scope" />
     </panes>
   </component>
@@ -299,11 +497,13 @@
       <workItem from="1573188723664" duration="102000" />
       <workItem from="1573820126056" duration="1956000" />
       <workItem from="1573868989338" duration="5025000" />
+      <workItem from="1573892487329" duration="68000" />
+      <workItem from="1574226944476" duration="821000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="8377000" />
+    <option name="totallyTimeSpent" value="9266000" />
   </component>
   <component name="TodoView" selected-index="3">
     <todo-panel id="selected-file">
@@ -317,7 +517,7 @@
   <component name="ToolWindowManager">
     <frame x="-6" y="-6" width="1549" height="877" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19919518" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2045607" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -326,7 +526,6 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info id="simpleUML" order="7" />
       <window_info id="Learn" order="8" />
-      <window_info anchor="bottom" id="Duplicates" weight="0.32931727" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32931727" />
@@ -340,6 +539,7 @@
       <window_info anchor="bottom" id="Messages" order="10" weight="0.32931727" />
       <window_info anchor="bottom" id="Database Changes" order="11" />
       <window_info anchor="bottom" id="Version Control" order="12" />
+      <window_info anchor="bottom" id="Duplicates" order="13" weight="0.32931727" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -376,6 +576,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/contactmanagementsoftware/MUI.form">
+      <provider selected="true" editor-type-id="ui-designer" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/contactmanagementsoftware/acquaintances/PersonalFriends.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="5" column="69" selection-start-line="5" selection-start-column="69" selection-end-line="5" selection-end-column="69" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/contactmanagementsoftware/acquaintances/ProfessionalFriends.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
@@ -385,52 +595,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/contactmanagementsoftware/acquaintances/Relatives.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-102">
+        <state relative-caret-position="187">
           <caret line="14" selection-start-line="14" selection-end-line="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/contactmanagementsoftware/acquaintances/CasualAcquaintances.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="13" column="25" selection-start-line="13" selection-start-column="25" selection-end-line="13" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/contactmanagementsoftware/acquaintances/PersonalFriends.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-136">
-          <caret line="5" column="69" selection-start-line="5" selection-start-column="69" selection-end-line="5" selection-end-column="69" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/contactmanagementsoftware/MUI.form">
-      <provider selected="true" editor-type-id="ui-designer" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/contactmanagementsoftware/acquaintances/Acquaintances.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="5" column="20" selection-start-line="5" selection-start-column="20" selection-end-line="5" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/contactmanagementsoftware/CLJApplet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="527">
-          <caret line="35" column="13" selection-start-line="35" selection-start-column="13" selection-end-line="35" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/contactmanagementsoftware/ContactManagementSoftware.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -441,21 +607,170 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/contactmanagementsoftware/MUI.java">
+    <entry file="file://$PROJECT_DIR$/src/contactmanagementsoftware/acquaintances/Acquaintances.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="8806">
-          <caret line="555" column="49" lean-forward="true" selection-start-line="555" selection-start-column="49" selection-end-line="555" selection-end-column="49" />
+        <state relative-caret-position="68">
+          <caret line="5" column="20" selection-start-line="5" selection-start-column="20" selection-end-line="5" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/contactmanagementsoftware/acquaintances/CasualAcquaintances.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="13" column="25" selection-start-line="13" selection-start-column="25" selection-end-line="13" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/contactmanagementsoftware/CLJApplet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="476">
+          <caret line="35" column="13" selection-start-line="35" selection-start-column="13" selection-end-line="35" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1019#1020#0" expanded="true" />
-            <element signature="e#1045#1046#0" expanded="true" />
-            <element signature="e#7834#7923#0" expanded="true" />
-            <element signature="e#11404#11405#0" expanded="true" />
-            <element signature="e#11457#11458#0" expanded="true" />
-            <element signature="e#11506#11507#0" expanded="true" />
-            <element signature="e#11555#11556#0" expanded="true" />
-            <element signature="e#44811#44898#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/contactmanagementsoftware/ContactManagementSoftware.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/contactmanagementsoftware/MUI.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="291">
+          <caret line="190" column="29" selection-start-line="190" selection-start-column="29" selection-end-line="190" selection-end-column="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#991#992#0" expanded="true" />
+            <element signature="e#1019#1020#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/contactmanagementsoftware">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>contactmanagementsoftware</OriginalElement>
+          <nodes>
+            <node x="401.31186868686865" y="331.0">contactmanagementsoftware.acquaintances.Relatives</node>
+            <node x="438.3535353535353" y="0.0">contactmanagementsoftware.acquaintances.Acquaintances</node>
+            <node x="11.31186868686865" y="342.0">contactmanagementsoftware.acquaintances.ProfessionalFriends</node>
+            <node x="237.0618686868687" y="2236.0">contactmanagementsoftware.CLJApplet</node>
+            <node x="538.3118686868686" y="298.0">contactmanagementsoftware.acquaintances.PersonalFriends</node>
+            <node x="206.31186868686865" y="298.0">contactmanagementsoftware.acquaintances.CasualAcquaintances</node>
+            <node x="716.3118686868686" y="398.0">contactmanagementsoftware.SerializationUtil</node>
+            <node x="354.5618686868687" y="649.0">contactmanagementsoftware.MUI</node>
+            <node x="499.06186868686865" y="2225.0">contactmanagementsoftware.ContactManagementSoftware</node>
+          </nodes>
+          <notes />
+          <edges>
+            <edge source="contactmanagementsoftware.acquaintances.PersonalFriends" target="contactmanagementsoftware.acquaintances.Acquaintances">
+              <point x="0.0" y="-135.5" />
+              <point x="611.3118686868686" y="278.0" />
+              <point x="558.1660353535353" y="278.0" />
+              <point x="13.3125" y="114.0" />
+            </edge>
+            <edge source="contactmanagementsoftware.ContactManagementSoftware" target="contactmanagementsoftware.acquaintances.Acquaintances">
+              <point x="80.66666666666663" y="-91.0" />
+              <point x="700.7285353535353" y="2200.0" />
+              <point x="905.8118686868686" y="2200.0" />
+              <point x="905.8118686868686" y="248.0" />
+              <point x="638.0410353535353" y="248.0" />
+              <point x="93.1875" y="114.0" />
+            </edge>
+            <edge source="contactmanagementsoftware.CLJApplet" target="contactmanagementsoftware.acquaintances.Acquaintances">
+              <point x="-80.66666666666669" y="-80.0" />
+              <point x="277.395202020202" y="2200.0" />
+              <point x="0.0" y="2200.0" />
+              <point x="0.0" y="248.0" />
+              <point x="451.6660353535353" y="248.0" />
+              <point x="-93.1875" y="114.0" />
+            </edge>
+            <edge source="contactmanagementsoftware.MUI" target="contactmanagementsoftware.SerializationUtil">
+              <point x="122.2727272727272" y="-763.0" />
+              <point x="611.3345959595958" y="629.0" />
+              <point x="805.8118686868686" y="629.0" />
+              <point x="0.0" y="35.5" />
+            </edge>
+            <edge source="contactmanagementsoftware.MUI" target="contactmanagementsoftware.acquaintances.Acquaintances">
+              <point x="97.8181818181817" y="-763.0" />
+              <point x="586.8800505050503" y="619.0" />
+              <point x="705.8118686868686" y="619.0" />
+              <point x="705.8118686868686" y="258.0" />
+              <point x="611.4160353535353" y="258.0" />
+              <point x="66.5625" y="114.0" />
+            </edge>
+            <edge source="contactmanagementsoftware.acquaintances.CasualAcquaintances" target="contactmanagementsoftware.acquaintances.Acquaintances">
+              <point x="0.0" y="-135.5" />
+              <point x="293.81186868686865" y="268.0" />
+              <point x="504.9160353535353" y="268.0" />
+              <point x="-39.9375" y="114.0" />
+            </edge>
+            <edge source="contactmanagementsoftware.CLJApplet" target="contactmanagementsoftware.MUI">
+              <point x="0.0" y="-80.0" />
+              <point x="358.0618686868687" y="2200.0" />
+              <point x="388.1868686868687" y="2200.0" />
+              <point x="-100.875" y="763.0" />
+            </edge>
+            <edge source="contactmanagementsoftware.acquaintances.Relatives" target="contactmanagementsoftware.acquaintances.Acquaintances">
+              <point x="-5.6843418860808015E-14" y="-102.5" />
+              <point x="459.8118686868686" y="278.0" />
+              <point x="531.5410353535353" y="278.0" />
+              <point x="-13.3125" y="114.0" />
+            </edge>
+            <edge source="contactmanagementsoftware.MUI" target="contactmanagementsoftware.acquaintances.ProfessionalFriends">
+              <point x="-97.81818181818181" y="-763.0" />
+              <point x="391.2436868686869" y="619.0" />
+              <point x="142.56186868686865" y="619.0" />
+              <point x="43.75" y="91.5" />
+            </edge>
+            <edge source="contactmanagementsoftware.MUI" target="contactmanagementsoftware.acquaintances.PersonalFriends">
+              <point x="48.90909090909082" y="-763.0" />
+              <point x="537.9709595959596" y="599.0" />
+              <point x="647.8118686868686" y="599.0" />
+              <point x="36.5" y="135.5" />
+            </edge>
+            <edge source="contactmanagementsoftware.acquaintances.ProfessionalFriends" target="contactmanagementsoftware.acquaintances.Acquaintances">
+              <point x="0.0" y="-91.5" />
+              <point x="98.81186868686865" y="258.0" />
+              <point x="478.2910353535353" y="258.0" />
+              <point x="-66.5625" y="114.0" />
+            </edge>
+            <edge source="contactmanagementsoftware.MUI" target="contactmanagementsoftware.acquaintances.CasualAcquaintances">
+              <point x="-73.36363636363637" y="-763.0" />
+              <point x="415.69823232323233" y="609.0" />
+              <point x="250.06186868686865" y="609.0" />
+              <point x="-43.75" y="135.5" />
+            </edge>
+            <edge source="contactmanagementsoftware.ContactManagementSoftware" target="contactmanagementsoftware.MUI">
+              <point x="-80.66666666666674" y="-91.0" />
+              <point x="539.3952020202019" y="2200.0" />
+              <point x="522.6868686868686" y="2200.0" />
+              <point x="33.62499999999994" y="763.0" />
+            </edge>
+            <edge source="contactmanagementsoftware.MUI" target="contactmanagementsoftware.acquaintances.Relatives">
+              <point x="-5.6843418860808015E-14" y="-763.0" />
+              <point x="29.25" y="102.5" />
+            </edge>
+          </edges>
+          <settings layout="Hierarchic Group" zoom="0.2867737948084054" x="491.0" y="1203.5" />
+          <SelectedNodes />
+          <Categories>
+            <Category>Properties</Category>
+            <Category>Constructors</Category>
+            <Category>Inner Classes</Category>
+            <Category>Fields</Category>
+            <Category>Methods</Category>
+          </Categories>
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
         </state>
       </provider>
     </entry>
@@ -548,6 +863,7 @@
   <component name="simpleUML.UMLToolWindowPlugin">
     <General>
       <option name="birdViewUpdateDelay" value="2000" />
+      <option name="knownFile0" value="file://$PROJECT_DIR$/../qq.suml" />
       <option name="defaultFileLocation" value="file://$PROJECT_DIR$/.." />
     </General>
     <Classdiagram>
