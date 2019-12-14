@@ -13,28 +13,6 @@ public class Acquaintances implements Serializable {
         number++;
     }
 
-    public String getName() {
-        return Name;
-    }
-
-    public void setName(String name) {
-        Scanner reader = new Scanner(System.in);
-        if (!name.isEmpty())
-            this.Name = name;
-        else {
-            System.out.println("Enter atleast one character");
-            setName(reader.nextLine());
-        }
-    }
-
-    public String getMobileNo() {
-        return MobileNo;
-    }
-
-    public String getEmail() {
-        return Email;
-    }
-
     public boolean MobileNoChecker(String str) {
         int x;
         for (int j = 0; j < str.length(); j++) {
@@ -45,6 +23,23 @@ public class Acquaintances implements Serializable {
         return true;
     }
 
+    public String getName() {
+        return Name;
+    }
+
+    public void setName(String name) {
+        Scanner reader = new Scanner(System.in);
+        if (!name.isEmpty())
+            this.Name = name;
+        else {
+            System.out.println("Enter at least one character");
+            setName(reader.nextLine());
+        }
+    }
+
+    public String getMobileNo() {
+        return MobileNo;
+    }
 
     public void setMobileNo(String MobileNo) {
         Scanner reader = new Scanner(System.in);
@@ -54,6 +49,11 @@ public class Acquaintances implements Serializable {
             System.out.print("Enter a valid Mobile No of length between 6 and 15 (inclusive): ");
             setMobileNo(reader.next());
         }
+    }
+
+
+    public String getEmail() {
+        return Email;
     }
 
     public void setEmail(String Email) {
