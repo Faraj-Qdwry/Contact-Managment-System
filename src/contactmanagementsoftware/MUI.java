@@ -26,25 +26,31 @@ public class MUI extends javax.swing.JFrame {
     /**
      * Creates new form MUI
      */
-    private MUI mg;
+    static MUI mg;
     private ArrayList<ArrayList<Acquaintances>> a;
     private ArrayList<ArrayList<Acquaintances>> temp;
     private int x;
     private int num;
-    private boolean flag;
     private boolean dflag;
+    private boolean flag;
+
     private String op;
     private String str;
 
-    public void setMg(MUI mg) {
-        this.mg = mg;
+    //todo ===> done singleton
+    public static synchronized MUI getInstance() {
+        if (mg == null) {
+            mg = new MUI();
+        }
+        return mg;
     }
 
-    public void setA(ArrayList<ArrayList<Acquaintances>> a) {
+
+    void setA(ArrayList<ArrayList<Acquaintances>> a) {
         this.a = a;
     }
 
-    //todo strategy pattern for cases
+    // todo observable pattern
     public void setDescription() {
         name.setText("");
         mobile.setText("");
@@ -64,12 +70,14 @@ public class MUI extends javax.swing.JFrame {
             op = "Add";
         else
             op = "Edit";
+
         if (!flag) {
             jButton10.setText("Save");
             Acquaintances e = a.get(x).get(num);
             name.setText(e.getName());
             mobile.setText(e.getMobileNo());
             email.setText(e.getEmail());
+
             switch (x) {
                 case 0:
                     PersonalFriends perF = (PersonalFriends) e;
@@ -98,10 +106,13 @@ public class MUI extends javax.swing.JFrame {
                     break;
             }
         }
+
         jButton10.setVisible(true);
         jButton11.setVisible(true);
+
         if (flag)
             jButton10.setText("Add");
+
         switch (x) {
             case 0:
                 two.setVisible(true);
@@ -155,6 +166,7 @@ public class MUI extends javax.swing.JFrame {
             default:
                 break;
         }
+
         if (dflag) {
             name.setEditable(false);
             mobile.setEditable(false);
@@ -166,12 +178,12 @@ public class MUI extends javax.swing.JFrame {
             jButton11.setVisible(false);
             jPanel3.setBorder(javax.swing.BorderFactory.createTitledBorder(null, "Display Details", javax.swing.border.TitledBorder.DEFAULT_JUSTIFICATION, javax.swing.border.TitledBorder.DEFAULT_POSITION, new java.awt.Font("DialogInput", 1, 16)));
         }
+
     }
 
-    public MUI() {
+    private MUI() {
         initComponents();
         String[] columnNames = {"S.No", "Name", "Mobile", " Email"};
-        //todo factory
         DefaultTableModel model = new DefaultTableModel(null, columnNames);
         jXTable1.setModel(model);
         setUpTableData();
@@ -319,6 +331,15 @@ public class MUI extends javax.swing.JFrame {
         jLabel3.setFont(new java.awt.Font("Ubuntu Medium", 0, 17)); // NOI18N
         jLabel3.setText("Details:");
 
+        //todo here :
+        /*
+         * 1- create list of commads and add commands
+         *
+         * for commands make getters for the buttons ..etc
+         *
+         * 2- button list and loop and asign command to buttins
+         * */
+
         jButton5.setText("Edit");
         jButton5.addActionListener(evt -> jButton5ActionPerformed(evt));
 
@@ -330,7 +351,7 @@ public class MUI extends javax.swing.JFrame {
 
         jButton8.setText("Save as file");
         jButton8.addActionListener(evt -> jButton8ActionPerformed(evt));
-        //todo factory
+
         javax.swing.GroupLayout jPanel1Layout = new javax.swing.GroupLayout(jPanel1);
         jPanel1.setLayout(jPanel1Layout);
         jPanel1Layout.setHorizontalGroup(
@@ -375,7 +396,6 @@ public class MUI extends javax.swing.JFrame {
 
         jPanel1Layout.linkSize(javax.swing.SwingConstants.HORIZONTAL, new java.awt.Component[]{jButton1, jButton2, jButton3, jButton4, jButton5, jButton6, jButton7, jButton8});
 
-        //todo factory
         jPanel1Layout.setVerticalGroup(
                 jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                         .addGroup(jPanel1Layout.createSequentialGroup()
@@ -416,7 +436,6 @@ public class MUI extends javax.swing.JFrame {
         jButton9.setText("Back to main menu");
         jButton9.addActionListener(evt -> jButton9ActionPerformed(evt));
 
-        //todo factory
         javax.swing.GroupLayout jPanel2Layout = new javax.swing.GroupLayout(jPanel2);
         jPanel2.setLayout(jPanel2Layout);
         jPanel2Layout.setHorizontalGroup(
@@ -477,7 +496,6 @@ public class MUI extends javax.swing.JFrame {
         jButton11.setText("Cancel");
         jButton11.addActionListener(evt -> jButton11ActionPerformed(evt));
 
-        //todo factory
         javax.swing.GroupLayout jPanel3Layout = new javax.swing.GroupLayout(jPanel3);
         jPanel3.setLayout(jPanel3Layout);
         jPanel3Layout.setHorizontalGroup(
@@ -506,7 +524,6 @@ public class MUI extends javax.swing.JFrame {
                                                 .addGap(132, 132, 132)))
                                 .addContainerGap())
         );
-        //todo factory
         jPanel3Layout.setVerticalGroup(
                 jPanel3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                         .addGroup(jPanel3Layout.createSequentialGroup()
@@ -628,6 +645,7 @@ public class MUI extends javax.swing.JFrame {
         flag = false;
         dflag = false;
         x = index;
+        //todo observable.notify()
         setDescription();
         jPanel1.setVisible(false);
         jPanel3.setVisible(true);
@@ -650,12 +668,14 @@ public class MUI extends javax.swing.JFrame {
         jPanel1.setVisible(false);
         jPanel3.setVisible(true);
         dflag = true;
+        //todo observable.notify()
         setDescription();
     }//GEN-LAST:event_jButton6ActionPerformed
 
     public void runn() {
         String s = "<html> <b>Search results:</b><br>Found!<br><br>Acquaintance Details: <br>";
         int j = 0;
+        //todo iterator pattern
         for (int i = 0; i < a.get(0).size(); i++) {
             if (a.get(0).get(i).getName().matches(str)) {
                 j++;
@@ -837,7 +857,6 @@ public class MUI extends javax.swing.JFrame {
         }
         String One, Two, Three;
         switch (x) {
-            //todo strategy pattern
             case 0: //perF
                 One = one.getText();
                 if (One.isEmpty() || One.length() > 300) {
@@ -963,37 +982,36 @@ public class MUI extends javax.swing.JFrame {
         jPanel3.setVisible(false);
     }//GEN-LAST:event_jButton11ActionPerformed
 
-    /**
-     * @param args the command line arguments
-     */
-    public static void main(String args[]) {
-        /* Set the Nimbus look and feel */
-        //<editor-fold defaultstate="collapsed" desc=" Look and feel setting code (optional) ">
-        /* If Nimbus (introduced in Java SE 6) is not available, stay with the default look and feel.
-         * For details see http://download.oracle.com/javase/tutorial/uiswing/lookandfeel/plaf.html
-         */
-        try {
-            for (javax.swing.UIManager.LookAndFeelInfo info : javax.swing.UIManager.getInstalledLookAndFeels()) {
-                if ("Nimbus".equals(info.getName())) {
-                    javax.swing.UIManager.setLookAndFeel(info.getClassName());
-                    break;
-                }
-            }
-            //todo maybe strategy can be used here
-        } catch (ClassNotFoundException ex) {
-            java.util.logging.Logger.getLogger(MUI.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
-        } catch (InstantiationException ex) {
-            java.util.logging.Logger.getLogger(MUI.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
-        } catch (IllegalAccessException ex) {
-            java.util.logging.Logger.getLogger(MUI.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
-        } catch (javax.swing.UnsupportedLookAndFeelException ex) {
-            java.util.logging.Logger.getLogger(MUI.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
-        }
-        //</editor-fold>
-
-        /* Create and display the form */
-        EventQueue.invokeLater(() -> new MUI().setVisible(true));
-    }
+//    /**
+//     * @param args the command line arguments
+//     */
+//    public static void main(String args[]) {
+//        /* Set the Nimbus look and feel */
+//        //<editor-fold defaultstate="collapsed" desc=" Look and feel setting code (optional) ">
+//        /* If Nimbus (introduced in Java SE 6) is not available, stay with the default look and feel.
+//         * For details see http://download.oracle.com/javase/tutorial/uiswing/lookandfeel/plaf.html
+//         */
+//        try {
+//            for (javax.swing.UIManager.LookAndFeelInfo info : javax.swing.UIManager.getInstalledLookAndFeels()) {
+//                if ("Nimbus".equals(info.getName())) {
+//                    javax.swing.UIManager.setLookAndFeel(info.getClassName());
+//                    break;
+//                }
+//            }
+//        } catch (ClassNotFoundException ex) {
+//            java.util.logging.Logger.getLogger(MUI.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+//        } catch (InstantiationException ex) {
+//            java.util.logging.Logger.getLogger(MUI.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+//        } catch (IllegalAccessException ex) {
+//            java.util.logging.Logger.getLogger(MUI.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+//        } catch (javax.swing.UnsupportedLookAndFeelException ex) {
+//            java.util.logging.Logger.getLogger(MUI.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+//        }
+//        //</editor-fold>
+//
+//        /* Create and display the form */
+//        EventQueue.invokeLater(() -> new MUI().setVisible(true));
+//    }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JTextPane details;
