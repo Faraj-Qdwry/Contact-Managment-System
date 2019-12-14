@@ -1,12 +1,6 @@
 package contactmanagementsoftware;
 
-import java.io.File;
-import java.io.FileInputStream;
-import java.io.FileOutputStream;
-import java.io.IOException;
-import java.io.ObjectInputStream;
-import java.io.ObjectOutputStream;
-import java.io.Serializable;
+import java.io.*;
 
 //todo Can be Singleton
 //bisher: static methods are enough, no need for an object, Singleton is only used when we need a single referenced object

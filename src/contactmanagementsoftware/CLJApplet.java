@@ -7,8 +7,8 @@ package contactmanagementsoftware;
 
 import contactmanagementsoftware.acquaintances.Acquaintances;
 
+import javax.swing.*;
 import java.util.ArrayList;
-import javax.swing.JApplet;
 
 /**
  * @author ritz619

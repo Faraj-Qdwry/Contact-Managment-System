@@ -2,36 +2,25 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8a5a2eec-4f52-4b69-9421-86579331ef2e" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/currentClassDiagram.pdf" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Contact-Management-System-master/META-INF/Contact-Management-System-master.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Contact-Management-System-master/contactmanagementsoftware/CLJApplet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Contact-Management-System-master/contactmanagementsoftware/CLJApplet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Contact-Management-System-master/contactmanagementsoftware/ContactManagementSoftware.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Contact-Management-System-master/contactmanagementsoftware/ContactManagementSoftware.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/CLJApplet.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/CLJApplet.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/built-jar.properties" beforeDir="false" afterPath="$PROJECT_DIR$/build/built-jar.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nbproject/build-impl.xml" beforeDir="false" afterPath="$PROJECT_DIR$/nbproject/build-impl.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nbproject/private/private.xml" beforeDir="false" afterPath="$PROJECT_DIR$/nbproject/private/private.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Contact-Management-System-master/contactmanagementsoftware/MUI$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Contact-Management-System-master/contactmanagementsoftware/MUI$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Contact-Management-System-master/contactmanagementsoftware/MUI$10.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Contact-Management-System-master/contactmanagementsoftware/MUI$11.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Contact-Management-System-master/contactmanagementsoftware/MUI$12.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Contact-Management-System-master/contactmanagementsoftware/MUI$13.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Contact-Management-System-master/contactmanagementsoftware/MUI$14.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Contact-Management-System-master/contactmanagementsoftware/MUI$15.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Contact-Management-System-master/contactmanagementsoftware/MUI$16.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Contact-Management-System-master/contactmanagementsoftware/MUI$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Contact-Management-System-master/contactmanagementsoftware/MUI$2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Contact-Management-System-master/contactmanagementsoftware/MUI$3.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Contact-Management-System-master/contactmanagementsoftware/MUI$4.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Contact-Management-System-master/contactmanagementsoftware/MUI$5.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Contact-Management-System-master/contactmanagementsoftware/MUI$6.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Contact-Management-System-master/contactmanagementsoftware/MUI$7.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Contact-Management-System-master/contactmanagementsoftware/MUI$8.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Contact-Management-System-master/contactmanagementsoftware/MUI$9.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Contact-Management-System-master/contactmanagementsoftware/MUI.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Contact-Management-System-master/contactmanagementsoftware/MUI.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Contact-Management-System-master/contactmanagementsoftware/SerializationUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Contact-Management-System-master/contactmanagementsoftware/SerializationUtil.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Contact-Management-System-master/contactmanagementsoftware/acquaintances/Acquaintances.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Contact-Management-System-master/contactmanagementsoftware/acquaintances/Acquaintances.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Contact-Management-System-master/contactmanagementsoftware/acquaintances/CasualAcquaintances.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Contact-Management-System-master/contactmanagementsoftware/acquaintances/CasualAcquaintances.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Contact-Management-System-master/contactmanagementsoftware/acquaintances/PersonalFriends.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Contact-Management-System-master/contactmanagementsoftware/acquaintances/PersonalFriends.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Contact-Management-System-master/contactmanagementsoftware/acquaintances/ProfessionalFriends.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Contact-Management-System-master/contactmanagementsoftware/acquaintances/ProfessionalFriends.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Contact-Management-System-master/contactmanagementsoftware/acquaintances/Relatives.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Contact-Management-System-master/contactmanagementsoftware/acquaintances/Relatives.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/contactmanagementsoftware/CLJApplet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/contactmanagementsoftware/CLJApplet.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/contactmanagementsoftware/MUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/contactmanagementsoftware/MUI.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/contactmanagementsoftware/SerializationUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/contactmanagementsoftware/SerializationUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/contactmanagementsoftware/acquaintances/Acquaintances.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/contactmanagementsoftware/acquaintances/Acquaintances.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/contactmanagementsoftware/acquaintances/CasualAcquaintances.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/contactmanagementsoftware/acquaintances/CasualAcquaintances.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -39,15 +28,24 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="CodeStyleSettingsInfer">
+    <option name="done" value="true" />
+  </component>
   <component name="DefaultGradleProjectSettings">
     <option name="isMigrated" value="true" />
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="1" />
+  </component>
   <component name="ProjectId" id="1TgxXxTmT7EGpjCjvwsfWaWznUv" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="UI_DESIGNER_EDITOR_MODE.PaletteManager.SHOW" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -55,9 +53,10 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -141,90 +140,8 @@
       </map>
     </option>
   </component>
-  <component name="masterDetails">
-    <states>
-      <state key="ArtifactsStructureConfigurable.UI">
-        <settings>
-          <artifact-editor />
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="FacetStructureConfigurable.UI">
-        <settings>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="GlobalLibrariesConfigurable.UI">
-        <settings>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="JdkListConfigurable.UI">
-        <settings>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ModuleStructureConfigurable.UI">
-        <settings>
-          <last-edited>Contact-Management-System-master</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ProjectJDKs.UI">
-        <settings>
-          <last-edited>12</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ProjectLibrariesConfigurable.UI">
-        <settings>
-          <last-edited>ContactManagementSystem1</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-    </states>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
   <component name="simpleUML.UMLToolWindowPlugin">
     <General>

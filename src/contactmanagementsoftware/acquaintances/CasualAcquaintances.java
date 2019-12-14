@@ -1,7 +1,5 @@
 package contactmanagementsoftware.acquaintances;
 
-import contactmanagementsoftware.acquaintances.Acquaintances;
-
 import java.io.Serializable;
 import java.util.Scanner;
 
@@ -82,7 +80,7 @@ public class CasualAcquaintances extends Acquaintances implements Serializable {
         if (!OtherInfo.isEmpty())
             this.OtherInfo = OtherInfo;
         else {
-            System.out.println("Enter atleast one character");
+            System.out.println("Enter at least one character");
             setOtherInfo(reader.nextLine());
         }
     }
