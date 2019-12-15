@@ -6,14 +6,15 @@
 package contactmanagementsoftware;
 
 import contactmanagementsoftware.acquaintances.*;
+import org.jdesktop.swingx.JXTable;
 
 import javax.swing.*;
 import javax.swing.table.DefaultTableModel;
-import java.awt.*;
 import java.io.File;
 import java.io.IOException;
 import java.text.SimpleDateFormat;
 import java.util.ArrayList;
+import java.util.Calendar;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
@@ -44,9 +45,99 @@ public class MUI extends javax.swing.JFrame {
         return mg;
     }
 
-
+    //Getters and setters
     void setA(ArrayList<ArrayList<Acquaintances>> a) {
         this.a = a;
+    }
+
+    public boolean getFlag() {
+        return flag;
+    }
+
+    public boolean getdFlag() {
+        return dflag;
+    }
+
+    public int getNum() {
+        return num;
+    }
+    public String getStr() {
+        return str;
+    }
+
+    public JTextPane getDetails() {
+        return details;
+    }
+
+    public JTextField getEmail() {
+        return email;
+    }
+
+    public JList getjList1() {
+        return jList1;
+    }
+
+    public JPanel getjPanel1() {
+        return jPanel1;
+    }
+
+    public JPanel getjPanel2() {
+        return jPanel2;
+    }
+
+    public JPanel getjPanel3() {
+        return jPanel3;
+    }
+
+    public JXTable getjXTable1() {
+        return jXTable1;
+    }
+
+    public JTextField getMobile() {
+        return mobile;
+    }
+
+    public JTextArea getOne() {
+        return one;
+    }
+
+    public JTextArea getTwo() {
+        return two;
+    }
+
+    public JTextArea getThree() {
+        return three;
+    }
+
+    public void setX(int index) {
+        this.x = index;
+    }
+
+    public void setFlag(boolean b) {
+        this.flag = b;
+    }
+
+    public void setDflag(boolean b) {
+        this.dflag = b;
+    }
+
+    public ArrayList<ArrayList<Acquaintances>> getA() {
+        return a;
+    }
+    public JTextField getname() {
+        return name;
+    }
+
+    public void setNum(int tindex) {
+        this.num = tindex;
+    }
+
+    public void setStr(String s) {
+        this.str = s;
+    }
+
+    public ArrayList<ArrayList<Acquaintances>> getTemp() {
+        return this.temp;
     }
 
     // todo observable pattern
@@ -159,7 +250,7 @@ public class MUI extends javax.swing.JFrame {
                 jLabel8.setVisible(true);
                 jLabel9.setVisible(true);
                 jLabel7.setText("First meeting time & location:");
-                jLabel8.setText("First meeting CIrcumstances:");
+                jLabel8.setText("First meeting Circumstances:");
                 jLabel9.setText("Other useful information:");
                 break;
             default:
@@ -265,16 +356,20 @@ public class MUI extends javax.swing.JFrame {
         jLabel2.setText("<html><u>Contact Management System</u></html>");
 
         jButton1.setText("Add");
-        jButton1.addActionListener(evt -> jButton1ActionPerformed(evt));
+        Command add = new addCommand();
+        jButton1.addActionListener(evt -> add.execute(evt));
 
         jButton2.setText("Delete");
-        jButton2.addActionListener(evt -> jButton2ActionPerformed(evt));
+        Command delete = new DeleteCommand();
+        jButton2.addActionListener(evt -> delete.execute(evt));
 
         jButton3.setText("Search");
-        jButton3.addActionListener(evt -> jButton3ActionPerformed(evt));
+        Command search = new searchCommand();
+        jButton3.addActionListener(evt -> search.execute(evt));
 
         jButton4.setText("Exit");
-        jButton4.addActionListener(evt -> jButton4ActionPerformed(evt));
+        Command exit = new exitCommand();
+        jButton4.addActionListener(evt -> exit.execute(evt));
 
         jList1.setModel(new javax.swing.AbstractListModel() {
             String[] strings = {"Personal Friends", "Relatives", "Professional Friends", "Casual Acquaintances"};
@@ -332,24 +427,43 @@ public class MUI extends javax.swing.JFrame {
 
         //todo here :
         /*
-         * 1- create list of commads and add commands
+         * 1- create list of commands and add commands
+         *
+         * done Add command.
+         * done Delete Command
+         * done Edit Command
+         * done Search Command
+         * done ViewFullDetail Command
+         * done ReadFromFile command
+         * done SaveAsFile command
+         * done Exit Command
          *
          * for commands make getters for the buttons ..etc
          *
-         * 2- button list and loop and asign command to buttins
+         *
+         * 2- button list and loop and assign command to buttons
+         *
+         *
+         * for commands make getters for the buttons ..etc
+         *
+         * 2- button list and loop and assign command to buttons
          * */
 
         jButton5.setText("Edit");
-        jButton5.addActionListener(evt -> jButton5ActionPerformed(evt));
+        Command edit = new editCommand();
+        jButton5.addActionListener(evt -> edit.execute(evt));
 
         jButton6.setText("View full detail");
-        jButton6.addActionListener(evt -> jButton6ActionPerformed(evt));
+        Command viewFullDetails = new VFDCommand();
+        jButton6.addActionListener(evt -> viewFullDetails.execute(evt));
 
         jButton7.setText("Read from file");
-        jButton7.addActionListener(evt -> jButton7ActionPerformed(evt));
+        Command readFromFile = new readFromFileCommand();
+        jButton7.addActionListener(evt -> readFromFile.execute(evt));
 
         jButton8.setText("Save as file");
-        jButton8.addActionListener(evt -> jButton8ActionPerformed(evt));
+        Command saveAsFile = new SaveCommand();
+        jButton8.addActionListener(evt -> saveAsFile.execute(evt));
 
         javax.swing.GroupLayout jPanel1Layout = new javax.swing.GroupLayout(jPanel1);
         jPanel1.setLayout(jPanel1Layout);
@@ -433,7 +547,8 @@ public class MUI extends javax.swing.JFrame {
         jScrollPane3.setViewportView(details);
 
         jButton9.setText("Back to main menu");
-        jButton9.addActionListener(evt -> jButton9ActionPerformed(evt));
+        Command backToM = new BackToMainMenuCommand();
+        jButton9.addActionListener(evt -> backToM.execute(evt));
 
         javax.swing.GroupLayout jPanel2Layout = new javax.swing.GroupLayout(jPanel2);
         jPanel2.setLayout(jPanel2Layout);
@@ -486,6 +601,7 @@ public class MUI extends javax.swing.JFrame {
         jScrollPane5.setViewportView(three);
 
         jButton10.setText("Add");
+        addContactCommand addContact = new addContactCommand();
         jButton10.addActionListener(evt -> jButton10ActionPerformed(evt));
 
         one.setColumns(20);
@@ -493,7 +609,8 @@ public class MUI extends javax.swing.JFrame {
         jScrollPane6.setViewportView(one);
 
         jButton11.setText("Cancel");
-        jButton11.addActionListener(evt -> jButton11ActionPerformed(evt));
+        Command cancel = new cancelCommand();
+        jButton11.addActionListener(evt -> cancel.execute(evt));
 
         javax.swing.GroupLayout jPanel3Layout = new javax.swing.GroupLayout(jPanel3);
         jPanel3.setLayout(jPanel3Layout);
@@ -565,111 +682,11 @@ public class MUI extends javax.swing.JFrame {
         pack();
     }// </editor-fold>//GEN-END:initComponents
 
-    //todo command pattern for all actions here
-    private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
-        int index = jList1.getSelectedIndex();
-        if (index < 0) {
-            JOptionPane.showMessageDialog(mg, "Select a category!");
-            return;
-        }
-        jPanel1.setVisible(false);
-        jPanel3.setVisible(true);
-        x = index;
-        flag = true;
-        dflag = false;
-        setDescription();
-    }//GEN-LAST:event_jButton1ActionPerformed
-
-    private void jButton2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton2ActionPerformed
-        int index = jList1.getSelectedIndex();
-        if (index < 0) {
-            JOptionPane.showMessageDialog(mg, "Select a category!");
-            return;
-        }
-        int tindex = jXTable1.getSelectedRow();
-        if (tindex < 0) {
-            JOptionPane.showMessageDialog(mg, "Select an entry!");
-            return;
-        }
-        int n = JOptionPane.showConfirmDialog(
-                mg,
-                "Are you sure you want to delete this?",
-                "Confirm",
-                JOptionPane.YES_NO_OPTION);
-        if (n == 0) {
-            a.get(index).remove(tindex);
-            JOptionPane.showMessageDialog(mg, "Successfully Deleted");
-            mg.setUpTableData();
-        }
-    }//GEN-LAST:event_jButton2ActionPerformed
-
-    private void jButton3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton3ActionPerformed
-        String s = (String) JOptionPane.showInputDialog(
-                mg,
-                "Enter name: ",
-                "Input",
-                JOptionPane.PLAIN_MESSAGE,
-                null,
-                null,
-                "");
-        if (s == null)
-            return;
-        jPanel1.setVisible(false);
-        jPanel2.setVisible(true);
-        str = s;
-        details.setContentType("text/html");
-        runn();
-    }//GEN-LAST:event_jButton3ActionPerformed
-
-    private void jButton4ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton4ActionPerformed
-        System.exit(0);
-    }//GEN-LAST:event_jButton4ActionPerformed
+    //todo command pattern for all actions here ==> done
 
     private void jList1ValueChanged(javax.swing.event.ListSelectionEvent evt) {//GEN-FIRST:event_jList1ValueChanged
         setUpTableData();
     }//GEN-LAST:event_jList1ValueChanged
-
-    private void jButton5ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton5ActionPerformed
-        int index = jList1.getSelectedIndex();
-        if (index < 0) {
-            JOptionPane.showMessageDialog(mg, "Select a category!");
-            return;
-        }
-        int tindex = jXTable1.getSelectedRow();
-        if (tindex < 0) {
-            JOptionPane.showMessageDialog(mg, "Select an entry!");
-            return;
-        }
-        num = tindex;
-        flag = false;
-        dflag = false;
-        x = index;
-        //todo observable.notify()
-        setDescription();
-        jPanel1.setVisible(false);
-        jPanel3.setVisible(true);
-    }//GEN-LAST:event_jButton5ActionPerformed
-
-    private void jButton6ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton6ActionPerformed
-        int index = jList1.getSelectedIndex();
-        if (index < 0) {
-            JOptionPane.showMessageDialog(mg, "Select a category!");
-            return;
-        }
-        int tindex = jXTable1.getSelectedRow();
-        if (tindex < 0) {
-            JOptionPane.showMessageDialog(mg, "Select an entry!");
-            return;
-        }
-        num = tindex;
-        flag = false;
-        x = index;
-        jPanel1.setVisible(false);
-        jPanel3.setVisible(true);
-        dflag = true;
-        //todo observable.notify()
-        setDescription();
-    }//GEN-LAST:event_jButton6ActionPerformed
 
     public void runn() {
         String s = "<html> <b>Search results:</b><br>Found!<br><br>Acquaintance Details: <br>";
@@ -743,72 +760,6 @@ public class MUI extends javax.swing.JFrame {
         details.setText(s);
     }
 
-    private void jButton7ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton7ActionPerformed
-        JFileChooser fileChooser = new JFileChooser();
-        fileChooser.setCurrentDirectory(new File(System.getProperty("user.dir")));
-        int result = fileChooser.showOpenDialog(this);
-        if (result == JFileChooser.APPROVE_OPTION) {
-            File selectedFile = fileChooser.getSelectedFile();
-            try {
-                temp = (ArrayList<ArrayList<Acquaintances>>) SerializationUtil.deserialize(selectedFile);
-            } catch (ClassNotFoundException | IOException e) {
-                JOptionPane.showMessageDialog(mg, "Error");
-                return;
-            }
-        } else {
-            return;
-        }
-        try {
-            for (int i = 0; i < 4; i++) {
-                for (int j = 0; j < temp.get(i).size(); j++) {
-                    a.get(i).add(temp.get(i).get(j));
-                }
-            }
-        } catch (Exception e) {
-
-        }
-        mg.setUpTableData();
-    }//GEN-LAST:event_jButton7ActionPerformed
-
-    private void jButton8ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton8ActionPerformed
-        String s = (String) JOptionPane.showInputDialog(
-                mg,
-                "Enter file name: (*.ser)",
-                "Input",
-                JOptionPane.PLAIN_MESSAGE,
-                null,
-                null,
-                "output.ser");
-        if (s == null)
-            return;
-        if (!s.endsWith(".ser")) {
-            JOptionPane.showMessageDialog(mg, "File name should end with .ser");
-            return;
-        }
-        File[] fileList = (new File(".")).listFiles((File pathname) -> pathname.getName().endsWith(".ser"));
-        boolean flag = false;
-        for (File f : fileList) {
-            if (f.getName().matches(s)) {
-                flag = true;
-            }
-        }
-        if (flag) {
-            int q = JOptionPane.showConfirmDialog(mg, s + " already exists:\nAre you sure you want to overwrite?");
-            if (q != 0)
-                return;
-        }
-        try {
-            SerializationUtil.serialize(a, s);
-        } catch (IOException e) {
-            return;
-        }
-        JOptionPane.showMessageDialog(mg, s + " saved successfully");
-    }//GEN-LAST:event_jButton8ActionPerformed
-
-    private void jButton9ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton9ActionPerformed
-        jPanel2.setVisible(false);
-        jPanel1.setVisible(true);
-    }//GEN-LAST:event_jButton9ActionPerformed
 
     private void nameActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_nameActionPerformed
     }//GEN-LAST:event_nameActionPerformed
@@ -840,6 +791,7 @@ public class MUI extends javax.swing.JFrame {
     private void jButton10ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton10ActionPerformed
         dflag = true;
         String Name = name.getText();
+
         if (Name.isEmpty()) {
             JOptionPane.showMessageDialog(mg, "Enter a name");
             return;
@@ -854,6 +806,7 @@ public class MUI extends javax.swing.JFrame {
             JOptionPane.showMessageDialog(mg, "Enter a valid email");
             return;
         }
+
         String One, Two, Three;
         switch (x) {
             case 0: //perF
@@ -920,6 +873,7 @@ public class MUI extends javax.swing.JFrame {
                 if (flag)
                     a.get(x).add(rel);
                 break;
+
             case 2: //proF
                 One = one.getText();
                 if (One.isEmpty() || One.length() > 300) {
@@ -976,42 +930,6 @@ public class MUI extends javax.swing.JFrame {
         mg.setUpTableData();
     }//GEN-LAST:event_jButton10ActionPerformed
 
-    private void jButton11ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton11ActionPerformed
-        jPanel1.setVisible(true);
-        jPanel3.setVisible(false);
-    }//GEN-LAST:event_jButton11ActionPerformed
-
-//    /**
-//     * @param args the command line arguments
-//     */
-//    public static void main(String args[]) {
-//        /* Set the Nimbus look and feel */
-//        //<editor-fold defaultstate="collapsed" desc=" Look and feel setting code (optional) ">
-//        /* If Nimbus (introduced in Java SE 6) is not available, stay with the default look and feel.
-//         * For details see http://download.oracle.com/javase/tutorial/uiswing/lookandfeel/plaf.html
-//         */
-//        try {
-//            for (javax.swing.UIManager.LookAndFeelInfo info : javax.swing.UIManager.getInstalledLookAndFeels()) {
-//                if ("Nimbus".equals(info.getName())) {
-//                    javax.swing.UIManager.setLookAndFeel(info.getClassName());
-//                    break;
-//                }
-//            }
-//        } catch (ClassNotFoundException ex) {
-//            java.util.logging.Logger.getLogger(MUI.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
-//        } catch (InstantiationException ex) {
-//            java.util.logging.Logger.getLogger(MUI.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
-//        } catch (IllegalAccessException ex) {
-//            java.util.logging.Logger.getLogger(MUI.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
-//        } catch (javax.swing.UnsupportedLookAndFeelException ex) {
-//            java.util.logging.Logger.getLogger(MUI.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
-//        }
-//        //</editor-fold>
-//
-//        /* Create and display the form */
-//        EventQueue.invokeLater(() -> new MUI().setVisible(true));
-//    }
-
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JTextPane details;
     private javax.swing.JTextField email;
@@ -1049,7 +967,8 @@ public class MUI extends javax.swing.JFrame {
     private javax.swing.JTextField mobile;
     private javax.swing.JTextField name;
     private javax.swing.JTextArea one;
-    private javax.swing.JTextArea three;
     private javax.swing.JTextArea two;
+    private javax.swing.JTextArea three;
+
     // End of variables declaration//GEN-END:variables
 }
