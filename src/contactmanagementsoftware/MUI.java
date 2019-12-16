@@ -6,15 +6,13 @@
 package contactmanagementsoftware;
 
 import contactmanagementsoftware.acquaintances.*;
+import contactmanagementsoftware.commands.*;
 import org.jdesktop.swingx.JXTable;
 
 import javax.swing.*;
 import javax.swing.table.DefaultTableModel;
-import java.io.File;
-import java.io.IOException;
 import java.text.SimpleDateFormat;
 import java.util.ArrayList;
-import java.util.Calendar;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 

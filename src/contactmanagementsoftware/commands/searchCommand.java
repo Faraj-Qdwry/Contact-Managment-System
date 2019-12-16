@@ -1,9 +1,9 @@
-package contactmanagementsoftware;
+package contactmanagementsoftware.commands;
 
+import contactmanagementsoftware.MUI;
 import org.jdesktop.swingx.JXTable;
 
 import javax.swing.*;
-import java.awt.event.ActionEvent;
 
 public class searchCommand implements Command {
 

@@ -1,5 +1,6 @@
-package contactmanagementsoftware;
+package contactmanagementsoftware.commands;
 
+import contactmanagementsoftware.MUI;
 import org.jdesktop.swingx.JXTable;
 
 import javax.swing.*;

@@ -1,10 +1,8 @@
-package contactmanagementsoftware;
+package contactmanagementsoftware.commands;
+import contactmanagementsoftware.MUI;
 import contactmanagementsoftware.acquaintances.*;
 
-import org.jdesktop.swingx.JXTable;
-
 import javax.swing.*;
-import java.awt.event.ActionEvent;
 import java.util.ArrayList;
 
 public class addContactCommand implements Command {

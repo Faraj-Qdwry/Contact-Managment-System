@@ -1,5 +1,7 @@
-package contactmanagementsoftware;
+package contactmanagementsoftware.commands;
 
+import contactmanagementsoftware.MUI;
+import contactmanagementsoftware.SerializationUtil;
 import contactmanagementsoftware.acquaintances.Acquaintances;
 
 import javax.swing.*;

@@ -1,4 +1,6 @@
-package contactmanagementsoftware;
+package contactmanagementsoftware.commands;
+
+import contactmanagementsoftware.MUI;
 
 import javax.swing.*;
 

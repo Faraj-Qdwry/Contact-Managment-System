@@ -1,15 +1,16 @@
-package contactmanagementsoftware;
+package contactmanagementsoftware.commands;
 
+import contactmanagementsoftware.MUI;
 import org.jdesktop.swingx.JXTable;
 
 import javax.swing.*;
 import java.awt.event.ActionEvent;
 
-public class DeleteCommand implements Command {
-    static MUI mui;
+public class editCommand implements Command {
 
+    static MUI mui;
     @Override
-    public void execute(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton2ActionPerformed
+    public void execute(ActionEvent evt){//GEN-FIRST:event_jButton5ActionPerformed
         mui = MUI.getInstance();
         JList jList1 = mui.getjList1();
         JPanel jPanel1 = mui.getjPanel1();
@@ -17,7 +18,6 @@ public class DeleteCommand implements Command {
         int x = mui.getX();
         boolean flag = mui.getFlag();
         JXTable jXTable1 = mui.getjXTable1();
-
 
 
         int index = jList1.getSelectedIndex();
@@ -30,15 +30,13 @@ public class DeleteCommand implements Command {
             JOptionPane.showMessageDialog(mui, "Select an entry!");
             return;
         }
-        int n = JOptionPane.showConfirmDialog(
-                mui,
-                "Are you sure you want to delete this?",
-                "Confirm",
-                JOptionPane.YES_NO_OPTION);
-        if (n == 0) {
-            mui.getA().get(index).remove(tindex);
-            JOptionPane.showMessageDialog(mui, "Successfully Deleted");
-            mui.setUpTableData();
-        }
-    }//GEN-LAST:event_jButton2ActionPerformed
+        mui.setNum(tindex);
+        mui.setFlag(false);
+        mui.setDflag(false);
+        x = index;
+        //todo observable.notify()
+        mui.setDescription();
+        jPanel1.setVisible(false);
+        jPanel3.setVisible(true);
+    }//GEN-LAST:event_jButton5ActionPerformed
 }
