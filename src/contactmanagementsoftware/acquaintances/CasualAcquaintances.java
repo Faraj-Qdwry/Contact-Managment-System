@@ -52,7 +52,7 @@ public class CasualAcquaintances extends Acquaintances implements Serializable {
         if (!WhenWhere.isEmpty())
             this.WhenWhere = WhenWhere;
         else {
-            System.out.println("Enter atleast one character");
+            System.out.println("Enter at least one character");
             setWhenWhere(reader.nextLine());
         }
     }
@@ -66,7 +66,7 @@ public class CasualAcquaintances extends Acquaintances implements Serializable {
         if (!Circumstances.isEmpty())
             this.Circumstances = Circumstances;
         else {
-            System.out.println("Enter atleast one character");
+            System.out.println("Enter at least one character");
             setCircumstances(reader.nextLine());
         }
     }

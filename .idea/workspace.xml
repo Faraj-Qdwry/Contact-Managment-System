@@ -2,400 +2,85 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="baff9b1c-bcf0-4609-b97d-33c40cb67e97" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../ANDROID/Context Logger/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ANDROID/Context Logger/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ANDROID/Context Logger/app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/../ANDROID/Context Logger/app/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ANDROID/Context Logger/app/src/main/java/com/dahmakan/contextlogger/MainActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../ANDROID/Context Logger/app/src/main/java/com/dahmakan/contextlogger/MainActivity.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ANDROID/Context Logger/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/../ANDROID/Context Logger/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ANDROID/SampleApp/context-logger/src/main/java/com/faraj_qdwry/context_logger/ContextLogger.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../ANDROID/SampleApp/context-logger/src/main/java/com/faraj_qdwry/context_logger/ContextLogger.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../CBSE/Lab Practice Virtual Store Application-20191015.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../CBSE/Source Code for Lab Practice Section 2.4 to 2.6-20191015.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../CBSE/osgi/src/osgi/Launcher.java" beforeDir="false" afterPath="$PROJECT_DIR$/../CBSE/osgi/src/osgi/Launcher.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../CBSE/section_2_4_to_2_6_bin.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../CBSE/section_2_4_to_2_6_bin/AgeCalculator02.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../CBSE/section_2_4_to_2_6_bin/AgeCalculatorApp02.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../CBSE/section_2_4_to_2_6_bin/AgeCalculatorGlue.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../CBSE/section_2_4_to_2_6_bin/AgeCalculatorIfce.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../CBSE/section_2_4_to_2_6_bin/README.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../CBSE/section_2_4_to_2_6_src.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../CBSE/section_2_4_to_2_6_src/AgeCalculator02/.classpath" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../CBSE/section_2_4_to_2_6_src/AgeCalculator02/.idea/encodings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../CBSE/section_2_4_to_2_6_src/AgeCalculator02/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../CBSE/section_2_4_to_2_6_src/AgeCalculator02/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../CBSE/section_2_4_to_2_6_src/AgeCalculator02/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../CBSE/section_2_4_to_2_6_src/AgeCalculator02/.project" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../CBSE/section_2_4_to_2_6_src/AgeCalculator02/.settings/org.eclipse.jdt.core.prefs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../CBSE/section_2_4_to_2_6_src/AgeCalculator02/AgeCalculator02.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../CBSE/section_2_4_to_2_6_src/AgeCalculator02/bin/AgeCalculatorIfce.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../CBSE/section_2_4_to_2_6_src/AgeCalculator02/src/AgeCalculatorIfce.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../CBSE/section_2_4_to_2_6_src/AgeCalculator02/src/codabook/agecalculator/AgeCalculator.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../CBSE/section_2_4_to_2_6_src/AgeCalculatorApp02/.classpath" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../CBSE/section_2_4_to_2_6_src/AgeCalculatorApp02/.project" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../CBSE/section_2_4_to_2_6_src/AgeCalculatorApp02/.settings/org.eclipse.jdt.core.prefs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../CBSE/section_2_4_to_2_6_src/AgeCalculatorApp02/bin/codabook/agecalculator/app/AgeCalculatorApp.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../CBSE/section_2_4_to_2_6_src/AgeCalculatorApp02/src/codabook/agecalculator/app/AgeCalculatorApp.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../CBSE/section_2_4_to_2_6_src/AgeCalculatorGlue/.classpath" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../CBSE/section_2_4_to_2_6_src/AgeCalculatorGlue/.project" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../CBSE/section_2_4_to_2_6_src/AgeCalculatorGlue/.settings/org.eclipse.jdt.core.prefs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../CBSE/section_2_4_to_2_6_src/AgeCalculatorGlue/bin/codabook/agecalculator/glue/AgeCalculatorGlue.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../CBSE/section_2_4_to_2_6_src/AgeCalculatorGlue/src/codabook/agecalculator/glue/AgeCalculatorGlue.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../CBSE/section_2_4_to_2_6_src/AgeCalculatorIfce/.classpath" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../CBSE/section_2_4_to_2_6_src/AgeCalculatorIfce/.project" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../CBSE/section_2_4_to_2_6_src/AgeCalculatorIfce/.settings/org.eclipse.jdt.core.prefs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../CBSE/section_2_4_to_2_6_src/AgeCalculatorIfce/bin/codabook/agecalculator/ifce/AgeCalculatorIfce.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../CBSE/section_2_4_to_2_6_src/AgeCalculatorIfce/src/codabook/agecalculator/ifce/AgeCalculatorIfce.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../CBSE/section_2_4_to_2_6_src/README.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../CBSE/section_2_4_to_2_6_src/untitled/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../CBSE/section_2_4_to_2_6_src/untitled/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../CBSE/section_2_4_to_2_6_src/untitled/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../CBSE/section_2_4_to_2_6_src/untitled/untitled.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../CBSE/section_3_5_src/AgeCalculatorClient/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../CBSE/section_3_5_src/AgeCalculatorClient/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../CBSE/section_3_5_src/AgeCalculatorImpl/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../CBSE/section_3_5_src/AgeCalculatorImpl/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Contact-Management-System-master/contactmanagementsoftware/BackToMainMenuCommand.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Contact-Management-System-master/contactmanagementsoftware/Command.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Contact-Management-System-master/contactmanagementsoftware/DeleteCommand.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Contact-Management-System-master/contactmanagementsoftware/SaveCommand.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Contact-Management-System-master/contactmanagementsoftware/VFDCommand.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Contact-Management-System-master/contactmanagementsoftware/addCommand.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Contact-Management-System-master/contactmanagementsoftware/addContactCommand.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Contact-Management-System-master/contactmanagementsoftware/cancelCommand.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Contact-Management-System-master/contactmanagementsoftware/editCommand.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Contact-Management-System-master/contactmanagementsoftware/exitCommand.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Contact-Management-System-master/contactmanagementsoftware/readFromFileCommand.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Contact-Management-System-master/contactmanagementsoftware/searchCommand.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/contactmanagementsoftware/BackToMainMenuCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/contactmanagementsoftware/Command.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/contactmanagementsoftware/DeleteCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/contactmanagementsoftware/SaveCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/contactmanagementsoftware/VFDCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/contactmanagementsoftware/addCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/contactmanagementsoftware/addContactCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/contactmanagementsoftware/cancelCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/contactmanagementsoftware/editCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/contactmanagementsoftware/exitCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/contactmanagementsoftware/readFromFileCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/contactmanagementsoftware/searchCommand.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Contact-Management-System-master/META-INF/Contact-Management-System-master.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Contact-Management-System-master/contactmanagementsoftware/CLJApplet.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Contact-Management-System-master/contactmanagementsoftware/ContactManagementSoftware.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Contact-Management-System-master/contactmanagementsoftware/ContactManagementSoftware.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Contact-Management-System-master/META-INF/Contact-Management-System-master.kotlin_module" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Contact-Management-System-master/META-INF/Contact-Management-System-master.kotlin_module" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Contact-Management-System-master/contactmanagementsoftware/MUI$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Contact-Management-System-master/contactmanagementsoftware/MUI$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Contact-Management-System-master/contactmanagementsoftware/MUI$10.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Contact-Management-System-master/contactmanagementsoftware/MUI$11.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Contact-Management-System-master/contactmanagementsoftware/MUI$12.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Contact-Management-System-master/contactmanagementsoftware/MUI$13.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Contact-Management-System-master/contactmanagementsoftware/MUI$14.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Contact-Management-System-master/contactmanagementsoftware/MUI$15.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Contact-Management-System-master/contactmanagementsoftware/MUI$16.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Contact-Management-System-master/contactmanagementsoftware/MUI$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Contact-Management-System-master/contactmanagementsoftware/MUI$2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Contact-Management-System-master/contactmanagementsoftware/MUI$3.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Contact-Management-System-master/contactmanagementsoftware/MUI$4.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Contact-Management-System-master/contactmanagementsoftware/MUI$5.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Contact-Management-System-master/contactmanagementsoftware/MUI$6.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Contact-Management-System-master/contactmanagementsoftware/MUI$7.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Contact-Management-System-master/contactmanagementsoftware/MUI$8.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Contact-Management-System-master/contactmanagementsoftware/MUI$9.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Contact-Management-System-master/contactmanagementsoftware/MUI.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Contact-Management-System-master/contactmanagementsoftware/MUI.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Contact-Management-System-master/contactmanagementsoftware/SerializationUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Contact-Management-System-master/contactmanagementsoftware/SerializationUtil.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Contact-Management-System-master/contactmanagementsoftware/acquaintances/Acquaintances.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Contact-Management-System-master/contactmanagementsoftware/acquaintances/Acquaintances.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Contact-Management-System-master/contactmanagementsoftware/acquaintances/CasualAcquaintances.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Contact-Management-System-master/contactmanagementsoftware/acquaintances/CasualAcquaintances.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Contact-Management-System-master/contactmanagementsoftware/acquaintances/PersonalFriends.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Contact-Management-System-master/contactmanagementsoftware/acquaintances/PersonalFriends.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Contact-Management-System-master/contactmanagementsoftware/acquaintances/ProfessionalFriends.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Contact-Management-System-master/contactmanagementsoftware/acquaintances/ProfessionalFriends.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Contact-Management-System-master/contactmanagementsoftware/acquaintances/Relatives.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Contact-Management-System-master/contactmanagementsoftware/acquaintances/Relatives.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/contactmanagementsoftware/CLJApplet.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/contactmanagementsoftware/ContactManagementSoftware.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/contactmanagementsoftware/ContactManagementSoftware.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/output.ser" beforeDir="false" afterPath="$PROJECT_DIR$/output.ser" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/contactmanagementsoftware/MUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/contactmanagementsoftware/MUI.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/contactmanagementsoftware/SerializationUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/contactmanagementsoftware/SerializationUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../DahmakanAssessment/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../DahmakanAssessment/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../DahmakanAssessment/app/src/main/java/com/dahmakan/dahmakan_assessment/DahmakanService.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../DahmakanAssessment/app/src/main/java/com/dahmakan/dahmakan_assessment/Order.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../DahmakanAssessment/app/src/main/java/com/dahmakan/dahmakan_assessment/OrdersAdapter.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../DahmakanAssessment/app/src/main/java/com/dahmakan/dahmakan_assessment/RemoteRepository.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../DahmakanAssessment/app/src/main/java/com/dahmakan/dahmakan_assessment/ViewModel.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../EASE/.idea/codeStyles/codeStyleConfig.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../GCD programm - componentized (CBSE)/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../GCD programm - componentized (CBSE)/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../GCD programm - componentized (CBSE)/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../GCD programm - componentized (CBSE)/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../GCD programm - componentized (CBSE)/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../GCD programm - componentized (CBSE)/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../GCD programm - componentized (CBSE)/out/production/GCD programm - componentized (CBSE)/MainTestDriver.class" beforeDir="false" afterPath="$PROJECT_DIR$/../GCD programm - componentized (CBSE)/out/production/GCD programm - componentized (CBSE)/MainTestDriver.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Hat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Hatters" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Iterator/Candidates.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../Iterator/Candidates.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Iterator/src/AllCandidates.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Iterator/src/AllCandidates.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Iterator/src/AllCandidatesIterator.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Iterator/src/AllCandidatesIterator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Iterator/src/Candidate.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Iterator/src/Candidate.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Iterator/src/CertifiedCandidatesIterator.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Iterator/src/CertifiedCandidatesIterator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../LibrarySystem/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../LibrarySystem/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../NearByLoccations/.idea/codeStyles/Project.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../NearByLoccations/.idea/codeStyles/Project.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../NearByLoccations/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../NearByLoccations/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../NearByLoccations/app/src/debug/res/values/google_maps_api.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../NearByLoccations/app/src/debug/res/values/google_maps_api.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../NearByLoccations/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../NearByLoccations/app/src/main/AndroidManifest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../NearByLoccations/app/src/main/java/com/ease_holdings/nearbyloccations/MapsActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../NearByLoccations/app/src/main/java/com/ease_holdings/nearbyloccations/MapsActivity.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../NearByLoccations/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../NearByLoccations/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../NearByLoccations/app/src/main/res/drawable/ic_launcher_background.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../NearByLoccations/app/src/main/res/drawable/ic_launcher_background.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../NearByLoccations/app/src/main/res/layout/activity_maps.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../NearByLoccations/app/src/main/res/layout/activity_maps.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../NearByLoccations/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../NearByLoccations/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../NearByLoccations/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../NearByLoccations/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../NearByLoccations/app/src/release/res/values/google_maps_api.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../NearByLoccations/app/src/release/res/values/google_maps_api.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../NearByLoccations/gradle.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../NearByLoccations/gradle.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Sample Projects/src/hat/Customer.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../Sample Projects/src/hat/Customer.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Sample Projects/src/hat/Driver.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../Sample Projects/src/hat/Driver.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Sample Projects/src/hat/FCMService.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../Sample Projects/src/hat/FCMService.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Sample Projects/src/hat/FcmSender.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Sample Projects/src/hat/FcmSender.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Sample Projects/src/hat/HatFragment.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../Sample Projects/src/hat/HatFragment.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Sample Projects/src/hat/HatPlace.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../Sample Projects/src/hat/HatPlace.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Sample Projects/src/hat/HatRepository.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../Sample Projects/src/hat/HatRepository.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Sample Projects/src/hat/HistoryFragment.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../Sample Projects/src/hat/HistoryFragment.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Sample Projects/src/hat/JobStatus.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Sample Projects/src/hat/JobStatus.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Sample Projects/src/hat/LocalRepository.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../Sample Projects/src/hat/LocalRepository.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Sample Projects/src/hat/MainActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../Sample Projects/src/hat/MainActivity.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Sample Projects/src/hat/OfferModel.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../Sample Projects/src/hat/OfferModel.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Sample Projects/src/hat/OrderFragment.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../Sample Projects/src/hat/OrderFragment.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Sample Projects/src/hat/ProfilFragment.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../Sample Projects/src/hat/ProfilFragment.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Sample Projects/src/hat/Rating.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../Sample Projects/src/hat/Rating.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Sample Projects/src/hat/Report.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../Sample Projects/src/hat/Report.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Sample Projects/src/hat/RequestModel.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../Sample Projects/src/hat/RequestModel.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Sample Projects/src/hat/RequestsAdapter.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../Sample Projects/src/hat/RequestsAdapter.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Sample Projects/src/hat/SignInFragment.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../Sample Projects/src/hat/SignInFragment.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Sample Projects/src/hat/SingUpFragment.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../Sample Projects/src/hat/SingUpFragment.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Sample Projects/src/hat/SplashScreenActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../Sample Projects/src/hat/SplashScreenActivity.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Sample Projects/src/hat/User.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../Sample Projects/src/hat/User.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Sample Projects/src/hat/Vehicle.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../Sample Projects/src/hat/Vehicle.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Sample Projects/src/hatters/datamodels/JobStatus.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Sample Projects/src/hatters/datamodels/JobStatus.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Sample Projects/src/main/Main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../Sample Projects/src/main/Main.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SampleApp/app/src/main/java/com/ease_holdings/sampleapp/Main2Activity.java" beforeDir="false" afterPath="$PROJECT_DIR$/../SampleApp/app/src/main/java/com/ease_holdings/sampleapp/Main2Activity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SampleApp/app/src/main/res/layout/activity_main2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../SampleApp/app/src/main/res/layout/activity_main2.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SampleApp/app/src/main/res/menu/menu.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../SampleApp/app/src/main/res/menu/menu.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../StudentManager/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../StudentManager/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../StudentManager/app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/../StudentManager/app/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../StudentManager/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../StudentManager/app/src/main/AndroidManifest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../StudentManager/app/src/main/java/com/appers/studentmanager/MainActivity.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../StudentManager/app/src/main/res/layout/activity_main.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../StudentManager/app/src/main/res/values/colors.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../StudentManager/app/src/main/res/values/colors.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../StudentManager/app/src/main/res/values/strings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../StudentManager/app/src/main/res/values/strings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../StudentManager/app/src/main/res/values/styles.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../StudentManager/app/src/main/res/values/styles.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../StudentManager/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/../StudentManager/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../StudentsTaskManager/app/src/main/java/com/appers/students_task_manager/MainActivity.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../StudentsTaskManager/app/src/main/res/layout/activity_main.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../digi-x-assessment/src/CheckOut.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../digi-x-assessment/src/CheckOut.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../digi-x-assessment/src/items/ATV.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../digi-x-assessment/src/items/ATV.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../digi-x-assessment/src/items/Ipad.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../digi-x-assessment/src/items/Ipad.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../digi-x-assessment/src/items/Item.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../digi-x-assessment/src/items/Item.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../digi-x-assessment/src/items/MacBook.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../digi-x-assessment/src/items/MacBook.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../digi-x-assessment/src/items/VGA.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../digi-x-assessment/src/items/VGA.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../pick-up-trash/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../pick-up-trash/.idea/.name" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../pick-up-trash/.idea/codeStyles/Project.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../pick-up-trash/.idea/codeStyles/codeStyleConfig.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../pick-up-trash/.idea/gradle.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../pick-up-trash/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../pick-up-trash/.idea/runConfigurations.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../pick-up-trash/app/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../pick-up-trash/app/build.gradle" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../pick-up-trash/app/proguard-rules.pro" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../pick-up-trash/app/src/androidTest/java/com/aqsoft/pickuptrashgame/ExampleInstrumentedTest.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../pick-up-trash/app/src/main/AndroidManifest.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../pick-up-trash/app/src/main/java/com/aqsoft/pickuptrashgame/City_1_Activity.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../pick-up-trash/app/src/main/java/com/aqsoft/pickuptrashgame/City_2_Activity.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../pick-up-trash/app/src/main/java/com/aqsoft/pickuptrashgame/City_3_Activity.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../pick-up-trash/app/src/main/java/com/aqsoft/pickuptrashgame/MainActivity.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../pick-up-trash/app/src/main/java/com/aqsoft/pickuptrashgame/MyService.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../pick-up-trash/app/src/main/java/com/aqsoft/pickuptrashgame/app.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../pick-up-trash/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../pick-up-trash/app/src/main/res/drawable/banana.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../pick-up-trash/app/src/main/res/drawable/bangsar.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../pick-up-trash/app/src/main/res/drawable/bangsar_level.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../pick-up-trash/app/src/main/res/drawable/bangsar_main.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../pick-up-trash/app/src/main/res/drawable/beach_map.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../pick-up-trash/app/src/main/res/drawable/bg_round_corners.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../pick-up-trash/app/src/main/res/drawable/cyber_jaya.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../pick-up-trash/app/src/main/res/drawable/cyber_level_3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../pick-up-trash/app/src/main/res/drawable/glass.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../pick-up-trash/app/src/main/res/drawable/ic_launcher_background.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../pick-up-trash/app/src/main/res/drawable/level_2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../pick-up-trash/app/src/main/res/drawable/level_2_next.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../pick-up-trash/app/src/main/res/drawable/next_level.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../pick-up-trash/app/src/main/res/drawable/plastic_bag.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../pick-up-trash/app/src/main/res/drawable/plastic_bottle.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../pick-up-trash/app/src/main/res/drawable/straw.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../pick-up-trash/app/src/main/res/drawable/villain.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../pick-up-trash/app/src/main/res/drawable/villain_v_2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../pick-up-trash/app/src/main/res/layout/activity_city_1_.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../pick-up-trash/app/src/main/res/layout/activity_city_2_.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../pick-up-trash/app/src/main/res/layout/activity_city_3_.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../pick-up-trash/app/src/main/res/layout/activity_main.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../pick-up-trash/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../pick-up-trash/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../pick-up-trash/app/src/main/res/mipmap-hdpi/ic_launcher.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../pick-up-trash/app/src/main/res/mipmap-hdpi/ic_launcher_round.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../pick-up-trash/app/src/main/res/mipmap-mdpi/ic_launcher.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../pick-up-trash/app/src/main/res/mipmap-mdpi/ic_launcher_round.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../pick-up-trash/app/src/main/res/mipmap-xhdpi/ic_launcher.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../pick-up-trash/app/src/main/res/mipmap-xhdpi/ic_launcher_round.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../pick-up-trash/app/src/main/res/mipmap-xxhdpi/ic_launcher.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../pick-up-trash/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../pick-up-trash/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../pick-up-trash/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../pick-up-trash/app/src/main/res/raw/celebrate.mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../pick-up-trash/app/src/main/res/raw/happy_songg.mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../pick-up-trash/app/src/main/res/raw/purr.mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../pick-up-trash/app/src/main/res/raw/screetch.mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../pick-up-trash/app/src/main/res/raw/trash.mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../pick-up-trash/app/src/main/res/values/colors.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../pick-up-trash/app/src/main/res/values/strings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../pick-up-trash/app/src/main/res/values/styles.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../pick-up-trash/app/src/test/java/com/aqsoft/pickuptrashgame/ExampleUnitTest.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../pick-up-trash/build.gradle" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../pick-up-trash/gradle.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../pick-up-trash/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../pick-up-trash/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../pick-up-trash/gradlew" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../pick-up-trash/gradlew.bat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../pick-up-trash/settings.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/contactmanagementsoftware/acquaintances/CasualAcquaintances.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/contactmanagementsoftware/acquaintances/CasualAcquaintances.java" afterDir="false" />
     </list>
-    <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="CodeStyleSettingsInfer">
+    <option name="done" value="true" />
+  </component>
   <component name="DefaultGradleProjectSettings">
     <option name="testRunner" value="GRADLE" />
     <option name="delegatedBuild" value="true" />
   </component>
-  <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/contactmanagementsoftware/acquaintances/Acquaintances.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="26" column="9" lean-forward="true" selection-start-line="26" selection-start-column="9" selection-end-line="26" selection-end-column="9" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/contactmanagementsoftware/acquaintances/CasualAcquaintances.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-202">
-              <caret line="29" column="28" selection-start-line="29" selection-start-column="28" selection-end-line="29" selection-end-column="28" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/contactmanagementsoftware/acquaintances/PersonalFriends.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="408">
-              <caret line="35" lean-forward="true" selection-start-line="35" selection-end-line="35" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/contactmanagementsoftware/acquaintances/ProfessionalFriends.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/contactmanagementsoftware/acquaintances/Relatives.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="25" column="13" lean-forward="true" selection-start-line="25" selection-start-column="13" selection-end-line="25" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/contactmanagementsoftware/ContactManagementSoftware.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="16" column="45" selection-start-line="16" selection-start-column="45" selection-end-line="16" selection-end-column="45" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/contactmanagementsoftware/MUI.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="365">
-              <caret line="861" column="55" selection-start-line="861" selection-start-column="55" selection-end-line="861" selection-end-column="55" />
-              <folding>
-                <element signature="e#1198#1199#0" expanded="true" />
-                <element signature="e#1224#1225#0" expanded="true" />
-                <element signature="e#8159#8248#0" expanded="true" />
-                <element signature="e#46607#46704#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/contactmanagementsoftware/SerializationUtil.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="13" column="49" selection-start-line="13" selection-start-column="49" selection-end-line="13" selection-end-column="49" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
-  </component>
-  <component name="FindInProjectRecents">
-    <findStrings>
-      <find>JApplet</find>
-      <find>button1</find>
-      <find>setde</find>
-      <find>javax.swing.GroupLayout(</find>
-    </findStrings>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="IdeDocumentHistory">
-    <option name="CHANGED_PATHS">
-      <list>
-        <option value="$PROJECT_DIR$/src/contactmanagementsoftware/SerializationUtil.java" />
-        <option value="$PROJECT_DIR$/.idea/workspace.xml" />
-        <option value="$PROJECT_DIR$/src/contactmanagementsoftware/CLJApplet.java" />
-        <option value="$PROJECT_DIR$/src/contactmanagementsoftware/ContactManagementSoftware.java" />
-        <option value="$PROJECT_DIR$/src/contactmanagementsoftware/MUI.java" />
-      </list>
-    </option>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="1" />
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="170" />
-    <option name="y" value="50" />
-    <option name="width" value="3500" />
-    <option name="height" value="1960" />
-  </component>
-  <component name="ProjectView">
-    <navigator proportions="" version="1">
-      <foldersAlwaysOnTop value="true" />
-    </navigator>
-    <panes>
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="Contact-Management-System-master" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Contact-Management-System-master" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Contact-Management-System-master" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Contact-Management-System-master" type="462c0819:PsiDirectoryNode" />
-              <item name="build" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Contact-Management-System-master" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Contact-Management-System-master" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Contact-Management-System-master" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Contact-Management-System-master" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="contactmanagementsoftware" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Contact-Management-System-master" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Contact-Management-System-master" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="contactmanagementsoftware" type="462c0819:PsiDirectoryNode" />
-              <item name="acquaintances" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
-    </panes>
+  <component name="ProjectId" id="1UzCRdW5GLAspc19hfXeZvI2ymn" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="restartRequiresConfirmation" value="false" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="contactmanagementsoftware" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -460,217 +145,21 @@
   <component name="TimeTrackingManager">
     <option name="totallyTimeSpent" value="12524000" />
   </component>
-  <component name="ToolWindowManager">
-    <frame x="-6" y="-6" width="1549" height="877" extended-state="6" />
-    <editor active="true" />
-    <layout>
-      <window_info id="Designer" />
-      <window_info id="Image Layers" />
-      <window_info id="Capture Tool" />
-      <window_info id="UI Designer" />
-      <window_info id="Favorites" side_tool="true" />
-      <window_info id="simpleUML" />
-      <window_info id="Learn" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24949698" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" weight="0.32931727" />
-      <window_info anchor="bottom" id="Database Changes" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32931727" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Maven" />
-      <window_info anchor="right" id="Palette" />
-      <window_info anchor="right" id="Capture Analysis" />
-      <window_info anchor="right" id="Database" />
-      <window_info anchor="right" id="Palette&#9;" />
-      <window_info anchor="right" id="Theme Preview" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-    </layout>
-  </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
-  <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/contactmanagementsoftware/SerializationUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="13" column="49" selection-start-line="13" selection-start-column="49" selection-end-line="13" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="uml://JAVA/contactmanagementsoftware">
-      <provider selected="true" editor-type-id="UmlEditorProvider">
-        <state>
-          <ID>JAVA</ID>
-          <OriginalElement>contactmanagementsoftware</OriginalElement>
-          <nodes>
-            <node x="" y="">contactmanagementsoftware.CLJApplet</node>
-            <node x="" y="">contactmanagementsoftware.SerializationUtil</node>
-            <node x="" y="">contactmanagementsoftware.acquaintances</node>
-            <node x="" y="">contactmanagementsoftware.MUI</node>
-            <node x="" y="">contactmanagementsoftware.ContactManagementSoftware</node>
-          </nodes>
-          <notes />
-          <edges />
-          <settings layout="Hierarchic Group" zoom="1.0" x="539.5" y="414.0" />
-          <SelectedNodes />
-          <Categories>
-            <Category>Properties</Category>
-            <Category>Inner Classes</Category>
-            <Category>Methods</Category>
-          </Categories>
-          <SCOPE>All</SCOPE>
-          <VISIBILITY>private</VISIBILITY>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="7332">
-          <caret line="837" column="12" lean-forward="true" selection-start-line="837" selection-start-column="12" selection-end-line="837" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk-12.0.1/lib/src.zip!/java.desktop/javax/swing/JApplet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="158">
-          <caret line="102" column="13" selection-start-line="102" selection-start-column="13" selection-end-line="102" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/build/CLJApplet.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="22" column="61" selection-start-line="22" selection-start-column="61" selection-end-line="22" selection-end-column="61" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/contactmanagementsoftware/CLJApplet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" selection-start-line="15" selection-start-column="2" selection-end-line="40" selection-end-column="3" />
-          <folding>
-            <element signature="e#0#1125#0" expanded="true" />
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk-12.0.1/lib/src.zip!/java.desktop/java/awt/EventQueue.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="233">
-          <caret line="1310" column="23" selection-start-line="1310" selection-start-column="23" selection-end-line="1310" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk-12.0.1/lib/src.zip!/java.desktop/java/awt/Window.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="257">
-          <caret line="1020" column="19" selection-start-line="1020" selection-start-column="19" selection-end-line="1020" selection-end-column="19" />
-          <folding>
-            <element signature="e#35715#35716#0" expanded="true" />
-            <element signature="e#35750#35751#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk-12.0.1/lib/src.zip!/java.desktop/javax/swing/text/JTextComponent.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="1724" column="16" selection-start-line="1724" selection-start-column="16" selection-end-line="1724" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/contactmanagementsoftware/acquaintances/PersonalFriends.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="35" lean-forward="true" selection-start-line="35" selection-end-line="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/contactmanagementsoftware/acquaintances/CasualAcquaintances.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-202">
-          <caret line="29" column="28" selection-start-line="29" selection-start-column="28" selection-end-line="29" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/contactmanagementsoftware/acquaintances/ProfessionalFriends.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/contactmanagementsoftware/acquaintances/Relatives.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="25" column="13" lean-forward="true" selection-start-line="25" selection-start-column="13" selection-end-line="25" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk-12.0.1/lib/src.zip!/java.base/java/util/ArrayList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="456" column="13" selection-start-line="456" selection-start-column="13" selection-end-line="456" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk-12.0.1/lib/src.zip!/java.desktop/javax/swing/JFrame.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="654" column="21" selection-start-line="654" selection-start-column="21" selection-end-line="654" selection-end-column="21" />
-          <folding>
-            <element signature="e#23227#23228#0" expanded="true" />
-            <element signature="e#23280#23281#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk-12.0.1/lib/src.zip!/java.desktop/javax/swing/GroupLayout.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="374" column="11" selection-start-line="374" selection-start-column="11" selection-end-line="374" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/contactmanagementsoftware/acquaintances/Acquaintances.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="26" column="9" lean-forward="true" selection-start-line="26" selection-start-column="9" selection-end-line="26" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/contactmanagementsoftware/ContactManagementSoftware.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="16" column="45" selection-start-line="16" selection-start-column="45" selection-end-line="16" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/contactmanagementsoftware/MUI.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="365">
-          <caret line="861" column="55" selection-start-line="861" selection-start-column="55" selection-end-line="861" selection-end-column="55" />
-          <folding>
-            <element signature="e#1198#1199#0" expanded="true" />
-            <element signature="e#1224#1225#0" expanded="true" />
-            <element signature="e#8159#8248#0" expanded="true" />
-            <element signature="e#46607#46704#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="simpleUML.UMLToolWindowPlugin">
     <General>
