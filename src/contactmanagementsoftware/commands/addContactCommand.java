@@ -1,6 +1,15 @@
 package contactmanagementsoftware.commands;
+
 import contactmanagementsoftware.MUI;
 import contactmanagementsoftware.acquaintances.*;
+import contactmanagementsoftware.strategies.descriptrion_stratigies.CasualAcquaintancesDescriptionBehaviour;
+import contactmanagementsoftware.strategies.descriptrion_stratigies.PersonalFriendsDescriptionBehaviour;
+import contactmanagementsoftware.strategies.descriptrion_stratigies.ProfessionalFriendsDescriptionBehaviour;
+import contactmanagementsoftware.strategies.descriptrion_stratigies.RelativesDescriptionBehaviour;
+import contactmanagementsoftware.strategies.visibility_stratigies.CasualAcquaintancesVisibilityBehaviour;
+import contactmanagementsoftware.strategies.visibility_stratigies.PersonalFriendsVisibilityBehaviour;
+import contactmanagementsoftware.strategies.visibility_stratigies.ProfessionalFriendsVisibilityBehaviour;
+import contactmanagementsoftware.strategies.visibility_stratigies.RelativesVisibilityBehaviour;
 
 import javax.swing.*;
 import java.util.ArrayList;
@@ -10,7 +19,7 @@ public class addContactCommand implements Command {
     static MUI mui;
 
     @Override
-    public void execute(java.awt.event.ActionEvent evt){//GEN-FIRST:event_jButton10ActionPerformed
+    public void execute(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton10ActionPerformed
 
         mui = MUI.getInstance();
         ArrayList<ArrayList<Acquaintances>> a = mui.getA();
@@ -76,7 +85,7 @@ public class addContactCommand implements Command {
                 PersonalFriends perF;
                 System.out.println(flag);
                 if (flag)
-                    perF = new PersonalFriends();
+                    perF = new PersonalFriends(new PersonalFriendsDescriptionBehaviour());
                 else
                     perF = (PersonalFriends) a.get(x).get(num);
                 perF.setName(Name);
@@ -112,7 +121,7 @@ public class addContactCommand implements Command {
                 Relatives rel;
                 System.out.println(flag);
                 if (flag)
-                    rel = new Relatives();
+                    rel = new Relatives(new RelativesDescriptionBehaviour());
                 else
                     rel = (Relatives) a.get(x).get(num);
                 rel.setName(Name);
@@ -135,7 +144,7 @@ public class addContactCommand implements Command {
                 ProfessionalFriends proF;
                 System.out.println(flag);
                 if (flag)
-                    proF = new ProfessionalFriends();
+                    proF = new ProfessionalFriends(new ProfessionalFriendsDescriptionBehaviour());
                 else
                     proF = (ProfessionalFriends) a.get(x).get(num);
                 proF.setName(Name);
@@ -166,7 +175,7 @@ public class addContactCommand implements Command {
                 CasualAcquaintances ca;
                 System.out.println(flag);
                 if (flag)
-                    ca = new CasualAcquaintances();
+                    ca = new CasualAcquaintances(new CasualAcquaintancesDescriptionBehaviour());
                 else
                     ca = (CasualAcquaintances) a.get(x).get(num);
                 ca.setName(Name);

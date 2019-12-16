@@ -1,15 +1,18 @@
 package contactmanagementsoftware.acquaintances;
 
+import contactmanagementsoftware.strategies.descriptrion_stratigies.CasualAcquaintancesDescriptionBehaviour;
+
 import java.io.Serializable;
 import java.util.Scanner;
 
 public class CasualAcquaintances extends Acquaintances implements Serializable {
+    public static int numberCA = 0;
     private String WhenWhere;
     private String Circumstances;
     private String OtherInfo;
-    public static int numberCA = 0;
 
-    public CasualAcquaintances() {
+    public CasualAcquaintances(CasualAcquaintancesDescriptionBehaviour descriptionBehaviour) {
+        super(descriptionBehaviour);
         numberCA++;
     }
 

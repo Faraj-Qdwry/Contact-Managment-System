@@ -1,16 +1,19 @@
 package contactmanagementsoftware.acquaintances;
 
+import contactmanagementsoftware.strategies.descriptrion_stratigies.PersonalFriendsDescriptionBehaviour;
+
 import java.io.Serializable;
 import java.util.Scanner;
 
 public class PersonalFriends extends Acquaintances implements Serializable {
+    public static int numberPerF = 0;
+    private static Scanner reader = new Scanner(System.in);
     private String AContext;
     private String ADate;
     private String Events;
-    private static Scanner reader = new Scanner(System.in);
-    public static int numberPerF = 0;
 
-    public PersonalFriends() {
+    public PersonalFriends(PersonalFriendsDescriptionBehaviour descriptionBehaviour) {
+        super(descriptionBehaviour);
         numberPerF++;
     }
 

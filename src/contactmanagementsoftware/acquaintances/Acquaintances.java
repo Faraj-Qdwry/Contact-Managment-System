@@ -1,16 +1,24 @@
 package contactmanagementsoftware.acquaintances;
 
+import contactmanagementsoftware.strategies.descriptrion_stratigies.AcquaintancesDescriptionBehaviour;
+
 import java.io.Serializable;
 import java.util.Scanner;
 
 public class Acquaintances implements Serializable {
+    public static int number = 0;
     private String Name;
     private String MobileNo;
     private String Email;
-    public static int number = 0;
+    private AcquaintancesDescriptionBehaviour descriptionBehaviour;
 
-    Acquaintances() {
+    Acquaintances(AcquaintancesDescriptionBehaviour descriptionBehaviour) {
+        this.descriptionBehaviour = descriptionBehaviour;
         number++;
+    }
+
+    public AcquaintancesDescriptionBehaviour getDescriptionBehaviour() {
+        return descriptionBehaviour;
     }
 
     public boolean MobileNoChecker(String str) {

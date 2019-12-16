@@ -7,6 +7,11 @@ package contactmanagementsoftware;
 
 import contactmanagementsoftware.acquaintances.*;
 import contactmanagementsoftware.commands.*;
+import contactmanagementsoftware.strategies.descriptrion_stratigies.CasualAcquaintancesDescriptionBehaviour;
+import contactmanagementsoftware.strategies.descriptrion_stratigies.PersonalFriendsDescriptionBehaviour;
+import contactmanagementsoftware.strategies.descriptrion_stratigies.ProfessionalFriendsDescriptionBehaviour;
+import contactmanagementsoftware.strategies.descriptrion_stratigies.RelativesDescriptionBehaviour;
+import contactmanagementsoftware.strategies.visibility_stratigies.*;
 import org.jdesktop.swingx.JXTable;
 
 import javax.swing.*;
@@ -25,15 +30,63 @@ public class MUI extends javax.swing.JFrame {
      * Creates new form MUI
      */
     static MUI mg;
+    public String op;
+    public javax.swing.JLabel jLabel3;
+    public javax.swing.JLabel jLabel7;
+    public javax.swing.JLabel jLabel8;
+    public javax.swing.JLabel jLabel9;
+    public javax.swing.JPanel jPanel3;
+    public javax.swing.JScrollPane jScrollPane4;
+    public javax.swing.JScrollPane jScrollPane5;
     private ArrayList<ArrayList<Acquaintances>> a;
     private ArrayList<ArrayList<Acquaintances>> temp;
+    private AcquaintancesVisibilityBehaviour visibilityBehaviour;
     private int x;
     private int num;
     private boolean dflag;
     private boolean flag;
-
-    private String op;
     private String str;
+    // Variables declaration - do not modify//GEN-BEGIN:variables
+    private javax.swing.JTextPane details;
+    private javax.swing.JTextField email;
+    private javax.swing.JButton jButton1;
+    private javax.swing.JButton jButton10;
+    private javax.swing.JButton jButton11;
+    private javax.swing.JButton jButton2;
+    private javax.swing.JButton jButton3;
+    private javax.swing.JButton jButton4;
+    private javax.swing.JButton jButton5;
+    private javax.swing.JButton jButton6;
+    private javax.swing.JButton jButton7;
+    private javax.swing.JButton jButton8;
+    private javax.swing.JButton jButton9;
+    private javax.swing.JLabel jLabel1;
+    private javax.swing.JLabel jLabel2;
+    private javax.swing.JLabel jLabel4;
+    private javax.swing.JLabel jLabel5;
+    private javax.swing.JLabel jLabel6;
+    private javax.swing.JList jList1;
+    private javax.swing.JPanel jPanel1;
+    private javax.swing.JPanel jPanel2;
+    private javax.swing.JScrollPane jScrollPane1;
+
+    //todo command pattern for all actions here ==> done
+    private javax.swing.JScrollPane jScrollPane2;
+    private javax.swing.JScrollPane jScrollPane3;
+    private javax.swing.JScrollPane jScrollPane6;
+    private org.jdesktop.swingx.JXTable jXTable1;
+    private javax.swing.JTextField mobile;
+    private javax.swing.JTextField name;
+    private javax.swing.JTextArea one;
+    private javax.swing.JTextArea two;
+    private javax.swing.JTextArea three;
+    private MUI() {
+        initComponents();
+        String[] columnNames = {"S.No", "Name", "Mobile", " Email"};
+        DefaultTableModel model = new DefaultTableModel(null, columnNames);
+        jXTable1.setModel(model);
+        setUpTableData();
+    }
 
     //todo ===> done singleton
     public static synchronized MUI getInstance() {
@@ -43,13 +96,12 @@ public class MUI extends javax.swing.JFrame {
         return mg;
     }
 
-    //Getters and setters
-    void setA(ArrayList<ArrayList<Acquaintances>> a) {
-        this.a = a;
-    }
-
     public boolean getFlag() {
         return flag;
+    }
+
+    public void setFlag(boolean b) {
+        this.flag = b;
     }
 
     public boolean getdFlag() {
@@ -59,8 +111,17 @@ public class MUI extends javax.swing.JFrame {
     public int getNum() {
         return num;
     }
+
+    public void setNum(int tindex) {
+        this.num = tindex;
+    }
+
     public String getStr() {
         return str;
+    }
+
+    public void setStr(String s) {
+        this.str = s;
     }
 
     public JTextPane getDetails() {
@@ -109,10 +170,20 @@ public class MUI extends javax.swing.JFrame {
 
     public void setX(int index) {
         this.x = index;
-    }
-
-    public void setFlag(boolean b) {
-        this.flag = b;
+        switch (x) {
+            case 0:
+                visibilityBehaviour = new PersonalFriendsVisibilityBehaviour();
+                break;
+            case 1:
+                visibilityBehaviour = new RelativesVisibilityBehaviour();
+                break;
+            case 2:
+                visibilityBehaviour = new ProfessionalFriendsVisibilityBehaviour();
+                break;
+            case 3:
+                visibilityBehaviour = new CasualAcquaintancesVisibilityBehaviour();
+                break;
+        }
     }
 
     public void setDflag(boolean b) {
@@ -122,23 +193,21 @@ public class MUI extends javax.swing.JFrame {
     public ArrayList<ArrayList<Acquaintances>> getA() {
         return a;
     }
+
+    //Getters and setters
+    void setA(ArrayList<ArrayList<Acquaintances>> a) {
+        this.a = a;
+    }
+
     public JTextField getname() {
         return name;
-    }
-
-    public void setNum(int tindex) {
-        this.num = tindex;
-    }
-
-    public void setStr(String s) {
-        this.str = s;
     }
 
     public ArrayList<ArrayList<Acquaintances>> getTemp() {
         return this.temp;
     }
 
-    // todo observable pattern
+    // todo strategy pattern here ===> done
     public void setDescription() {
         name.setText("");
         mobile.setText("");
@@ -159,40 +228,17 @@ public class MUI extends javax.swing.JFrame {
         else
             op = "Edit";
 
+
         if (!flag) {
             jButton10.setText("Save");
+
             Acquaintances e = a.get(x).get(num);
+
             name.setText(e.getName());
             mobile.setText(e.getMobileNo());
             email.setText(e.getEmail());
 
-            switch (x) {
-                case 0:
-                    PersonalFriends perF = (PersonalFriends) e;
-                    one.setText(perF.getEvents());
-                    two.setText(perF.getAContext());
-                    three.setText(perF.getADate());
-                    break;
-                case 1:
-                    Relatives rel = (Relatives) e;
-                    one.setText(rel.getBDate());
-                    two.setText(rel.getLDate());
-                    break;
-                case 2:
-                    ProfessionalFriends proF = (ProfessionalFriends) e;
-                    one.setText(proF.getCommonInterests());
-                    break;
-                case 3:
-                    CasualAcquaintances ca = (CasualAcquaintances) e;
-                    one.setText(ca.getWhenWhere());
-                    two.setVisible(true);
-                    three.setVisible(true);
-                    two.setText(ca.getCircumstances());
-                    three.setText(ca.getOtherInfo());
-                    break;
-                default:
-                    break;
-            }
+            e.getDescriptionBehaviour().setDescription(e);
         }
 
         jButton10.setVisible(true);
@@ -201,59 +247,7 @@ public class MUI extends javax.swing.JFrame {
         if (flag)
             jButton10.setText("Add");
 
-        switch (x) {
-            case 0:
-                two.setVisible(true);
-                three.setVisible(true);
-                jPanel3.setBorder(javax.swing.BorderFactory.createTitledBorder(null, op + " Personal Friends Details", javax.swing.border.TitledBorder.DEFAULT_JUSTIFICATION, javax.swing.border.TitledBorder.DEFAULT_POSITION, new java.awt.Font("DialogInput", 1, 16)));
-                jLabel7.setText("Specific Events:");
-                jLabel8.setText("First Acquaintance Context:");
-                jLabel9.setVisible(true);
-                jLabel3.setVisible(true);
-                jLabel8.setVisible(true);
-                jLabel7.setVisible(true);
-                jScrollPane5.setVisible(true);
-                jScrollPane4.setVisible(true);
-                jLabel9.setText("<html>First Acquaintance Date:<br>(dd/mm/yyyy)</html>");
-                break;
-            case 1:
-                jPanel3.setBorder(javax.swing.BorderFactory.createTitledBorder(null, op + " Relatives Details", javax.swing.border.TitledBorder.DEFAULT_JUSTIFICATION, javax.swing.border.TitledBorder.DEFAULT_POSITION, new java.awt.Font("DialogInput", 1, 16)));
-                jLabel7.setText("<html>Relatives Birthday:<br> (dd/mm/yyyy)</html>");
-                jLabel8.setVisible(true);
-                jLabel7.setVisible(true);
-                two.setVisible(true);
-                jLabel8.setText("<html>Last Date met:<br> (dd/mm/yyyy)</html>");
-                jLabel9.setVisible(false);
-                three.setVisible(false);
-                jScrollPane4.setVisible(true);
-                jScrollPane5.setVisible(false);
-                break;
-            case 2:
-                jPanel3.setBorder(javax.swing.BorderFactory.createTitledBorder(null, op + " Professional Friends Details", javax.swing.border.TitledBorder.DEFAULT_JUSTIFICATION, javax.swing.border.TitledBorder.DEFAULT_POSITION, new java.awt.Font("DialogInput", 1, 16)));
-                jLabel7.setText("Common Interests: ");
-                jLabel7.setVisible(true);
-                jLabel8.setVisible(false);
-                two.setVisible(false);
-                jScrollPane4.setVisible(false);
-                jLabel9.setVisible(false);
-                three.setVisible(false);
-                jScrollPane5.setVisible(false);
-                break;
-            case 3:
-                jScrollPane5.setVisible(true);
-                jScrollPane4.setVisible(true);
-                two.setVisible(true);
-                three.setVisible(true);
-                jLabel7.setVisible(true);
-                jLabel8.setVisible(true);
-                jLabel9.setVisible(true);
-                jLabel7.setText("First meeting time & location:");
-                jLabel8.setText("First meeting Circumstances:");
-                jLabel9.setText("Other useful information:");
-                break;
-            default:
-                break;
-        }
+        visibilityBehaviour.setVisibility();
 
         if (dflag) {
             name.setEditable(false);
@@ -267,14 +261,6 @@ public class MUI extends javax.swing.JFrame {
             jPanel3.setBorder(javax.swing.BorderFactory.createTitledBorder(null, "Display Details", javax.swing.border.TitledBorder.DEFAULT_JUSTIFICATION, javax.swing.border.TitledBorder.DEFAULT_POSITION, new java.awt.Font("DialogInput", 1, 16)));
         }
 
-    }
-
-    private MUI() {
-        initComponents();
-        String[] columnNames = {"S.No", "Name", "Mobile", " Email"};
-        DefaultTableModel model = new DefaultTableModel(null, columnNames);
-        jXTable1.setModel(model);
-        setUpTableData();
     }
 
     public final void setUpTableData() {
@@ -505,7 +491,7 @@ public class MUI extends javax.swing.JFrame {
                                 .addContainerGap())
         );
 
-        jPanel1Layout.linkSize(javax.swing.SwingConstants.HORIZONTAL, new java.awt.Component[]{jButton1, jButton2, jButton3, jButton4, jButton5, jButton6, jButton7, jButton8});
+        jPanel1Layout.linkSize(javax.swing.SwingConstants.HORIZONTAL, jButton1, jButton2, jButton3, jButton4, jButton5, jButton6, jButton7, jButton8);
 
         jPanel1Layout.setVerticalGroup(
                 jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -680,8 +666,6 @@ public class MUI extends javax.swing.JFrame {
         pack();
     }// </editor-fold>//GEN-END:initComponents
 
-    //todo command pattern for all actions here ==> done
-
     private void jList1ValueChanged(javax.swing.event.ListSelectionEvent evt) {//GEN-FIRST:event_jList1ValueChanged
         setUpTableData();
     }//GEN-LAST:event_jList1ValueChanged
@@ -758,7 +742,6 @@ public class MUI extends javax.swing.JFrame {
         details.setText(s);
     }
 
-
     private void nameActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_nameActionPerformed
     }//GEN-LAST:event_nameActionPerformed
 
@@ -828,7 +811,7 @@ public class MUI extends javax.swing.JFrame {
                 }
                 PersonalFriends perF;
                 if (flag)
-                    perF = new PersonalFriends();
+                    perF = new PersonalFriends(new PersonalFriendsDescriptionBehaviour());
                 else
                     perF = (PersonalFriends) a.get(x).get(num);
                 perF.setName(Name);
@@ -860,7 +843,7 @@ public class MUI extends javax.swing.JFrame {
                 }
                 Relatives rel;
                 if (flag)
-                    rel = new Relatives();
+                    rel = new Relatives(new RelativesDescriptionBehaviour());
                 else
                     rel = (Relatives) a.get(x).get(num);
                 rel.setName(Name);
@@ -880,7 +863,7 @@ public class MUI extends javax.swing.JFrame {
                 }
                 ProfessionalFriends proF;
                 if (flag)
-                    proF = new ProfessionalFriends();
+                    proF = new ProfessionalFriends(new ProfessionalFriendsDescriptionBehaviour());
                 else
                     proF = (ProfessionalFriends) a.get(x).get(num);
                 proF.setName(Name);
@@ -908,7 +891,7 @@ public class MUI extends javax.swing.JFrame {
                 }
                 CasualAcquaintances ca;
                 if (flag)
-                    ca = new CasualAcquaintances();
+                    ca = new CasualAcquaintances(new CasualAcquaintancesDescriptionBehaviour());
                 else
                     ca = (CasualAcquaintances) a.get(x).get(num);
                 ca.setName(Name);
@@ -927,46 +910,6 @@ public class MUI extends javax.swing.JFrame {
         jPanel3.setVisible(false);
         mg.setUpTableData();
     }//GEN-LAST:event_jButton10ActionPerformed
-
-    // Variables declaration - do not modify//GEN-BEGIN:variables
-    private javax.swing.JTextPane details;
-    private javax.swing.JTextField email;
-    private javax.swing.JButton jButton1;
-    private javax.swing.JButton jButton10;
-    private javax.swing.JButton jButton11;
-    private javax.swing.JButton jButton2;
-    private javax.swing.JButton jButton3;
-    private javax.swing.JButton jButton4;
-    private javax.swing.JButton jButton5;
-    private javax.swing.JButton jButton6;
-    private javax.swing.JButton jButton7;
-    private javax.swing.JButton jButton8;
-    private javax.swing.JButton jButton9;
-    private javax.swing.JLabel jLabel1;
-    private javax.swing.JLabel jLabel2;
-    private javax.swing.JLabel jLabel3;
-    private javax.swing.JLabel jLabel4;
-    private javax.swing.JLabel jLabel5;
-    private javax.swing.JLabel jLabel6;
-    private javax.swing.JLabel jLabel7;
-    private javax.swing.JLabel jLabel8;
-    private javax.swing.JLabel jLabel9;
-    private javax.swing.JList jList1;
-    private javax.swing.JPanel jPanel1;
-    private javax.swing.JPanel jPanel2;
-    private javax.swing.JPanel jPanel3;
-    private javax.swing.JScrollPane jScrollPane1;
-    private javax.swing.JScrollPane jScrollPane2;
-    private javax.swing.JScrollPane jScrollPane3;
-    private javax.swing.JScrollPane jScrollPane4;
-    private javax.swing.JScrollPane jScrollPane5;
-    private javax.swing.JScrollPane jScrollPane6;
-    private org.jdesktop.swingx.JXTable jXTable1;
-    private javax.swing.JTextField mobile;
-    private javax.swing.JTextField name;
-    private javax.swing.JTextArea one;
-    private javax.swing.JTextArea two;
-    private javax.swing.JTextArea three;
 
     // End of variables declaration//GEN-END:variables
 }

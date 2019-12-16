@@ -1,14 +1,17 @@
 package contactmanagementsoftware.acquaintances;
 
+import contactmanagementsoftware.strategies.descriptrion_stratigies.ProfessionalFriendsDescriptionBehaviour;
+
 import java.io.Serializable;
 import java.util.Scanner;
 
 public class ProfessionalFriends extends Acquaintances implements Serializable {
 
-    private String CommonInterests;
     public static int numberProF = 0;
+    private String CommonInterests;
 
-    public ProfessionalFriends() {
+    public ProfessionalFriends(ProfessionalFriendsDescriptionBehaviour descriptionBehaviour) {
+        super(descriptionBehaviour);
         numberProF++;
     }
 

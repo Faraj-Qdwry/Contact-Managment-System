@@ -1,15 +1,18 @@
 package contactmanagementsoftware.acquaintances;
 
+import contactmanagementsoftware.strategies.descriptrion_stratigies.RelativesDescriptionBehaviour;
+
 import java.io.Serializable;
 import java.util.Scanner;
 
 public class Relatives extends Acquaintances implements Serializable {
-    private String BDate;
-    private String LDate;
     public static int numberRel = 0;
     private static Scanner reader = new Scanner(System.in);
+    private String BDate;
+    private String LDate;
 
-    public Relatives() {
+    public Relatives(RelativesDescriptionBehaviour descriptionBehaviour) {
+        super(descriptionBehaviour);
         numberRel++;
     }
 
