@@ -2,7 +2,8 @@ package contactmanagementsoftware.commands;
 
 import contactmanagementsoftware.MUI;
 import contactmanagementsoftware.SerializationUtil;
-import contactmanagementsoftware.acquaintances.Acquaintances;
+import contactmanagementsoftware.composit.ContactManagementComponent;
+import contactmanagementsoftware.contacts.Contact;
 
 import javax.swing.*;
 import java.awt.event.ActionEvent;
@@ -17,9 +18,9 @@ public class SaveCommand implements Command {
     public void execute(ActionEvent evt) {//GEN-FIRST:event_jButton8ActionPerformed
         mui = MUI.getInstance();
 
-        ArrayList<ArrayList<Acquaintances>> temp = mui.getTemp();
+        ContactManagementComponent temp = mui.getTempDirectory();
 
-        ArrayList<ArrayList<Acquaintances>> a = mui.getA();
+        ContactManagementComponent mainDirectory = mui.getMainDirectory();
 
         String s = (String) JOptionPane.showInputDialog(
                 mui,
@@ -48,7 +49,7 @@ public class SaveCommand implements Command {
                 return;
         }
         try {
-            SerializationUtil.serialize(a, s);
+            SerializationUtil.serialize(mainDirectory, s);
         } catch (IOException e) {
             return;
         }

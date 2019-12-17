@@ -17,7 +17,7 @@ public class VFDCommand implements Command {
         JPanel jPanel1 = mui.getjPanel1();
         JPanel jPanel3 = mui.getjPanel3();
         int x = mui.getX();
-        boolean flag = mui.getFlag();
+        boolean flag = mui.getNewContact();
         boolean dflag = mui.getdFlag();
         JXTable jXTable1 = mui.getjXTable1();
         
@@ -32,11 +32,11 @@ public class VFDCommand implements Command {
             return;
         }
         mui.setNum(tindex);
-        mui.setFlag(false);
-        mui.setX(index);
+        mui.setNewContact(false);
+        mui.setChosenCategory(index);
         jPanel1.setVisible(false);
         jPanel3.setVisible(true);
-        mui.setDflag(true);
+        mui.setDescriptionSet(true);
         mui.setDescription();
     }//GEN-LAST:event_jButton6ActionPerformed
 }

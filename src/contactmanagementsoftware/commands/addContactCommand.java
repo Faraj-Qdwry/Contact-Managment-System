@@ -1,18 +1,14 @@
 package contactmanagementsoftware.commands;
 
 import contactmanagementsoftware.MUI;
-import contactmanagementsoftware.acquaintances.*;
-import contactmanagementsoftware.strategies.descriptrion_stratigies.CasualAcquaintancesDescriptionBehaviour;
+import contactmanagementsoftware.composit.ContactManagementComponent;
+import contactmanagementsoftware.contacts.*;
+import contactmanagementsoftware.strategies.descriptrion_stratigies.CasualContactDescriptionBehaviour;
 import contactmanagementsoftware.strategies.descriptrion_stratigies.PersonalFriendsDescriptionBehaviour;
 import contactmanagementsoftware.strategies.descriptrion_stratigies.ProfessionalFriendsDescriptionBehaviour;
 import contactmanagementsoftware.strategies.descriptrion_stratigies.RelativesDescriptionBehaviour;
-import contactmanagementsoftware.strategies.visibility_stratigies.CasualAcquaintancesVisibilityBehaviour;
-import contactmanagementsoftware.strategies.visibility_stratigies.PersonalFriendsVisibilityBehaviour;
-import contactmanagementsoftware.strategies.visibility_stratigies.ProfessionalFriendsVisibilityBehaviour;
-import contactmanagementsoftware.strategies.visibility_stratigies.RelativesVisibilityBehaviour;
 
 import javax.swing.*;
-import java.util.ArrayList;
 
 public class addContactCommand implements Command {
 
@@ -22,11 +18,11 @@ public class addContactCommand implements Command {
     public void execute(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton10ActionPerformed
 
         mui = MUI.getInstance();
-        ArrayList<ArrayList<Acquaintances>> a = mui.getA();
+        ContactManagementComponent mainDirectory = mui.getMainDirectory();
 
         JPanel jPanel1 = mui.getjPanel1();
         JPanel jPanel3 = mui.getjPanel3();
-        boolean flag = mui.getFlag();
+        boolean flag = mui.getNewContact();
 
         int num = mui.getNum();
         int x = mui.getX();
@@ -43,17 +39,17 @@ public class addContactCommand implements Command {
 
         String Name = name.getText();
         if (Name.isEmpty()) {
-            JOptionPane.showMessageDialog(mui, "Enter a name");
+            JOptionPane.showMessageDialog(mui, "Enter mainDirectory name");
             return;
         }
         String Mobile = mobile.getText();
         if (!mui.MobileNoChecker(Mobile)) {
-            JOptionPane.showMessageDialog(mui, "Enter a valid mobile number (6-15 digits)");
+            JOptionPane.showMessageDialog(mui, "Enter mainDirectory valid mobile number (6-15 digits)");
             return;
         }
         String Email = email.getText();
         if (!Email.contains("@")) {
-            JOptionPane.showMessageDialog(mui, "Enter a valid email");
+            JOptionPane.showMessageDialog(mui, "Enter mainDirectory valid email");
             return;
         }
 
@@ -63,14 +59,14 @@ public class addContactCommand implements Command {
                 One = one.getText();
                 System.out.println(One);
                 if (One.isEmpty() || One.length() > 300) {
-                    JOptionPane.showMessageDialog(mui, "Enter a valid value ( 1 to 300 chars)");
+                    JOptionPane.showMessageDialog(mui, "Enter mainDirectory valid value ( 1 to 300 chars)");
                     return;
                 }
 
                 Two = two.getText();
                 System.out.println(Two);
                 if (Two.isEmpty() || Two.length() > 300) {
-                    JOptionPane.showMessageDialog(mui, "Enter a valid value ( 1 to 300 chars)");
+                    JOptionPane.showMessageDialog(mui, "Enter mainDirectory valid value ( 1 to 300 chars)");
                     return;
                 }
                 Three = three.getText();
@@ -79,7 +75,7 @@ public class addContactCommand implements Command {
                     return;
                 }
                 if (Three.isEmpty() || Three.length() > 300) {
-                    JOptionPane.showMessageDialog(mui, "Enter a valid value ( 1 to 300 chars)");
+                    JOptionPane.showMessageDialog(mui, "Enter mainDirectory valid value ( 1 to 300 chars)");
                     return;
                 }
                 PersonalFriends perF;
@@ -87,7 +83,7 @@ public class addContactCommand implements Command {
                 if (flag)
                     perF = new PersonalFriends(new PersonalFriendsDescriptionBehaviour());
                 else
-                    perF = (PersonalFriends) a.get(x).get(num);
+                    perF = (PersonalFriends) mainDirectory.get(x).get(num);
                 perF.setName(Name);
                 perF.setMobileNo(Mobile);
                 perF.setEmail(Email);
@@ -96,14 +92,14 @@ public class addContactCommand implements Command {
                 perF.setADate(Three);
                 System.out.println(flag);
                 if (flag)
-                    a.get(x).add(perF);
-                //this.a.get(x).add(perF);
+                    mainDirectory.get(x).add(perF);
+                //this.mainDirectory.get(x).add(perF);
                 break;
             case 1: //rel
                 One = one.getText();
                 System.out.println(One);
                 if (One.isEmpty() || One.length() > 300) {
-                    JOptionPane.showMessageDialog(mui, "Enter a valid value ( 1 to 300 chars)");
+                    JOptionPane.showMessageDialog(mui, "Enter mainDirectory valid value ( 1 to 300 chars)");
                     return;
                 }
                 if (!mui.validDate(One)) {
@@ -112,7 +108,7 @@ public class addContactCommand implements Command {
                 Two = two.getText();
                 System.out.println(Two);
                 if (Two.isEmpty() || Two.length() > 300) {
-                    JOptionPane.showMessageDialog(mui, "Enter a valid value ( 1 to 300 chars)");
+                    JOptionPane.showMessageDialog(mui, "Enter mainDirectory valid value ( 1 to 300 chars)");
                     return;
                 }
                 if (!mui.validDate(Two)) {
@@ -123,7 +119,7 @@ public class addContactCommand implements Command {
                 if (flag)
                     rel = new Relatives(new RelativesDescriptionBehaviour());
                 else
-                    rel = (Relatives) a.get(x).get(num);
+                    rel = (Relatives) mainDirectory.get(x).get(num);
                 rel.setName(Name);
                 rel.setMobileNo(Mobile);
                 rel.setEmail(Email);
@@ -131,14 +127,14 @@ public class addContactCommand implements Command {
                 rel.setLDate(Two);
                 System.out.println(flag);
                 if (flag)
-                    a.get(x).add(rel);
+                    mainDirectory.get(x).add(rel);
                 break;
 
             case 2: //proF
                 One = one.getText();
                 System.out.println(One);
                 if (One.isEmpty() || One.length() > 300) {
-                    JOptionPane.showMessageDialog(mui, "Enter a valid value ( 1 to 300 chars)");
+                    JOptionPane.showMessageDialog(mui, "Enter mainDirectory valid value ( 1 to 300 chars)");
                     return;
                 }
                 ProfessionalFriends proF;
@@ -146,38 +142,38 @@ public class addContactCommand implements Command {
                 if (flag)
                     proF = new ProfessionalFriends(new ProfessionalFriendsDescriptionBehaviour());
                 else
-                    proF = (ProfessionalFriends) a.get(x).get(num);
+                    proF = (ProfessionalFriends) mainDirectory.get(x).get(num);
                 proF.setName(Name);
                 proF.setMobileNo(Mobile);
                 proF.setEmail(Email);
                 proF.setCommonInterests(One);
                 System.out.println(flag);
                 if (flag)
-                    a.get(x).add(proF);
+                    mainDirectory.get(x).add(proF);
                 break;
             case 3: //ca
                 One = one.getText();
                 System.out.println(One);
                 if (One.isEmpty() || One.length() > 300) {
-                    JOptionPane.showMessageDialog(mui, "Enter a valid value ( 1 to 300 chars)");
+                    JOptionPane.showMessageDialog(mui, "Enter mainDirectory valid value ( 1 to 300 chars)");
                     return;
                 }
                 Two = two.getText();
                 if (Two.isEmpty() || Two.length() > 300) {
-                    JOptionPane.showMessageDialog(mui, "Enter a valid value ( 1 to 300 chars)");
+                    JOptionPane.showMessageDialog(mui, "Enter mainDirectory valid value ( 1 to 300 chars)");
                     return;
                 }
                 Three = three.getText();
                 if (Three.isEmpty() || Three.length() > 300) {
-                    JOptionPane.showMessageDialog(mui, "Enter a valid value ( 1 to 300 chars)");
+                    JOptionPane.showMessageDialog(mui, "Enter mainDirectory valid value ( 1 to 300 chars)");
                     return;
                 }
-                CasualAcquaintances ca;
+                CasualContact ca;
                 System.out.println(flag);
                 if (flag)
-                    ca = new CasualAcquaintances(new CasualAcquaintancesDescriptionBehaviour());
+                    ca = new CasualContact(new CasualContactDescriptionBehaviour());
                 else
-                    ca = (CasualAcquaintances) a.get(x).get(num);
+                    ca = (CasualContact) mainDirectory.get(x).get(num);
                 ca.setName(Name);
                 ca.setMobileNo(Mobile);
                 ca.setEmail(Email);
@@ -186,7 +182,7 @@ public class addContactCommand implements Command {
                 ca.setOtherInfo(Three);
                 System.out.println(flag);
                 if (flag)
-                    a.get(x).add(ca);
+                    mainDirectory.get(x).add(ca);
                 break;
             default:
                 break;

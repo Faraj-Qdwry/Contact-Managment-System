@@ -15,7 +15,7 @@ public class DeleteCommand implements Command {
         JPanel jPanel1 = mui.getjPanel1();
         JPanel jPanel3 = mui.getjPanel3();
         int x = mui.getX();
-        boolean flag = mui.getFlag();
+        boolean flag = mui.getNewContact();
         JXTable jXTable1 = mui.getjXTable1();
 
 
@@ -36,7 +36,7 @@ public class DeleteCommand implements Command {
                 "Confirm",
                 JOptionPane.YES_NO_OPTION);
         if (n == 0) {
-            mui.getA().get(index).remove(tindex);
+            mui.getMainDirectory().get(index).remove(tindex);
             JOptionPane.showMessageDialog(mui, "Successfully Deleted");
             mui.setUpTableData();
         }

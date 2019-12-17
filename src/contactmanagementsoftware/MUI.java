@@ -5,9 +5,11 @@
  */
 package contactmanagementsoftware;
 
-import contactmanagementsoftware.acquaintances.*;
+import contactmanagementsoftware.composit.ContactManagementComponent;
+import contactmanagementsoftware.composit.DirectoryComponent;
+import contactmanagementsoftware.contacts.*;
 import contactmanagementsoftware.commands.*;
-import contactmanagementsoftware.strategies.descriptrion_stratigies.CasualAcquaintancesDescriptionBehaviour;
+import contactmanagementsoftware.strategies.descriptrion_stratigies.CasualContactDescriptionBehaviour;
 import contactmanagementsoftware.strategies.descriptrion_stratigies.PersonalFriendsDescriptionBehaviour;
 import contactmanagementsoftware.strategies.descriptrion_stratigies.ProfessionalFriendsDescriptionBehaviour;
 import contactmanagementsoftware.strategies.descriptrion_stratigies.RelativesDescriptionBehaviour;
@@ -17,7 +19,6 @@ import org.jdesktop.swingx.JXTable;
 import javax.swing.*;
 import javax.swing.table.DefaultTableModel;
 import java.text.SimpleDateFormat;
-import java.util.ArrayList;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
@@ -30,7 +31,18 @@ public class MUI extends javax.swing.JFrame {
      * Creates new form MUI
      */
     static MUI mg;
-    public String op;
+    private DirectoryComponent mainDirectory;
+    private DirectoryComponent tempDirectory;
+
+    public String operation;
+    private ContactsVisibilityBehaviour visibilityBehaviour;
+    private int chosenCategory;
+    private int num;
+    private boolean isDescriptionSet;
+    private boolean isNewContact;
+    private String searchString;
+
+    // Variables declaration - do not modify//GEN-BEGIN:variables
     public javax.swing.JLabel jLabel3;
     public javax.swing.JLabel jLabel7;
     public javax.swing.JLabel jLabel8;
@@ -38,15 +50,6 @@ public class MUI extends javax.swing.JFrame {
     public javax.swing.JPanel jPanel3;
     public javax.swing.JScrollPane jScrollPane4;
     public javax.swing.JScrollPane jScrollPane5;
-    private ArrayList<ArrayList<Acquaintances>> a;
-    private ArrayList<ArrayList<Acquaintances>> temp;
-    private AcquaintancesVisibilityBehaviour visibilityBehaviour;
-    private int x;
-    private int num;
-    private boolean dflag;
-    private boolean flag;
-    private String str;
-    // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JTextPane details;
     private javax.swing.JTextField email;
     private javax.swing.JButton jButton1;
@@ -80,6 +83,7 @@ public class MUI extends javax.swing.JFrame {
     private javax.swing.JTextArea one;
     private javax.swing.JTextArea two;
     private javax.swing.JTextArea three;
+
     private MUI() {
         initComponents();
         String[] columnNames = {"S.No", "Name", "Mobile", " Email"};
@@ -96,16 +100,16 @@ public class MUI extends javax.swing.JFrame {
         return mg;
     }
 
-    public boolean getFlag() {
-        return flag;
+    public boolean getNewContact() {
+        return isNewContact;
     }
 
-    public void setFlag(boolean b) {
-        this.flag = b;
+    public void setNewContact(boolean b) {
+        this.isNewContact = b;
     }
 
     public boolean getdFlag() {
-        return dflag;
+        return isDescriptionSet;
     }
 
     public int getNum() {
@@ -116,12 +120,12 @@ public class MUI extends javax.swing.JFrame {
         this.num = tindex;
     }
 
-    public String getStr() {
-        return str;
+    public String getSearchString() {
+        return searchString;
     }
 
-    public void setStr(String s) {
-        this.str = s;
+    public void setSearchString(String s) {
+        this.searchString = s;
     }
 
     public JTextPane getDetails() {
@@ -168,9 +172,9 @@ public class MUI extends javax.swing.JFrame {
         return three;
     }
 
-    public void setX(int index) {
-        this.x = index;
-        switch (x) {
+    public void setChosenCategory(int index) {
+        this.chosenCategory = index;
+        switch (chosenCategory) {
             case 0:
                 visibilityBehaviour = new PersonalFriendsVisibilityBehaviour();
                 break;
@@ -181,30 +185,30 @@ public class MUI extends javax.swing.JFrame {
                 visibilityBehaviour = new ProfessionalFriendsVisibilityBehaviour();
                 break;
             case 3:
-                visibilityBehaviour = new CasualAcquaintancesVisibilityBehaviour();
+                visibilityBehaviour = new CasualContactsVisibilityBehaviour();
                 break;
         }
     }
 
-    public void setDflag(boolean b) {
-        this.dflag = b;
+    public void setDescriptionSet(boolean b) {
+        this.isDescriptionSet = b;
     }
 
-    public ArrayList<ArrayList<Acquaintances>> getA() {
-        return a;
+    public DirectoryComponent getMainDirectory() {
+        return mainDirectory;
     }
 
     //Getters and setters
-    void setA(ArrayList<ArrayList<Acquaintances>> a) {
-        this.a = a;
+    void setMainDirectory(DirectoryComponent mainDirectory) {
+        this.mainDirectory = mainDirectory;
     }
 
     public JTextField getname() {
         return name;
     }
 
-    public ArrayList<ArrayList<Acquaintances>> getTemp() {
-        return this.temp;
+    public DirectoryComponent getTempDirectory() {
+        return this.tempDirectory;
     }
 
     // todo strategy pattern here ===> done
@@ -215,7 +219,7 @@ public class MUI extends javax.swing.JFrame {
         one.setText("");
         two.setText("");
         three.setText("");
-        if (!dflag) {
+        if (!isDescriptionSet) {
             name.setEditable(true);
             mobile.setEditable(true);
             email.setEditable(true);
@@ -223,33 +227,33 @@ public class MUI extends javax.swing.JFrame {
             two.setEditable(true);
             three.setEditable(true);
         }
-        if (flag)
-            op = "Add";
+        if (isNewContact)
+            operation = "Add";
         else
-            op = "Edit";
+            operation = "Edit";
 
 
-        if (!flag) {
+        if (!isNewContact) {
             jButton10.setText("Save");
 
-            Acquaintances e = a.get(x).get(num);
+            ContactManagementComponent contact = mainDirectory.get(chosenCategory).get(num);
 
-            name.setText(e.getName());
-            mobile.setText(e.getMobileNo());
-            email.setText(e.getEmail());
+            name.setText(contact.getName());
+            mobile.setText(contact.getMobileNo());
+            email.setText(contact.getEmail());
 
-            e.getDescriptionBehaviour().setDescription(e);
+            contact.getDescriptionBehaviour().setDescription(contact);
         }
 
         jButton10.setVisible(true);
         jButton11.setVisible(true);
 
-        if (flag)
+        if (isNewContact)
             jButton10.setText("Add");
 
         visibilityBehaviour.setVisibility();
 
-        if (dflag) {
+        if (isDescriptionSet) {
             name.setEditable(false);
             mobile.setEditable(false);
             email.setEditable(false);
@@ -266,18 +270,18 @@ public class MUI extends javax.swing.JFrame {
     public final void setUpTableData() {
         DefaultTableModel tableModel = (DefaultTableModel) jXTable1.getModel();
         tableModel.setRowCount(0);
-        ArrayList<Acquaintances> list;
+        DirectoryComponent selectedDirectory;
         try {
-            list = a.get(jList1.getSelectedIndex());
+            selectedDirectory = (DirectoryComponent) mainDirectory.get(jList1.getSelectedIndex());
         } catch (Exception e) {
             return;
         }
-        for (int i = 0; i < list.size(); i++) {
+        for (int i = 0; i < selectedDirectory.size(); i++) {
             String[] data = new String[4];
             data[0] = Integer.toString(i + 1);
-            data[1] = list.get(i).getName();
-            data[2] = list.get(i).getMobileNo();
-            data[3] = list.get(i).getEmail();
+            data[1] = selectedDirectory.get(i).getName();
+            data[2] = selectedDirectory.get(i).getMobileNo();
+            data[3] = selectedDirectory.get(i).getEmail();
             tableModel.addRow(data);
         }
         jXTable1.setModel(tableModel);
@@ -670,14 +674,14 @@ public class MUI extends javax.swing.JFrame {
         setUpTableData();
     }//GEN-LAST:event_jList1ValueChanged
 
-    public void runn() {
+    public void searchContactRun() {
         String s = "<html> <b>Search results:</b><br>Found!<br><br>Acquaintance Details: <br>";
         int j = 0;
         //todo iterator pattern
-        for (int i = 0; i < a.get(0).size(); i++) {
-            if (a.get(0).get(i).getName().matches(str)) {
+        for (int i = 0; i < mainDirectory.get(0).size(); i++) {
+            if (mainDirectory.get(0).get(i).getName().matches(searchString)) {
                 j++;
-                PersonalFriends perF = (PersonalFriends) a.get(0).get(i);
+                PersonalFriends perF = (PersonalFriends) mainDirectory.get(0).get(i);
                 if (j == 1) {
                     s = s.concat("<br>I. Personal Friends<br>");
                 }
@@ -690,10 +694,10 @@ public class MUI extends javax.swing.JFrame {
             }
         }
         j = 0;
-        for (int i = 0; i < a.get(1).size(); i++) {
-            if (a.get(1).get(i).getName().matches(str)) {
+        for (int i = 0; i < mainDirectory.get(1).size(); i++) {
+            if (mainDirectory.get(1).get(i).getName().matches(searchString)) {
                 j++;
-                Relatives rel = (Relatives) a.get(1).get(i);
+                Relatives rel = (Relatives) mainDirectory.get(1).get(i);
                 if (j == 1) {
                     s = s.concat("<br>II. Relatives<br>");
                 }
@@ -705,10 +709,10 @@ public class MUI extends javax.swing.JFrame {
             }
         }
         j = 0;
-        for (int i = 0; i < a.get(2).size(); i++) {
-            if (a.get(2).get(i).getName().matches(str)) {
+        for (int i = 0; i < mainDirectory.get(2).size(); i++) {
+            if (mainDirectory.get(2).get(i).getName().matches(searchString)) {
                 j++;
-                ProfessionalFriends proF = (ProfessionalFriends) a.get(2).get(i);
+                ProfessionalFriends proF = (ProfessionalFriends) mainDirectory.get(2).get(i);
                 if (j == 1) {
                     s = s.concat("<br>III. Professional Friends<br>");
                 }
@@ -719,10 +723,10 @@ public class MUI extends javax.swing.JFrame {
             }
         }
         j = 0;
-        for (int i = 0; i < a.get(3).size(); i++) {
-            if (a.get(3).get(i).getName().matches(str)) {
+        for (int i = 0; i < mainDirectory.get(3).size(); i++) {
+            if (mainDirectory.get(3).get(i).getName().matches(searchString)) {
                 j++;
-                CasualAcquaintances ca = (CasualAcquaintances) a.get(3).get(i);
+                CasualContact ca = (CasualContact) mainDirectory.get(3).get(i);
                 if (j == 1) {
                     s = s.concat("<br>IV. Casual Acquaintances<br>");
                 }
@@ -770,7 +774,7 @@ public class MUI extends javax.swing.JFrame {
     }
 
     private void jButton10ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton10ActionPerformed
-        dflag = true;
+        isDescriptionSet = true;
         String Name = name.getText();
 
         if (Name.isEmpty()) {
@@ -789,7 +793,7 @@ public class MUI extends javax.swing.JFrame {
         }
 
         String One, Two, Three;
-        switch (x) {
+        switch (chosenCategory) {
             case 0: //perF
                 One = one.getText();
                 if (One.isEmpty() || One.length() > 300) {
@@ -810,18 +814,18 @@ public class MUI extends javax.swing.JFrame {
                     return;
                 }
                 PersonalFriends perF;
-                if (flag)
+                if (isNewContact)
                     perF = new PersonalFriends(new PersonalFriendsDescriptionBehaviour());
                 else
-                    perF = (PersonalFriends) a.get(x).get(num);
+                    perF = (PersonalFriends) mainDirectory.get(chosenCategory).get(num);
                 perF.setName(Name);
                 perF.setMobileNo(Mobile);
                 perF.setEmail(Email);
                 perF.setEvents(One);
                 perF.setAContext(Two);
                 perF.setADate(Three);
-                if (flag)
-                    a.get(x).add(perF);
+                if (isNewContact)
+                    mainDirectory.get(chosenCategory).add(perF);
                 //this.a.get(x).add(perF);
                 break;
             case 1: //rel
@@ -842,17 +846,17 @@ public class MUI extends javax.swing.JFrame {
                     return;
                 }
                 Relatives rel;
-                if (flag)
+                if (isNewContact)
                     rel = new Relatives(new RelativesDescriptionBehaviour());
                 else
-                    rel = (Relatives) a.get(x).get(num);
+                    rel = (Relatives) mainDirectory.get(chosenCategory).get(num);
                 rel.setName(Name);
                 rel.setMobileNo(Mobile);
                 rel.setEmail(Email);
                 rel.setBDate(One);
                 rel.setLDate(Two);
-                if (flag)
-                    a.get(x).add(rel);
+                if (isNewContact)
+                    mainDirectory.get(chosenCategory).add(rel);
                 break;
 
             case 2: //proF
@@ -862,16 +866,16 @@ public class MUI extends javax.swing.JFrame {
                     return;
                 }
                 ProfessionalFriends proF;
-                if (flag)
+                if (isNewContact)
                     proF = new ProfessionalFriends(new ProfessionalFriendsDescriptionBehaviour());
                 else
-                    proF = (ProfessionalFriends) a.get(x).get(num);
+                    proF = (ProfessionalFriends) mainDirectory.get(chosenCategory).get(num);
                 proF.setName(Name);
                 proF.setMobileNo(Mobile);
                 proF.setEmail(Email);
                 proF.setCommonInterests(One);
-                if (flag)
-                    a.get(x).add(proF);
+                if (isNewContact)
+                    mainDirectory.get(chosenCategory).add(proF);
                 break;
             case 3: //ca
                 One = one.getText();
@@ -889,19 +893,19 @@ public class MUI extends javax.swing.JFrame {
                     JOptionPane.showMessageDialog(mg, "Enter a valid value ( 1 to 300 chars)");
                     return;
                 }
-                CasualAcquaintances ca;
-                if (flag)
-                    ca = new CasualAcquaintances(new CasualAcquaintancesDescriptionBehaviour());
+                CasualContact ca;
+                if (isNewContact)
+                    ca = new CasualContact(new CasualContactDescriptionBehaviour());
                 else
-                    ca = (CasualAcquaintances) a.get(x).get(num);
+                    ca = (CasualContact) mainDirectory.get(chosenCategory).get(num);
                 ca.setName(Name);
                 ca.setMobileNo(Mobile);
                 ca.setEmail(Email);
                 ca.setWhenWhere(One);
                 ca.setCircumstances(Two);
                 ca.setOtherInfo(Three);
-                if (flag)
-                    a.get(x).add(ca);
+                if (isNewContact)
+                    mainDirectory.get(chosenCategory).add(ca);
                 break;
             default:
                 break;

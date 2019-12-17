@@ -1,15 +1,16 @@
 package contactmanagementsoftware.strategies.descriptrion_stratigies;
 
 import contactmanagementsoftware.MUI;
-import contactmanagementsoftware.acquaintances.Acquaintances;
-import contactmanagementsoftware.acquaintances.ProfessionalFriends;
+import contactmanagementsoftware.composit.ContactManagementComponent;
+import contactmanagementsoftware.contacts.Contact;
+import contactmanagementsoftware.contacts.ProfessionalFriends;
 
-public class ProfessionalFriendsDescriptionBehaviour implements AcquaintancesDescriptionBehaviour {
+public class ProfessionalFriendsDescriptionBehaviour implements ContactDescriptionBehaviour {
 
     @Override
-    public void setDescription(Acquaintances acquaintances) {
+    public void setDescription(ContactManagementComponent contact) {
         MUI mui = MUI.getInstance();
-        ProfessionalFriends professionalFriends = (ProfessionalFriends) acquaintances;
+        ProfessionalFriends professionalFriends = (ProfessionalFriends) contact;
 
         mui.getOne().setText(professionalFriends.getCommonInterests());
     }

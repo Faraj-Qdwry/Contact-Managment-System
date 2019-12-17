@@ -1,15 +1,16 @@
 package contactmanagementsoftware.strategies.descriptrion_stratigies;
 
 import contactmanagementsoftware.MUI;
-import contactmanagementsoftware.acquaintances.Acquaintances;
-import contactmanagementsoftware.acquaintances.Relatives;
+import contactmanagementsoftware.composit.ContactManagementComponent;
+import contactmanagementsoftware.contacts.Contact;
+import contactmanagementsoftware.contacts.Relatives;
 
-public class RelativesDescriptionBehaviour implements AcquaintancesDescriptionBehaviour {
+public class RelativesDescriptionBehaviour implements ContactDescriptionBehaviour {
 
     @Override
-    public void setDescription(Acquaintances acquaintances) {
+    public void setDescription(ContactManagementComponent contact) {
         MUI mui = MUI.getInstance();
-        Relatives relatives = (Relatives) acquaintances;
+        Relatives relatives = (Relatives) contact;
 
         mui.getOne().setText(relatives.getBDate());
         mui.getTwo().setText(relatives.getLDate());

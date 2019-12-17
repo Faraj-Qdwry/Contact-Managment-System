@@ -2,12 +2,12 @@ package contactmanagementsoftware.strategies.visibility_stratigies;
 
 import contactmanagementsoftware.MUI;
 
-public class ProfessionalFriendsVisibilityBehaviour implements AcquaintancesVisibilityBehaviour {
+public class ProfessionalFriendsVisibilityBehaviour implements ContactsVisibilityBehaviour {
     @Override
     public void setVisibility() {
         MUI mui = MUI.getInstance();
 
-        mui.jPanel3.setBorder(javax.swing.BorderFactory.createTitledBorder(null, mui.op + " Professional Friends Details", javax.swing.border.TitledBorder.DEFAULT_JUSTIFICATION, javax.swing.border.TitledBorder.DEFAULT_POSITION, new java.awt.Font("DialogInput", 1, 16)));
+        mui.jPanel3.setBorder(javax.swing.BorderFactory.createTitledBorder(null, mui.operation + " Professional Friends Details", javax.swing.border.TitledBorder.DEFAULT_JUSTIFICATION, javax.swing.border.TitledBorder.DEFAULT_POSITION, new java.awt.Font("DialogInput", 1, 16)));
         mui.jLabel7.setText("Common Interests: ");
         mui.jLabel7.setVisible(true);
         mui.jLabel8.setVisible(false);
