@@ -674,6 +674,8 @@ public class MUI extends javax.swing.JFrame {
         String s = "<html> <b>Search results:</b><br>Found!<br><br>Acquaintance Details: <br>";
         int j = 0;
         //todo iterator pattern
+        
+        // PersonalFriendsIterator personalFriendsIterator= new PersonalFriendsIterator(a.get(0).get(i));
         for (int i = 0; i < a.get(0).size(); i++) {
             if (a.get(0).get(i).getName().matches(str)) {
                 j++;
