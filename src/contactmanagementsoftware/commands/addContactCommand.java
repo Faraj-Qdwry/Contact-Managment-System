@@ -22,12 +22,12 @@ public class addContactCommand implements Command {
 
         JPanel jPanel1 = mui.getjPanel1();
         JPanel jPanel3 = mui.getjPanel3();
-        boolean flag = mui.getNewContact();
+        boolean flag = mui.getIsNewContact();
 
         int num = mui.getNum();
         int x = mui.getX();
 
-        JTextField name = mui.getname();
+        JTextField name = mui.getNameTF();
         JTextField mobile = mui.getMobile();
         JTextField email = mui.getEmail();
 

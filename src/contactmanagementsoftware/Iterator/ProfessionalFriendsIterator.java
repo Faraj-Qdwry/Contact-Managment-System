@@ -1,19 +1,19 @@
 package contactmanagementsoftware.Iterator;
-import contactmanagementsoftware.acquaintances.Acquaintances;
-import contactmanagementsoftware.acquaintances.ProfessionalFriends;
-import java.util.ArrayList;
 
-public class ProfessionalFriendsIterator extends AcquaintancesIterator {
+import contactmanagementsoftware.composit.ContactManagementComponent;
+import contactmanagementsoftware.contacts.ProfessionalFriends;
 
-	public ProfessionalFriendsIterator(ArrayList<Acquaintances> items) {
-		super(items);
-	}
+public class ProfessionalFriendsIterator extends ContactsIterator {
 
-	public ProfessionalFriends next() {
-		return (ProfessionalFriends) super.next();
-	}
+    public ProfessionalFriendsIterator(ContactManagementComponent items) {
+        super(items);
+    }
 
-	public boolean hasNext() {
-		return super.hasNext();
-	}
+    public ProfessionalFriends next() {
+        return (ProfessionalFriends) super.next();
+    }
+
+    public boolean hasNext() {
+        return super.hasNext();
+    }
 }

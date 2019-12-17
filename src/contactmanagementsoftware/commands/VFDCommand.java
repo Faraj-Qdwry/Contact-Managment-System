@@ -17,8 +17,8 @@ public class VFDCommand implements Command {
         JPanel jPanel1 = mui.getjPanel1();
         JPanel jPanel3 = mui.getjPanel3();
         int x = mui.getX();
-        boolean flag = mui.getNewContact();
-        boolean dflag = mui.getdFlag();
+        boolean flag = mui.getIsNewContact();
+        boolean dflag = mui.getIsDescriptionSet();
         JXTable jXTable1 = mui.getjXTable1();
         
         int index = jList1.getSelectedIndex();
@@ -32,7 +32,7 @@ public class VFDCommand implements Command {
             return;
         }
         mui.setNum(tindex);
-        mui.setNewContact(false);
+        mui.setIsNewContact(false);
         mui.setChosenCategory(index);
         jPanel1.setVisible(false);
         jPanel3.setVisible(true);

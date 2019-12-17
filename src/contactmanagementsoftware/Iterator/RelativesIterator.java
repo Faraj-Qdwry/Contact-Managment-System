@@ -1,12 +1,12 @@
 package contactmanagementsoftware.Iterator;
 
-import contactmanagementsoftware.acquaintances.Acquaintances;
-import contactmanagementsoftware.acquaintances.Relatives;
-import java.util.ArrayList;
+import contactmanagementsoftware.contacts.Relatives;
 
-public class RelativesIterator extends AcquaintancesIterator {
+import contactmanagementsoftware.composit.ContactManagementComponent;
 
-    public RelativesIterator(ArrayList<Acquaintances> items) {
+public class RelativesIterator extends ContactsIterator {
+
+    public RelativesIterator(ContactManagementComponent items) {
         super(items);
     }
 

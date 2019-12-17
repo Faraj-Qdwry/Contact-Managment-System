@@ -17,7 +17,7 @@ public class addCommand implements Command {
         JList jList1 = mui.getjList1();
         JPanel jPanel1 = mui.getjPanel1();
         JPanel jPanel3 = mui.getjPanel3();
-        boolean flag = mui.getNewContact();
+        boolean flag = mui.getIsNewContact();
 
 
         int index = jList1.getSelectedIndex();
@@ -28,7 +28,7 @@ public class addCommand implements Command {
         jPanel1.setVisible(false);
         jPanel3.setVisible(true);
         mui.setChosenCategory(index);
-        mui.setNewContact(true);
+        mui.setIsNewContact(true);
         mui.setDescriptionSet(false) ;
         mui.setDescription();
     }//GEN-LAST:event_jButton1ActionPerformed

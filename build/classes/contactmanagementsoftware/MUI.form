@@ -177,7 +177,7 @@
                     <StringItem index="0" value="Personal Friends"/>
                     <StringItem index="1" value="Relatives"/>
                     <StringItem index="2" value="Professional Friends"/>
-                    <StringItem index="3" value="Casual Acquaintances"/>
+                    <StringItem index="3" value="Casual Contacts"/>
                   </StringArray>
                 </Property>
               </Properties>
@@ -345,7 +345,7 @@
       <Properties>
         <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
           <Border info="org.netbeans.modules.form.compat2.border.TitledBorderInfo">
-            <TitledBorder title="Add Casual Acquaintance Details">
+            <TitledBorder title="Add Casual Contact Details">
               <Font PropertyName="font" name="DialogInput" size="16" style="1"/>
             </TitledBorder>
           </Border>

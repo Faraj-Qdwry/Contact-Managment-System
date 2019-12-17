@@ -10,12 +10,12 @@ public class CasualContactDescriptionBehaviour implements ContactDescriptionBeha
     @Override
     public void setDescription(ContactManagementComponent contact) {
         MUI mui = MUI.getInstance();
-        CasualContact casualAcquaintances = (CasualContact) contact;
+        CasualContact casualContacts = (CasualContact) contact;
 
-        mui.getOne().setText(casualAcquaintances.getWhenWhere());
+        mui.getOne().setText(casualContacts.getWhenWhere());
         mui.getTwo().setVisible(true);
         mui.getThree().setVisible(true);
-        mui.getTwo().setText(casualAcquaintances.getCircumstances());
-        mui.getThree().setText(casualAcquaintances.getOtherInfo());
+        mui.getTwo().setText(casualContacts.getCircumstances());
+        mui.getThree().setText(casualContacts.getOtherInfo());
     }
 }

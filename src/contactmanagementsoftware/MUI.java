@@ -5,7 +5,7 @@
  */
 package contactmanagementsoftware;
 
-import contactmanagementsoftware.Iterator.CasualAcquaintancesIterator;
+import contactmanagementsoftware.Iterator.CasualContactsIterator;
 import contactmanagementsoftware.Iterator.PersonalFriendsIterator;
 import contactmanagementsoftware.Iterator.ProfessionalFriendsIterator;
 import contactmanagementsoftware.Iterator.RelativesIterator;
@@ -104,15 +104,15 @@ public class MUI extends javax.swing.JFrame {
         return mg;
     }
 
-    public boolean getNewContact() {
+    public boolean getIsNewContact() {
         return isNewContact;
     }
 
-    public void setNewContact(boolean b) {
+    public void setIsNewContact(boolean b) {
         this.isNewContact = b;
     }
 
-    public boolean getdFlag() {
+    public boolean getIsDescriptionSet() {
         return isDescriptionSet;
     }
 
@@ -207,7 +207,7 @@ public class MUI extends javax.swing.JFrame {
         this.mainDirectory = mainDirectory;
     }
 
-    public JTextField getname() {
+    public JTextField getNameTF() {
         return name;
     }
 
@@ -364,7 +364,7 @@ public class MUI extends javax.swing.JFrame {
         jButton4.addActionListener(evt -> exit.execute(evt));
 
         jList1.setModel(new javax.swing.AbstractListModel() {
-            String[] strings = {"Personal Friends", "Relatives", "Professional Friends", "Casual Acquaintances"};
+            String[] strings = {"Personal Friends", "Relatives", "Professional Friends", "Casual Contacts"};
 
             public int getSize() {
                 return strings.length;
@@ -567,7 +567,7 @@ public class MUI extends javax.swing.JFrame {
 
         getContentPane().add(jPanel2, "card3");
 
-        jPanel3.setBorder(javax.swing.BorderFactory.createTitledBorder(null, "Add Casual Acquaintance Details", javax.swing.border.TitledBorder.DEFAULT_JUSTIFICATION, javax.swing.border.TitledBorder.DEFAULT_POSITION, new java.awt.Font("DialogInput", 1, 16))); // NOI18N
+        jPanel3.setBorder(javax.swing.BorderFactory.createTitledBorder(null, "Add Casual Contact Details", javax.swing.border.TitledBorder.DEFAULT_JUSTIFICATION, javax.swing.border.TitledBorder.DEFAULT_POSITION, new java.awt.Font("DialogInput", 1, 16))); // NOI18N
 
         jLabel4.setText("Name:");
 
@@ -679,31 +679,31 @@ public class MUI extends javax.swing.JFrame {
     }//GEN-LAST:event_jList1ValueChanged
 
     public void searchContactRun() {
-        String s = "<html> <b>Search results:</b><br>Found!<br><br>Acquaintance Details: <br>";
+        String s = "<html> <b>Search results:</b><br>Found!<br><br>Contact Details: <br>";
         int j = 0;
         //todo iterator pattern ==> done
 
-        PersonalFriendsIterator personalFriendsIterator = new PersonalFriendsIterator(a.get(0));
+        PersonalFriendsIterator personalFriendsIterator = new PersonalFriendsIterator(mainDirectory.get(0));
         while (personalFriendsIterator.hasNext()) {
             PersonalFriends perF = personalFriendsIterator.next();
-            if (perF.getName().matches(str)) {
+            if (perF.getName().matches(searchString)) {
                 if (personalFriendsIterator.isIndex(1))
                     s = s.concat("<br>I. Personal Friends<br>");
-                }
-                s = s.concat(j + ". Name: " + perF.getName() + "<br>");
-                s = s.concat("Mobile No: " + perF.getMobileNo() + "<br>");
-                s = s.concat("Email: " + perF.getEmail() + "<br>");
-                s = s.concat("Specific events: " + perF.getEvents() + "<br>");
-                s = s.concat("First Acquaintance context: " + perF.getAContext() + "<br>");
-                s = s.concat("First Acquaintance date: " + perF.getADate() + "<br>");
             }
+            s = s.concat(j + ". Name: " + perF.getName() + "<br>");
+            s = s.concat("Mobile No: " + perF.getMobileNo() + "<br>");
+            s = s.concat("Email: " + perF.getEmail() + "<br>");
+            s = s.concat("Specific events: " + perF.getEvents() + "<br>");
+            s = s.concat("First Contact context: " + perF.getAContext() + "<br>");
+            s = s.concat("First Contact date: " + perF.getADate() + "<br>");
         }
 
-        RelativesIterator relativesIterator = new RelativesIterator(a.get(1));
+        RelativesIterator relativesIterator = new RelativesIterator(mainDirectory.get(1));
+
         while (relativesIterator.hasNext()) {
             Relatives rel = relativesIterator.next();
 
-            if (rel.getName().matches(str)) {
+            if (rel.getName().matches(searchString)) {
                 if (relativesIterator.isIndex(1)) {
                     s = s.concat("<br>II. Relatives<br>");
                 }
@@ -716,10 +716,10 @@ public class MUI extends javax.swing.JFrame {
         }
 
 
-        ProfessionalFriendsIterator professionalFriendsIterator = new ProfessionalFriendsIterator(a.get(2));
+        ProfessionalFriendsIterator professionalFriendsIterator = new ProfessionalFriendsIterator(mainDirectory.get(2));
         while (professionalFriendsIterator.hasNext()) {
             ProfessionalFriends proF = professionalFriendsIterator.next();
-            if (proF.getName().matches(str)) {
+            if (proF.getName().matches(searchString)) {
                 if (professionalFriendsIterator.isIndex(1)) {
                     s = s.concat("<br>III. Professional Friends<br>");
                 }
@@ -730,12 +730,12 @@ public class MUI extends javax.swing.JFrame {
             }
         }
 
-        CasualAcquaintancesIterator casualAcquaintancesIterator = new CasualAcquaintancesIterator(a.get(3));
-        while (casualAcquaintancesIterator.hasNext()) {
-            CasualAcquaintances ca = casualAcquaintancesIterator.next();
-            if (ca.getName().matches(str)) {
-                if (casualAcquaintancesIterator.isIndex(1)) {
-                    s = s.concat("<br>IV. Casual Acquaintances<br>");
+        CasualContactsIterator casualContactsIterator = new CasualContactsIterator(mainDirectory.get(3));
+        while (casualContactsIterator.hasNext()) {
+            CasualContact ca = casualContactsIterator.next();
+            if (ca.getName().matches(searchString)) {
+                if (casualContactsIterator.isIndex(1)) {
+                    s = s.concat("<br>IV. Casual Contacts<br>");
                 }
                 s = s.concat(j + ". Name: " + ca.getName() + "<br>");
                 s = s.concat("Mobile No: " + ca.getMobileNo() + "<br>");
@@ -746,7 +746,7 @@ public class MUI extends javax.swing.JFrame {
             }
         }
 
-        if (s.matches("<html> <b>Search results:</b><br>Found!<br><br>Acquaintance Details: <br>")) {
+        if (s.matches("<html> <b>Search results:</b><br>Found!<br><br>Contact Details: <br>")) {
             s = "<html>No result found</html>";
         } else {
             s = s.concat("</html>");

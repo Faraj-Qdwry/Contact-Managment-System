@@ -15,7 +15,7 @@ public class DeleteCommand implements Command {
         JPanel jPanel1 = mui.getjPanel1();
         JPanel jPanel3 = mui.getjPanel3();
         int x = mui.getX();
-        boolean flag = mui.getNewContact();
+        boolean flag = mui.getIsNewContact();
         JXTable jXTable1 = mui.getjXTable1();
 
 

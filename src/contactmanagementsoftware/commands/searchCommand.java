@@ -17,7 +17,7 @@ public class searchCommand implements Command {
         JPanel jPanel1 = mui.getjPanel1();
         JPanel jPanel2 = mui.getjPanel2();
         int x = mui.getX();
-        boolean flag = mui.getNewContact();
+        boolean flag = mui.getIsNewContact();
         JXTable jXTable1 = mui.getjXTable1();
         javax.swing.JTextPane details = mui.getDetails();
         String str = mui.getSearchString();

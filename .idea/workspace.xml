@@ -2,74 +2,38 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f3a09033-809d-4de1-bb29-e9ba828d6a2a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Contact-Managment-System.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/contactmanagementsoftware/composit/ContactComponent.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/contactmanagementsoftware/composit/ContactManagementComponent.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/contactmanagementsoftware/composit/DirectoryComponent.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/contactmanagementsoftware/strategies/descriptrion_stratigies/ContactDescriptionBehaviour.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/contactmanagementsoftware/Iterator/CasualContactsIterator.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Contact-Management-System-master/META-INF/Contact-Management-System-master.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Contact-Management-System-master/contactmanagementsoftware/ContactManagementSoftware.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Contact-Management-System-master/contactmanagementsoftware/MUI$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Contact-Management-System-master/contactmanagementsoftware/MUI$2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Contact-Management-System-master/contactmanagementsoftware/MUI.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Contact-Management-System-master/contactmanagementsoftware/SerializationUtil.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Contact-Management-System-master/contactmanagementsoftware/acquaintances/Acquaintances.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Contact-Management-System-master/contactmanagementsoftware/acquaintances/CasualAcquaintances.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Contact-Management-System-master/contactmanagementsoftware/acquaintances/PersonalFriends.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Contact-Management-System-master/contactmanagementsoftware/acquaintances/ProfessionalFriends.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Contact-Management-System-master/contactmanagementsoftware/acquaintances/Relatives.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Contact-Management-System-master/contactmanagementsoftware/commands/BackToMainMenuCommand.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Contact-Management-System-master/contactmanagementsoftware/commands/Command.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Contact-Management-System-master/contactmanagementsoftware/commands/DeleteCommand.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Contact-Management-System-master/contactmanagementsoftware/commands/SaveCommand.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Contact-Management-System-master/contactmanagementsoftware/commands/VFDCommand.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Contact-Management-System-master/contactmanagementsoftware/commands/addCommand.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Contact-Management-System-master/contactmanagementsoftware/commands/addContactCommand.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Contact-Management-System-master/contactmanagementsoftware/commands/cancelCommand.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Contact-Management-System-master/contactmanagementsoftware/commands/editCommand.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Contact-Management-System-master/contactmanagementsoftware/commands/exitCommand.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Contact-Management-System-master/contactmanagementsoftware/commands/readFromFileCommand.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Contact-Management-System-master/contactmanagementsoftware/commands/searchCommand.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Contact-Management-System-master/contactmanagementsoftware/strategies/descriptrion_stratigies/AcquaintancesDescriptionBehaviour.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Contact-Management-System-master/contactmanagementsoftware/strategies/descriptrion_stratigies/CasualAcquaintancesDescriptionBehaviour.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Contact-Management-System-master/contactmanagementsoftware/strategies/descriptrion_stratigies/PersonalFriendsDescriptionBehaviour.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Contact-Management-System-master/contactmanagementsoftware/strategies/descriptrion_stratigies/ProfessionalFriendsDescriptionBehaviour.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Contact-Management-System-master/contactmanagementsoftware/strategies/descriptrion_stratigies/RelativesDescriptionBehaviour.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Contact-Management-System-master/contactmanagementsoftware/strategies/visibility_stratigies/AcquaintancesVisibilityBehaviour.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Contact-Management-System-master/contactmanagementsoftware/strategies/visibility_stratigies/CasualAcquaintancesVisibilityBehaviour.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Contact-Management-System-master/contactmanagementsoftware/strategies/visibility_stratigies/PersonalFriendsVisibilityBehaviour.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Contact-Management-System-master/contactmanagementsoftware/strategies/visibility_stratigies/ProfessionalFriendsVisibilityBehaviour.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Contact-Management-System-master/contactmanagementsoftware/strategies/visibility_stratigies/RelativesVisibilityBehaviour.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/contactmanagementsoftware/ContactManagementSoftware.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/contactmanagementsoftware/ContactManagementSoftware.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/contactmanagementsoftware/MUI.form" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/contactmanagementsoftware/MUI.form" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Contact-Managment-System/contactmanagementsoftware/Iterator/AcquaintancesIterator.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Contact-Managment-System/contactmanagementsoftware/Iterator/AcquaintancesIterator.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Contact-Managment-System/contactmanagementsoftware/Iterator/CasualAcquaintancesIterator.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Contact-Managment-System/contactmanagementsoftware/Iterator/CasualAcquaintancesIterator.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Contact-Managment-System/contactmanagementsoftware/Iterator/PersonalFriendsIterator.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Contact-Managment-System/contactmanagementsoftware/Iterator/PersonalFriendsIterator.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Contact-Managment-System/contactmanagementsoftware/Iterator/ProfessionalFriendsIterator.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Contact-Managment-System/contactmanagementsoftware/Iterator/ProfessionalFriendsIterator.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Contact-Managment-System/contactmanagementsoftware/Iterator/RelativesIterator.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Contact-Managment-System/contactmanagementsoftware/Iterator/RelativesIterator.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Contact-Managment-System/contactmanagementsoftware/MUI$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Contact-Managment-System/contactmanagementsoftware/MUI$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Contact-Managment-System/contactmanagementsoftware/MUI$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Contact-Managment-System/contactmanagementsoftware/MUI$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Contact-Managment-System/contactmanagementsoftware/MUI.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Contact-Managment-System/contactmanagementsoftware/MUI.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Contact-Managment-System/contactmanagementsoftware/commands/DeleteCommand.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Contact-Managment-System/contactmanagementsoftware/commands/DeleteCommand.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Contact-Managment-System/contactmanagementsoftware/commands/VFDCommand.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Contact-Managment-System/contactmanagementsoftware/commands/VFDCommand.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Contact-Managment-System/contactmanagementsoftware/commands/addCommand.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Contact-Managment-System/contactmanagementsoftware/commands/addCommand.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Contact-Managment-System/contactmanagementsoftware/commands/addContactCommand.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Contact-Managment-System/contactmanagementsoftware/commands/addContactCommand.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Contact-Managment-System/contactmanagementsoftware/commands/editCommand.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Contact-Managment-System/contactmanagementsoftware/commands/editCommand.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Contact-Managment-System/contactmanagementsoftware/commands/searchCommand.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Contact-Managment-System/contactmanagementsoftware/commands/searchCommand.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/contactmanagementsoftware/Iterator/AcquaintancesIterator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/contactmanagementsoftware/Iterator/ContactsIterator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/contactmanagementsoftware/Iterator/CasualAcquaintancesIterator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/contactmanagementsoftware/Iterator/PersonalFriendsIterator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/contactmanagementsoftware/Iterator/PersonalFriendsIterator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/contactmanagementsoftware/Iterator/ProfessionalFriendsIterator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/contactmanagementsoftware/Iterator/ProfessionalFriendsIterator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/contactmanagementsoftware/Iterator/RelativesIterator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/contactmanagementsoftware/Iterator/RelativesIterator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/contactmanagementsoftware/MUI.form" beforeDir="false" afterPath="$PROJECT_DIR$/src/contactmanagementsoftware/MUI.form" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/contactmanagementsoftware/MUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/contactmanagementsoftware/MUI.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/contactmanagementsoftware/acquaintances/Acquaintances.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/contactmanagementsoftware/contacts/Contact.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/contactmanagementsoftware/acquaintances/CasualAcquaintances.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/contactmanagementsoftware/contacts/CasualContact.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/contactmanagementsoftware/acquaintances/PersonalFriends.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/contactmanagementsoftware/contacts/PersonalFriends.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/contactmanagementsoftware/acquaintances/ProfessionalFriends.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/contactmanagementsoftware/contacts/ProfessionalFriends.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/contactmanagementsoftware/acquaintances/Relatives.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/contactmanagementsoftware/contacts/Relatives.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/contactmanagementsoftware/commands/DeleteCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/contactmanagementsoftware/commands/DeleteCommand.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/contactmanagementsoftware/commands/SaveCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/contactmanagementsoftware/commands/SaveCommand.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/contactmanagementsoftware/commands/VFDCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/contactmanagementsoftware/commands/VFDCommand.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/contactmanagementsoftware/commands/addCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/contactmanagementsoftware/commands/addCommand.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/contactmanagementsoftware/commands/addContactCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/contactmanagementsoftware/commands/addContactCommand.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/contactmanagementsoftware/commands/editCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/contactmanagementsoftware/commands/editCommand.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/contactmanagementsoftware/commands/readFromFileCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/contactmanagementsoftware/commands/readFromFileCommand.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/contactmanagementsoftware/commands/searchCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/contactmanagementsoftware/commands/searchCommand.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/contactmanagementsoftware/strategies/descriptrion_stratigies/AcquaintancesDescriptionBehaviour.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/contactmanagementsoftware/strategies/descriptrion_stratigies/CasualAcquaintancesDescriptionBehaviour.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/contactmanagementsoftware/strategies/descriptrion_stratigies/CasualContactDescriptionBehaviour.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/contactmanagementsoftware/strategies/descriptrion_stratigies/PersonalFriendsDescriptionBehaviour.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/contactmanagementsoftware/strategies/descriptrion_stratigies/PersonalFriendsDescriptionBehaviour.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/contactmanagementsoftware/strategies/descriptrion_stratigies/ProfessionalFriendsDescriptionBehaviour.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/contactmanagementsoftware/strategies/descriptrion_stratigies/ProfessionalFriendsDescriptionBehaviour.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/contactmanagementsoftware/strategies/descriptrion_stratigies/RelativesDescriptionBehaviour.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/contactmanagementsoftware/strategies/descriptrion_stratigies/RelativesDescriptionBehaviour.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/contactmanagementsoftware/strategies/visibility_stratigies/AcquaintancesVisibilityBehaviour.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/contactmanagementsoftware/strategies/visibility_stratigies/ContactsVisibilityBehaviour.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/contactmanagementsoftware/strategies/visibility_stratigies/CasualAcquaintancesVisibilityBehaviour.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/contactmanagementsoftware/strategies/visibility_stratigies/CasualContactsVisibilityBehaviour.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/contactmanagementsoftware/strategies/descriptrion_stratigies/CasualContactDescriptionBehaviour.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/contactmanagementsoftware/strategies/descriptrion_stratigies/CasualContactDescriptionBehaviour.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/contactmanagementsoftware/strategies/visibility_stratigies/PersonalFriendsVisibilityBehaviour.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/contactmanagementsoftware/strategies/visibility_stratigies/PersonalFriendsVisibilityBehaviour.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/contactmanagementsoftware/strategies/visibility_stratigies/ProfessionalFriendsVisibilityBehaviour.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/contactmanagementsoftware/strategies/visibility_stratigies/ProfessionalFriendsVisibilityBehaviour.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/contactmanagementsoftware/strategies/visibility_stratigies/RelativesVisibilityBehaviour.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/contactmanagementsoftware/strategies/visibility_stratigies/RelativesVisibilityBehaviour.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -145,30 +109,30 @@
       <screen x="0" y="0" width="1280" height="800" />
     </state>
     <state x="370" y="292" width="542" height="225" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1280.800@0.0.1280.800" timestamp="1576566587918" />
-    <state x="231" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1576569979830">
+    <state x="231" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1576572891153">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state x="231" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1280.800@0.0.1280.800" timestamp="1576569979830" />
-    <state width="1238" height="212" key="GridCell.Tab.0.bottom" timestamp="1576571272553">
+    <state x="231" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1280.800@0.0.1280.800" timestamp="1576572891153" />
+    <state width="1238" height="212" key="GridCell.Tab.0.bottom" timestamp="1576573016916">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1238" height="212" key="GridCell.Tab.0.bottom/0.0.1280.800@0.0.1280.800" timestamp="1576571272553" />
-    <state width="1238" height="212" key="GridCell.Tab.0.center" timestamp="1576571272551">
+    <state width="1238" height="212" key="GridCell.Tab.0.bottom/0.0.1280.800@0.0.1280.800" timestamp="1576573016916" />
+    <state width="1238" height="212" key="GridCell.Tab.0.center" timestamp="1576573016912">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1238" height="212" key="GridCell.Tab.0.center/0.0.1280.800@0.0.1280.800" timestamp="1576571272551" />
-    <state width="1238" height="212" key="GridCell.Tab.0.left" timestamp="1576571272550">
+    <state width="1238" height="212" key="GridCell.Tab.0.center/0.0.1280.800@0.0.1280.800" timestamp="1576573016912" />
+    <state width="1238" height="212" key="GridCell.Tab.0.left" timestamp="1576573016911">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1238" height="212" key="GridCell.Tab.0.left/0.0.1280.800@0.0.1280.800" timestamp="1576571272550" />
-    <state width="1238" height="212" key="GridCell.Tab.0.right" timestamp="1576571272552">
+    <state width="1238" height="212" key="GridCell.Tab.0.left/0.0.1280.800@0.0.1280.800" timestamp="1576573016911" />
+    <state width="1238" height="212" key="GridCell.Tab.0.right" timestamp="1576573016914">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1238" height="212" key="GridCell.Tab.0.right/0.0.1280.800@0.0.1280.800" timestamp="1576571272552" />
-    <state x="298" y="43" width="837" height="714" key="find.popup" timestamp="1576569251864">
+    <state width="1238" height="212" key="GridCell.Tab.0.right/0.0.1280.800@0.0.1280.800" timestamp="1576573016914" />
+    <state x="298" y="43" width="837" height="714" key="find.popup" timestamp="1576573002041">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state x="298" y="43" width="837" height="714" key="find.popup/0.0.1280.800@0.0.1280.800" timestamp="1576569251864" />
+    <state x="298" y="43" width="837" height="714" key="find.popup/0.0.1280.800@0.0.1280.800" timestamp="1576573002041" />
     <state x="305" y="124" width="670" height="676" key="search.everywhere.popup" timestamp="1576566857978">
       <screen x="0" y="0" width="1280" height="800" />
     </state>

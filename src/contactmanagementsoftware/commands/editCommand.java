@@ -16,7 +16,7 @@ public class editCommand implements Command {
         JPanel jPanel1 = mui.getjPanel1();
         JPanel jPanel3 = mui.getjPanel3();
         int x = mui.getX();
-        boolean flag = mui.getNewContact();
+        boolean flag = mui.getIsNewContact();
         JXTable jXTable1 = mui.getjXTable1();
 
 
@@ -31,7 +31,7 @@ public class editCommand implements Command {
             return;
         }
         mui.setNum(tindex);
-        mui.setNewContact(false);
+        mui.setIsNewContact(false);
         mui.setDescriptionSet(false);
         x = index;
         //todo observable.notify()
