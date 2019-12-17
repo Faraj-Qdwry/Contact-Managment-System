@@ -46,6 +46,9 @@ public class MUI extends javax.swing.JFrame {
     private boolean isNewContact;
     private String searchString;
 
+    private Command command;
+    private UIButton uIButton;
+
     // Variables declaration - do not modify//GEN-BEGIN:variables
     public javax.swing.JLabel jLabel3;
     public javax.swing.JLabel jLabel7;
@@ -215,6 +218,10 @@ public class MUI extends javax.swing.JFrame {
         return this.tempDirectory;
     }
 
+    public int getChosenCategory() {
+        return chosenCategory;
+    }
+
     // todo strategy pattern here ===> done
     public void setDescription() {
         name.setText("");
@@ -348,20 +355,16 @@ public class MUI extends javax.swing.JFrame {
         jLabel2.setText("<html><u>Contact Management System</u></html>");
 
         jButton1.setText("Add");
-        Command add = new addCommand();
-        jButton1.addActionListener(evt -> add.execute(evt));
+        jButton1.addActionListener(evt -> jButton1ActionPerformed(evt));
 
         jButton2.setText("Delete");
-        Command delete = new DeleteCommand();
-        jButton2.addActionListener(evt -> delete.execute(evt));
+        jButton2.addActionListener(evt -> jButton2ActionPerformed(evt));
 
         jButton3.setText("Search");
-        Command search = new searchCommand();
-        jButton3.addActionListener(evt -> search.execute(evt));
+        jButton3.addActionListener(evt -> jButton3ActionPerformed(evt));
 
         jButton4.setText("Exit");
-        Command exit = new exitCommand();
-        jButton4.addActionListener(evt -> exit.execute(evt));
+        jButton4.addActionListener(evt -> jButton4ActionPerformed(evt));
 
         jList1.setModel(new javax.swing.AbstractListModel() {
             String[] strings = {"Personal Friends", "Relatives", "Professional Friends", "Casual Contacts"};
@@ -417,45 +420,17 @@ public class MUI extends javax.swing.JFrame {
         jLabel3.setFont(new java.awt.Font("Ubuntu Medium", 0, 17)); // NOI18N
         jLabel3.setText("Details:");
 
-        //todo here :
-        /*
-         * 1- create list of commands and add commands
-         *
-         * done Add command.
-         * done Delete Command
-         * done Edit Command
-         * done Search Command
-         * done ViewFullDetail Command
-         * done ReadFromFile command
-         * done SaveAsFile command
-         * done Exit Command
-         *
-         * for commands make getters for the buttons ..etc
-         *
-         *
-         * 2- button list and loop and assign command to buttons
-         *
-         *
-         * for commands make getters for the buttons ..etc
-         *
-         * 2- button list and loop and assign command to buttons
-         * */
-
         jButton5.setText("Edit");
-        Command edit = new editCommand();
-        jButton5.addActionListener(evt -> edit.execute(evt));
+        jButton5.addActionListener(evt -> jButton5ActionPerformed(evt));
 
         jButton6.setText("View full detail");
-        Command viewFullDetails = new VFDCommand();
-        jButton6.addActionListener(evt -> viewFullDetails.execute(evt));
+        jButton6.addActionListener(evt -> jButton6ActionPerformed(evt));
 
         jButton7.setText("Read from file");
-        Command readFromFile = new readFromFileCommand();
-        jButton7.addActionListener(evt -> readFromFile.execute(evt));
+        jButton7.addActionListener(evt -> jButton7ActionPerformed(evt));
 
         jButton8.setText("Save as file");
-        Command saveAsFile = new SaveCommand();
-        jButton8.addActionListener(evt -> saveAsFile.execute(evt));
+        jButton8.addActionListener(evt -> jButton8ActionPerformed(evt));
 
         javax.swing.GroupLayout jPanel1Layout = new javax.swing.GroupLayout(jPanel1);
         jPanel1.setLayout(jPanel1Layout);
@@ -539,8 +514,7 @@ public class MUI extends javax.swing.JFrame {
         jScrollPane3.setViewportView(details);
 
         jButton9.setText("Back to main menu");
-        Command backToM = new BackToMainMenuCommand();
-        jButton9.addActionListener(evt -> backToM.execute(evt));
+        jButton9.addActionListener(evt -> jButton9ActionPerformed(evt));
 
         javax.swing.GroupLayout jPanel2Layout = new javax.swing.GroupLayout(jPanel2);
         jPanel2.setLayout(jPanel2Layout);
@@ -593,7 +567,6 @@ public class MUI extends javax.swing.JFrame {
         jScrollPane5.setViewportView(three);
 
         jButton10.setText("Add");
-        addContactCommand addContact = new addContactCommand();
         jButton10.addActionListener(evt -> jButton10ActionPerformed(evt));
 
         one.setColumns(20);
@@ -601,8 +574,7 @@ public class MUI extends javax.swing.JFrame {
         jScrollPane6.setViewportView(one);
 
         jButton11.setText("Cancel");
-        Command cancel = new cancelCommand();
-        jButton11.addActionListener(evt -> cancel.execute(evt));
+        jButton11.addActionListener(evt -> jButton11ActionPerformed(evt));
 
         javax.swing.GroupLayout jPanel3Layout = new javax.swing.GroupLayout(jPanel3);
         jPanel3.setLayout(jPanel3Layout);
@@ -781,146 +753,71 @@ public class MUI extends javax.swing.JFrame {
             return true;
     }
 
+    private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {
+        command = new addCommand(getInstance());
+        UIButton.setCommand(command);
+        command.execute(evt);
+    }
+
+    private void jButton2ActionPerformed(java.awt.event.ActionEvent evt) {
+        command = new DeleteCommand(getInstance());
+        UIButton.setCommand(command);
+        command.execute(evt);
+    }
+
+    private void jButton3ActionPerformed(java.awt.event.ActionEvent evt) {
+        command = new searchCommand(getInstance());
+        UIButton.setCommand(command);
+        command.execute(evt);
+    }
+
+    private void jButton4ActionPerformed(java.awt.event.ActionEvent evt) {
+        command = new exitCommand(getInstance());
+        UIButton.setCommand(command);
+        command.execute(evt);
+    }
+
+    private void jButton5ActionPerformed(java.awt.event.ActionEvent evt) {
+        command = new editCommand(getInstance());
+        UIButton.setCommand(command);
+        command.execute(evt);
+    }
+
+    private void jButton6ActionPerformed(java.awt.event.ActionEvent evt) {
+        command = new VFDCommand(getInstance());
+        UIButton.setCommand(command);
+        command.execute(evt);
+    }
+
+    private void jButton7ActionPerformed(java.awt.event.ActionEvent evt) {
+        command = new readFromFileCommand(getInstance());
+        UIButton.setCommand(command);
+        command.execute(evt);
+    }
+
+    private void jButton8ActionPerformed(java.awt.event.ActionEvent evt) {
+        command = new SaveCommand(getInstance());
+        UIButton.setCommand(command);
+        command.execute(evt);
+    }
+
+    private void jButton9ActionPerformed(java.awt.event.ActionEvent evt) {
+        command = new BackToMainMenuCommand(getInstance());
+        UIButton.setCommand(command);
+        command.execute(evt);
+    }
+
+    private void jButton11ActionPerformed(java.awt.event.ActionEvent evt) {
+        command = new cancelCommand(getInstance());
+        UIButton.setCommand(command);
+        command.execute(evt);
+    }
+
     private void jButton10ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton10ActionPerformed
+        command = new addContactCommand(getInstance());
+        UIButton.setCommand(command);
+        command.execute(evt);
         isDescriptionSet = true;
-        String Name = name.getText();
-
-        if (Name.isEmpty()) {
-            JOptionPane.showMessageDialog(mg, "Enter a name");
-            return;
-        }
-        String Mobile = mobile.getText();
-        if (!MobileNoChecker(Mobile)) {
-            JOptionPane.showMessageDialog(mg, "Enter a valid mobile number (6-15 digits)");
-            return;
-        }
-        String Email = email.getText();
-        if (!Email.contains("@")) {
-            JOptionPane.showMessageDialog(mg, "Enter a valid email");
-            return;
-        }
-
-        String One, Two, Three;
-        switch (chosenCategory) {
-            case 0: //perF
-                One = one.getText();
-                if (One.isEmpty() || One.length() > 300) {
-                    JOptionPane.showMessageDialog(mg, "Enter a valid value ( 1 to 300 chars)");
-                    return;
-                }
-                Two = two.getText();
-                if (Two.isEmpty() || Two.length() > 300) {
-                    JOptionPane.showMessageDialog(mg, "Enter a valid value ( 1 to 300 chars)");
-                    return;
-                }
-                Three = three.getText();
-                if (!validDate(Three)) {
-                    return;
-                }
-                if (Three.isEmpty() || Three.length() > 300) {
-                    JOptionPane.showMessageDialog(mg, "Enter a valid value ( 1 to 300 chars)");
-                    return;
-                }
-                PersonalFriends perF;
-                if (isNewContact)
-                    perF = new PersonalFriends(new PersonalFriendsDescriptionBehaviour());
-                else
-                    perF = (PersonalFriends) mainDirectory.get(chosenCategory).get(num);
-                perF.setName(Name);
-                perF.setMobileNo(Mobile);
-                perF.setEmail(Email);
-                perF.setEvents(One);
-                perF.setAContext(Two);
-                perF.setADate(Three);
-                if (isNewContact)
-                    mainDirectory.get(chosenCategory).add(perF);
-                //this.a.get(x).add(perF);
-                break;
-            case 1: //rel
-                One = one.getText();
-                if (One.isEmpty() || One.length() > 300) {
-                    JOptionPane.showMessageDialog(mg, "Enter a valid value ( 1 to 300 chars)");
-                    return;
-                }
-                if (!validDate(One)) {
-                    return;
-                }
-                Two = two.getText();
-                if (Two.isEmpty() || Two.length() > 300) {
-                    JOptionPane.showMessageDialog(mg, "Enter a valid value ( 1 to 300 chars)");
-                    return;
-                }
-                if (!validDate(Two)) {
-                    return;
-                }
-                Relatives rel;
-                if (isNewContact)
-                    rel = new Relatives(new RelativesDescriptionBehaviour());
-                else
-                    rel = (Relatives) mainDirectory.get(chosenCategory).get(num);
-                rel.setName(Name);
-                rel.setMobileNo(Mobile);
-                rel.setEmail(Email);
-                rel.setBDate(One);
-                rel.setLDate(Two);
-                if (isNewContact)
-                    mainDirectory.get(chosenCategory).add(rel);
-                break;
-
-            case 2: //proF
-                One = one.getText();
-                if (One.isEmpty() || One.length() > 300) {
-                    JOptionPane.showMessageDialog(mg, "Enter a valid value ( 1 to 300 chars)");
-                    return;
-                }
-                ProfessionalFriends proF;
-                if (isNewContact)
-                    proF = new ProfessionalFriends(new ProfessionalFriendsDescriptionBehaviour());
-                else
-                    proF = (ProfessionalFriends) mainDirectory.get(chosenCategory).get(num);
-                proF.setName(Name);
-                proF.setMobileNo(Mobile);
-                proF.setEmail(Email);
-                proF.setCommonInterests(One);
-                if (isNewContact)
-                    mainDirectory.get(chosenCategory).add(proF);
-                break;
-            case 3: //ca
-                One = one.getText();
-                if (One.isEmpty() || One.length() > 300) {
-                    JOptionPane.showMessageDialog(mg, "Enter a valid value ( 1 to 300 chars)");
-                    return;
-                }
-                Two = two.getText();
-                if (Two.isEmpty() || Two.length() > 300) {
-                    JOptionPane.showMessageDialog(mg, "Enter a valid value ( 1 to 300 chars)");
-                    return;
-                }
-                Three = three.getText();
-                if (Three.isEmpty() || Three.length() > 300) {
-                    JOptionPane.showMessageDialog(mg, "Enter a valid value ( 1 to 300 chars)");
-                    return;
-                }
-                CasualContact ca;
-                if (isNewContact)
-                    ca = new CasualContact(new CasualContactDescriptionBehaviour());
-                else
-                    ca = (CasualContact) mainDirectory.get(chosenCategory).get(num);
-                ca.setName(Name);
-                ca.setMobileNo(Mobile);
-                ca.setEmail(Email);
-                ca.setWhenWhere(One);
-                ca.setCircumstances(Two);
-                ca.setOtherInfo(Three);
-                if (isNewContact)
-                    mainDirectory.get(chosenCategory).add(ca);
-                break;
-            default:
-                break;
-        }
-        jPanel1.setVisible(true);
-        jPanel3.setVisible(false);
-        mg.setUpTableData();
     }//GEN-LAST:event_jButton10ActionPerformed
 
     // End of variables declaration//GEN-END:variables

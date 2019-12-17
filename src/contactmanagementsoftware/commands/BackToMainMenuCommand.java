@@ -6,8 +6,13 @@ import javax.swing.*;
 
 public class BackToMainMenuCommand implements Command {
     static MUI mui;
+
+    public BackToMainMenuCommand(MUI mui) {
+        this.mui = mui;
+    }
+
     @Override
-    public void execute(java.awt.event.ActionEvent evt)  {//GEN-FIRST:event_jButton9ActionPerformed
+    public void execute(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton9ActionPerformed
         mui = MUI.getInstance();
 
         JPanel jPanel1 = mui.getjPanel1();

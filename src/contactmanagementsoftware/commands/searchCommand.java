@@ -9,6 +9,10 @@ public class searchCommand implements Command {
 
     static MUI mui;
 
+    public searchCommand(MUI mui) {
+        this.mui = mui;
+    }
+
     @Override
     public void execute(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton3ActionPerformed
 

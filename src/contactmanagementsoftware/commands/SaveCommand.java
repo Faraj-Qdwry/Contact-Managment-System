@@ -14,6 +14,10 @@ import java.util.ArrayList;
 public class SaveCommand implements Command {
     static MUI mui;
 
+    public SaveCommand(MUI mui) {
+        this.mui = mui;
+    }
+
     @Override
     public void execute(ActionEvent evt) {//GEN-FIRST:event_jButton8ActionPerformed
         mui = MUI.getInstance();

@@ -8,6 +8,11 @@ import javax.swing.*;
 public class DeleteCommand implements Command {
     static MUI mui;
 
+    public DeleteCommand(MUI mui) {
+        this.mui = mui;
+    }
+
+
     @Override
     public void execute(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton2ActionPerformed
         mui = MUI.getInstance();
@@ -17,7 +22,6 @@ public class DeleteCommand implements Command {
         int x = mui.getX();
         boolean flag = mui.getIsNewContact();
         JXTable jXTable1 = mui.getjXTable1();
-
 
 
         int index = jList1.getSelectedIndex();

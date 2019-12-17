@@ -6,6 +6,9 @@ import javax.swing.*;
 
 public class cancelCommand implements Command {
    static MUI mui;
+    public cancelCommand(MUI mui) {
+        this.mui = mui;
+    }
     @Override
     public void execute(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton11ActionPerformed
         mui = MUI.getInstance();

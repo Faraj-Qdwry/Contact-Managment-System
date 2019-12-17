@@ -8,7 +8,11 @@ import java.awt.event.ActionEvent;
 
 public class VFDCommand implements Command {
     static MUI mui;
-    
+
+    public VFDCommand(MUI mui) {
+        this.mui = mui;
+    }
+
     @Override
     public void execute(ActionEvent evt) {//GEN-FIRST:event_jButton6ActionPerformed
 
@@ -20,7 +24,7 @@ public class VFDCommand implements Command {
         boolean flag = mui.getIsNewContact();
         boolean dflag = mui.getIsDescriptionSet();
         JXTable jXTable1 = mui.getjXTable1();
-        
+
         int index = jList1.getSelectedIndex();
         if (index < 0) {
             JOptionPane.showMessageDialog(mui, "Select a category!");

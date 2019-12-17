@@ -7,9 +7,9 @@ import javax.swing.*;
 public class addCommand implements Command {
     static MUI mui;
 
-   // public addCommand() {
-    //    mui = mui.getInstance();
-    //}
+    public addCommand(MUI mui) {
+       this.mui = mui;
+    }
 
 
     public  void execute(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed

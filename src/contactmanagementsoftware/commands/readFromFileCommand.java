@@ -14,6 +14,10 @@ public class readFromFileCommand implements Command {
 
     static MUI mui;
 
+    public readFromFileCommand(MUI mui) {
+        this.mui = mui;
+    }
+
     @Override
     public void execute(ActionEvent evt) {//GEN-FIRST:event_jButton7ActionPerformed
         mui = MUI.getInstance();

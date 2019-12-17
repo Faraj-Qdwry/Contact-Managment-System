@@ -1,182 +1,93 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f3a09033-809d-4de1-bb29-e9ba828d6a2a" name="Default Changelist" comment="" />
-    <ignored path="$PROJECT_DIR$/out/" />
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <list default="true" id="baff9b1c-bcf0-4609-b97d-33c40cb67e97" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/contactmanagementsoftware/commands/UIButton.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Contact-Managment-System/META-INF/Contact-Managment-System.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Contact-Managment-System/contactmanagementsoftware/ContactManagementSoftware.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Contact-Managment-System/contactmanagementsoftware/ContactManagementSoftware.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Contact-Managment-System/contactmanagementsoftware/Iterator/CasualContactsIterator.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Contact-Managment-System/contactmanagementsoftware/Iterator/CasualContactsIterator.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Contact-Managment-System/contactmanagementsoftware/Iterator/ContactsIterator.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Contact-Managment-System/contactmanagementsoftware/Iterator/ContactsIterator.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Contact-Managment-System/contactmanagementsoftware/Iterator/PersonalFriendsIterator.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Contact-Managment-System/contactmanagementsoftware/Iterator/PersonalFriendsIterator.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Contact-Managment-System/contactmanagementsoftware/Iterator/ProfessionalFriendsIterator.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Contact-Managment-System/contactmanagementsoftware/Iterator/ProfessionalFriendsIterator.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Contact-Managment-System/contactmanagementsoftware/Iterator/RelativesIterator.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Contact-Managment-System/contactmanagementsoftware/Iterator/RelativesIterator.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Contact-Managment-System/contactmanagementsoftware/MUI$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Contact-Managment-System/contactmanagementsoftware/MUI$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Contact-Managment-System/contactmanagementsoftware/MUI$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Contact-Managment-System/contactmanagementsoftware/MUI$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Contact-Managment-System/contactmanagementsoftware/MUI.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Contact-Managment-System/contactmanagementsoftware/MUI.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Contact-Managment-System/contactmanagementsoftware/SerializationUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Contact-Managment-System/contactmanagementsoftware/SerializationUtil.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Contact-Managment-System/contactmanagementsoftware/commands/BackToMainMenuCommand.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Contact-Managment-System/contactmanagementsoftware/commands/BackToMainMenuCommand.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Contact-Managment-System/contactmanagementsoftware/commands/Command.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Contact-Managment-System/contactmanagementsoftware/commands/Command.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Contact-Managment-System/contactmanagementsoftware/commands/DeleteCommand.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Contact-Managment-System/contactmanagementsoftware/commands/DeleteCommand.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Contact-Managment-System/contactmanagementsoftware/commands/SaveCommand.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Contact-Managment-System/contactmanagementsoftware/commands/SaveCommand.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Contact-Managment-System/contactmanagementsoftware/commands/VFDCommand.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Contact-Managment-System/contactmanagementsoftware/commands/VFDCommand.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Contact-Managment-System/contactmanagementsoftware/commands/addCommand.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Contact-Managment-System/contactmanagementsoftware/commands/addCommand.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Contact-Managment-System/contactmanagementsoftware/commands/addContactCommand.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Contact-Managment-System/contactmanagementsoftware/commands/addContactCommand.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Contact-Managment-System/contactmanagementsoftware/commands/cancelCommand.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Contact-Managment-System/contactmanagementsoftware/commands/cancelCommand.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Contact-Managment-System/contactmanagementsoftware/commands/editCommand.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Contact-Managment-System/contactmanagementsoftware/commands/editCommand.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Contact-Managment-System/contactmanagementsoftware/commands/exitCommand.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Contact-Managment-System/contactmanagementsoftware/commands/exitCommand.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Contact-Managment-System/contactmanagementsoftware/commands/readFromFileCommand.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Contact-Managment-System/contactmanagementsoftware/commands/readFromFileCommand.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Contact-Managment-System/contactmanagementsoftware/commands/searchCommand.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Contact-Managment-System/contactmanagementsoftware/commands/searchCommand.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Contact-Managment-System/contactmanagementsoftware/composit/ContactComponent.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Contact-Managment-System/contactmanagementsoftware/composit/ContactComponent.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Contact-Managment-System/contactmanagementsoftware/composit/ContactManagementComponent.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Contact-Managment-System/contactmanagementsoftware/composit/ContactManagementComponent.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Contact-Managment-System/contactmanagementsoftware/composit/DirectoryComponent.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Contact-Managment-System/contactmanagementsoftware/composit/DirectoryComponent.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Contact-Managment-System/contactmanagementsoftware/contacts/CasualContact.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Contact-Managment-System/contactmanagementsoftware/contacts/CasualContact.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Contact-Managment-System/contactmanagementsoftware/contacts/Contact.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Contact-Managment-System/contactmanagementsoftware/contacts/Contact.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Contact-Managment-System/contactmanagementsoftware/contacts/PersonalFriends.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Contact-Managment-System/contactmanagementsoftware/contacts/PersonalFriends.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Contact-Managment-System/contactmanagementsoftware/contacts/ProfessionalFriends.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Contact-Managment-System/contactmanagementsoftware/contacts/ProfessionalFriends.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Contact-Managment-System/contactmanagementsoftware/contacts/Relatives.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Contact-Managment-System/contactmanagementsoftware/contacts/Relatives.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Contact-Managment-System/contactmanagementsoftware/strategies/descriptrion_stratigies/CasualContactDescriptionBehaviour.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Contact-Managment-System/contactmanagementsoftware/strategies/descriptrion_stratigies/CasualContactDescriptionBehaviour.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Contact-Managment-System/contactmanagementsoftware/strategies/descriptrion_stratigies/ContactDescriptionBehaviour.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Contact-Managment-System/contactmanagementsoftware/strategies/descriptrion_stratigies/ContactDescriptionBehaviour.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Contact-Managment-System/contactmanagementsoftware/strategies/descriptrion_stratigies/PersonalFriendsDescriptionBehaviour.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Contact-Managment-System/contactmanagementsoftware/strategies/descriptrion_stratigies/PersonalFriendsDescriptionBehaviour.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Contact-Managment-System/contactmanagementsoftware/strategies/descriptrion_stratigies/ProfessionalFriendsDescriptionBehaviour.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Contact-Managment-System/contactmanagementsoftware/strategies/descriptrion_stratigies/ProfessionalFriendsDescriptionBehaviour.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Contact-Managment-System/contactmanagementsoftware/strategies/descriptrion_stratigies/RelativesDescriptionBehaviour.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Contact-Managment-System/contactmanagementsoftware/strategies/descriptrion_stratigies/RelativesDescriptionBehaviour.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Contact-Managment-System/contactmanagementsoftware/strategies/visibility_stratigies/CasualContactsVisibilityBehaviour.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Contact-Managment-System/contactmanagementsoftware/strategies/visibility_stratigies/CasualContactsVisibilityBehaviour.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Contact-Managment-System/contactmanagementsoftware/strategies/visibility_stratigies/ContactsVisibilityBehaviour.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Contact-Managment-System/contactmanagementsoftware/strategies/visibility_stratigies/ContactsVisibilityBehaviour.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Contact-Managment-System/contactmanagementsoftware/strategies/visibility_stratigies/PersonalFriendsVisibilityBehaviour.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Contact-Managment-System/contactmanagementsoftware/strategies/visibility_stratigies/PersonalFriendsVisibilityBehaviour.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Contact-Managment-System/contactmanagementsoftware/strategies/visibility_stratigies/ProfessionalFriendsVisibilityBehaviour.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Contact-Managment-System/contactmanagementsoftware/strategies/visibility_stratigies/ProfessionalFriendsVisibilityBehaviour.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Contact-Managment-System/contactmanagementsoftware/strategies/visibility_stratigies/RelativesVisibilityBehaviour.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Contact-Managment-System/contactmanagementsoftware/strategies/visibility_stratigies/RelativesVisibilityBehaviour.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/contactmanagementsoftware/MUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/contactmanagementsoftware/MUI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/contactmanagementsoftware/commands/BackToMainMenuCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/contactmanagementsoftware/commands/BackToMainMenuCommand.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/contactmanagementsoftware/commands/Command.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/contactmanagementsoftware/commands/Command.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/contactmanagementsoftware/commands/DeleteCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/contactmanagementsoftware/commands/DeleteCommand.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/contactmanagementsoftware/commands/SaveCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/contactmanagementsoftware/commands/SaveCommand.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/contactmanagementsoftware/commands/VFDCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/contactmanagementsoftware/commands/VFDCommand.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/contactmanagementsoftware/commands/addCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/contactmanagementsoftware/commands/addCommand.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/contactmanagementsoftware/commands/addContactCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/contactmanagementsoftware/commands/addContactCommand.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/contactmanagementsoftware/commands/cancelCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/contactmanagementsoftware/commands/cancelCommand.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/contactmanagementsoftware/commands/editCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/contactmanagementsoftware/commands/editCommand.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/contactmanagementsoftware/commands/exitCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/contactmanagementsoftware/commands/exitCommand.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/contactmanagementsoftware/commands/readFromFileCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/contactmanagementsoftware/commands/readFromFileCommand.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/contactmanagementsoftware/commands/searchCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/contactmanagementsoftware/commands/searchCommand.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="CodeStyleSettingsInfer">
+    <option name="done" value="true" />
+  </component>
   <component name="DefaultGradleProjectSettings">
     <option name="testRunner" value="GRADLE" />
     <option name="delegatedBuild" value="true" />
   </component>
-  <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/contactmanagementsoftware/MUI.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="311">
-              <caret line="785" column="37" lean-forward="true" selection-start-line="785" selection-start-column="37" selection-end-line="785" selection-end-column="37" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/README.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="187">
-                <caret line="11" column="19" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="19" />
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/contactmanagementsoftware/composit/ContactComponent.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/contactmanagementsoftware/composit/ContactManagementComponent.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" column="22" selection-start-line="4" selection-start-column="22" selection-end-line="4" selection-end-column="22" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/contactmanagementsoftware/composit/DirectoryComponent.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/contactmanagementsoftware/contacts/Contact.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/contactmanagementsoftware/contacts/CasualContact.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/contactmanagementsoftware/contacts/PersonalFriends.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/contactmanagementsoftware/ContactManagementSoftware.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="9" column="20" lean-forward="true" selection-start-line="9" selection-start-column="20" selection-end-line="9" selection-end-column="20" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="IdeDocumentHistory">
-    <option name="CHANGED_PATHS">
-      <list>
-        <option value="$PROJECT_DIR$/README.md" />
-      </list>
-    </option>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="1" />
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="170" />
-    <option name="y" value="50" />
-    <option name="width" value="3500" />
-    <option name="height" value="1960" />
-  </component>
-  <component name="ProjectView">
-    <navigator proportions="" version="1">
-      <foldersAlwaysOnTop value="true" />
-    </navigator>
-    <panes>
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="Contact-Management-System-master" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Contact-Management-System-master" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Contact-Management-System-master" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Contact-Management-System-master" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Contact-Management-System-master" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Contact-Management-System-master" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="contactmanagementsoftware" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Contact-Management-System-master" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Contact-Management-System-master" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="contactmanagementsoftware" type="462c0819:PsiDirectoryNode" />
-              <item name="composit" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Contact-Management-System-master" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Contact-Management-System-master" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="contactmanagementsoftware" type="462c0819:PsiDirectoryNode" />
-              <item name="strategies" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Contact-Management-System-master" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Contact-Management-System-master" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="contactmanagementsoftware" type="462c0819:PsiDirectoryNode" />
-              <item name="strategies" type="462c0819:PsiDirectoryNode" />
-              <item name="descriptrion_stratigies" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Contact-Management-System-master" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Contact-Management-System-master" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="contactmanagementsoftware" type="462c0819:PsiDirectoryNode" />
-              <item name="strategies" type="462c0819:PsiDirectoryNode" />
-              <item name="visibility_stratigies" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
-    </panes>
+  <component name="ProjectId" id="1V6dFJNZHIfbLLrZIFTvFWNKBao" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -188,19 +99,8 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
-  </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="org.plantuml.idea.lang.settings.PlantUmlSettingsPage" />
   </component>
   <component name="RunManager">
     <configuration name="ContactManagementSoftware" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
@@ -239,162 +139,71 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="f3a09033-809d-4de1-bb29-e9ba828d6a2a" name="Default Changelist" comment="" />
+      <changelist id="baff9b1c-bcf0-4609-b97d-33c40cb67e97" name="Default Changelist" comment="" />
       <created>1576565306971</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1576565306971</updated>
       <workItem from="1576565309338" duration="5803000" />
       <workItem from="1576573187781" duration="1425000" />
+      <workItem from="1576578988886" duration="3217000" />
     </task>
     <servers />
-  </component>
-  <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1425000" />
-  </component>
-  <component name="ToolWindowManager">
-    <frame x="-6" y="-6" width="1549" height="877" extended-state="6" />
-    <layout>
-      <window_info id="Designer" />
-      <window_info id="Image Layers" />
-      <window_info id="Capture Tool" />
-      <window_info id="UI Designer" />
-      <window_info id="Favorites" side_tool="true" />
-      <window_info id="simpleUML" />
-      <window_info id="Learn" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24949698" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info active="true" anchor="bottom" id="Terminal" visible="true" weight="0.32931727" />
-      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
-      <window_info anchor="bottom" id="Database Changes" />
-      <window_info anchor="bottom" id="Version Control" weight="0.32931727" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Maven" />
-      <window_info anchor="right" id="Palette" />
-      <window_info anchor="right" id="Capture Analysis" />
-      <window_info anchor="right" id="Database" />
-      <window_info anchor="right" id="Palette&#9;" />
-      <window_info anchor="right" id="Theme Preview" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-    </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
-  <component name="WindowStateProjectService">
-    <state x="453" y="116" key="#com.intellij.ide.util.MemberChooser" timestamp="1576567125306">
-      <screen x="0" y="0" width="1280" height="800" />
-    </state>
-    <state x="453" y="116" key="#com.intellij.ide.util.MemberChooser/0.0.1280.800@0.0.1280.800" timestamp="1576567125306" />
-    <state x="370" y="292" width="542" height="225" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1576566587918">
-      <screen x="0" y="0" width="1280" height="800" />
-    </state>
-    <state x="370" y="292" width="542" height="225" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1280.800@0.0.1280.800" timestamp="1576566587918" />
-    <state x="231" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1576572891153">
-      <screen x="0" y="0" width="1280" height="800" />
-    </state>
-    <state x="231" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1280.800@0.0.1280.800" timestamp="1576572891153" />
-    <state width="1238" height="212" key="GridCell.Tab.0.bottom" timestamp="1576573016916">
-      <screen x="0" y="0" width="1280" height="800" />
-    </state>
-    <state width="1238" height="212" key="GridCell.Tab.0.bottom/0.0.1280.800@0.0.1280.800" timestamp="1576573016916" />
-    <state width="1238" height="212" key="GridCell.Tab.0.center" timestamp="1576573016912">
-      <screen x="0" y="0" width="1280" height="800" />
-    </state>
-    <state width="1238" height="212" key="GridCell.Tab.0.center/0.0.1280.800@0.0.1280.800" timestamp="1576573016912" />
-    <state width="1238" height="212" key="GridCell.Tab.0.left" timestamp="1576573016911">
-      <screen x="0" y="0" width="1280" height="800" />
-    </state>
-    <state width="1238" height="212" key="GridCell.Tab.0.left/0.0.1280.800@0.0.1280.800" timestamp="1576573016911" />
-    <state width="1238" height="212" key="GridCell.Tab.0.right" timestamp="1576573016914">
-      <screen x="0" y="0" width="1280" height="800" />
-    </state>
-    <state width="1238" height="212" key="GridCell.Tab.0.right/0.0.1280.800@0.0.1280.800" timestamp="1576573016914" />
-    <state x="298" y="43" width="837" height="714" key="find.popup" timestamp="1576573002041">
-      <screen x="0" y="0" width="1280" height="800" />
-    </state>
-    <state x="298" y="43" width="837" height="714" key="find.popup/0.0.1280.800@0.0.1280.800" timestamp="1576573002041" />
-    <state x="305" y="124" width="670" height="676" key="search.everywhere.popup" timestamp="1576566857978">
-      <screen x="0" y="0" width="1280" height="800" />
-    </state>
-    <state x="305" y="124" width="670" height="676" key="search.everywhere.popup/0.0.1280.800@0.0.1280.800" timestamp="1576566857978" />
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
-  <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/contactmanagementsoftware/contacts/Contact.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/contactmanagementsoftware/contacts/CasualContact.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/contactmanagementsoftware/contacts/PersonalFriends.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/contactmanagementsoftware/ContactManagementSoftware.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="9" column="20" lean-forward="true" selection-start-line="9" selection-start-column="20" selection-end-line="9" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/contactmanagementsoftware/composit/ContactComponent.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/contactmanagementsoftware/composit/ContactManagementComponent.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="22" selection-start-line="4" selection-start-column="22" selection-end-line="4" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/contactmanagementsoftware/composit/DirectoryComponent.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/contactmanagementsoftware/MUI.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="311">
-          <caret line="785" column="37" lean-forward="true" selection-start-line="785" selection-start-column="37" selection-end-line="785" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="187">
-            <caret line="11" column="19" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="19" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
+  <component name="WindowStateProjectService">
+    <state x="609" y="212" key="#com.intellij.ide.util.MemberChooser" timestamp="1576581836548">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="453" y="116" key="#com.intellij.ide.util.MemberChooser/0.0.1280.800@0.0.1280.800" timestamp="1576578987643" />
+    <state x="609" y="212" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1080@0.0.1920.1080" timestamp="1576581836548" />
+    <state x="370" y="292" width="542" height="225" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1576578987643" />
+    <state x="370" y="292" width="542" height="225" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1280.800@0.0.1280.800" timestamp="1576578987643" />
+    <state x="231" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1576578987643" />
+    <state x="231" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1280.800@0.0.1280.800" timestamp="1576578987643" />
+    <state width="1877" height="295" key="GridCell.Tab.0.bottom" timestamp="1576582090419">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1238" height="212" key="GridCell.Tab.0.bottom/0.0.1280.800@0.0.1280.800" timestamp="1576578987643" />
+    <state width="1877" height="295" key="GridCell.Tab.0.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1576582090419" />
+    <state width="1877" height="295" key="GridCell.Tab.0.center" timestamp="1576582090419">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1238" height="212" key="GridCell.Tab.0.center/0.0.1280.800@0.0.1280.800" timestamp="1576578987643" />
+    <state width="1877" height="295" key="GridCell.Tab.0.center/0.0.1920.1080@0.0.1920.1080" timestamp="1576582090419" />
+    <state width="1877" height="295" key="GridCell.Tab.0.left" timestamp="1576582090419">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1238" height="212" key="GridCell.Tab.0.left/0.0.1280.800@0.0.1280.800" timestamp="1576578987643" />
+    <state width="1877" height="295" key="GridCell.Tab.0.left/0.0.1920.1080@0.0.1920.1080" timestamp="1576582090419" />
+    <state width="1877" height="295" key="GridCell.Tab.0.right" timestamp="1576582090419">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1238" height="212" key="GridCell.Tab.0.right/0.0.1280.800@0.0.1280.800" timestamp="1576578987643" />
+    <state width="1877" height="295" key="GridCell.Tab.0.right/0.0.1920.1080@0.0.1920.1080" timestamp="1576582090419" />
+    <state x="661" y="363" key="com.intellij.ide.util.TipDialog" timestamp="1576578990820">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="661" y="363" key="com.intellij.ide.util.TipDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1576578990820" />
+    <state x="298" y="43" width="837" height="714" key="find.popup" timestamp="1576578987643" />
+    <state x="298" y="43" width="837" height="714" key="find.popup/0.0.1280.800@0.0.1280.800" timestamp="1576578987643" />
+    <state x="305" y="124" width="670" height="676" key="search.everywhere.popup" timestamp="1576578987643" />
+    <state x="305" y="124" width="670" height="676" key="search.everywhere.popup/0.0.1280.800@0.0.1280.800" timestamp="1576578987643" />
   </component>
   <component name="simpleUML.UMLToolWindowPlugin">
     <General>

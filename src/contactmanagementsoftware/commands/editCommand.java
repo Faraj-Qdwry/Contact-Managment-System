@@ -8,9 +8,14 @@ import java.awt.event.ActionEvent;
 
 public class editCommand implements Command {
 
+    public editCommand(MUI mui) {
+        this.mui = mui;
+    }
+
     static MUI mui;
+
     @Override
-    public void execute(ActionEvent evt){//GEN-FIRST:event_jButton5ActionPerformed
+    public void execute(ActionEvent evt) {//GEN-FIRST:event_jButton5ActionPerformed
         mui = MUI.getInstance();
         JList jList1 = mui.getjList1();
         JPanel jPanel1 = mui.getjPanel1();
