@@ -8,6 +8,6 @@ project and make a pull request :)
 * `Command Pattern`
 * `Strategy Pattern`
 * `Iterator Pattern`
-* `Singleton`
-* `Composit`
+* `Singleton Pattern`
+* `Composit Pattern`
 #
