@@ -2,65 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="baff9b1c-bcf0-4609-b97d-33c40cb67e97" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/out/production/Contact-Management-System-master/contactmanagementsoftware/commands/BackToMainMenuCommand.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Contact-Management-System-master/contactmanagementsoftware/commands/Command.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Contact-Management-System-master/contactmanagementsoftware/commands/VFDCommand.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Contact-Management-System-master/contactmanagementsoftware/commands/addCommand.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Contact-Management-System-master/contactmanagementsoftware/commands/addContactCommand.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Contact-Management-System-master/contactmanagementsoftware/commands/cancelCommand.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Contact-Management-System-master/contactmanagementsoftware/commands/editCommand.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Contact-Management-System-master/contactmanagementsoftware/commands/exitCommand.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Contact-Management-System-master/contactmanagementsoftware/commands/readFromFileCommand.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Contact-Management-System-master/contactmanagementsoftware/strategies/descriptrion_stratigies/AcquaintancesDescriptionBehaviour.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Contact-Management-System-master/contactmanagementsoftware/strategies/descriptrion_stratigies/CasualAcquaintancesDescriptionBehaviour.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Contact-Management-System-master/contactmanagementsoftware/strategies/descriptrion_stratigies/PersonalFriendsDescriptionBehaviour.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Contact-Management-System-master/contactmanagementsoftware/strategies/descriptrion_stratigies/ProfessionalFriendsDescriptionBehaviour.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Contact-Management-System-master/contactmanagementsoftware/strategies/descriptrion_stratigies/RelativesDescriptionBehaviour.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Contact-Management-System-master/contactmanagementsoftware/strategies/visibility_stratigies/AcquaintancesVisibilityBehaviour.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Contact-Management-System-master/contactmanagementsoftware/strategies/visibility_stratigies/CasualAcquaintancesVisibilityBehaviour.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Contact-Management-System-master/contactmanagementsoftware/strategies/visibility_stratigies/PersonalFriendsVisibilityBehaviour.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Contact-Management-System-master/contactmanagementsoftware/strategies/visibility_stratigies/ProfessionalFriendsVisibilityBehaviour.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Contact-Management-System-master/contactmanagementsoftware/strategies/visibility_stratigies/RelativesVisibilityBehaviour.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/contactmanagementsoftware/strategies/descriptrion_stratigies/AcquaintancesDescriptionBehaviour.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/contactmanagementsoftware/strategies/descriptrion_stratigies/CasualAcquaintancesDescriptionBehaviour.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/contactmanagementsoftware/strategies/descriptrion_stratigies/PersonalFriendsDescriptionBehaviour.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/contactmanagementsoftware/strategies/descriptrion_stratigies/ProfessionalFriendsDescriptionBehaviour.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/contactmanagementsoftware/strategies/descriptrion_stratigies/RelativesDescriptionBehaviour.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/contactmanagementsoftware/strategies/visibility_stratigies/AcquaintancesVisibilityBehaviour.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/contactmanagementsoftware/strategies/visibility_stratigies/CasualAcquaintancesVisibilityBehaviour.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/contactmanagementsoftware/strategies/visibility_stratigies/PersonalFriendsVisibilityBehaviour.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/contactmanagementsoftware/strategies/visibility_stratigies/ProfessionalFriendsVisibilityBehaviour.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/contactmanagementsoftware/strategies/visibility_stratigies/RelativesVisibilityBehaviour.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Contact-Management-System-master/META-INF/Contact-Management-System-master.kotlin_module" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Contact-Management-System-master/META-INF/Contact-Management-System-master.kotlin_module" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Contact-Management-System-master/contactmanagementsoftware/BackToMainMenuCommand.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Contact-Management-System-master/contactmanagementsoftware/Command.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Contact-Management-System-master/contactmanagementsoftware/DeleteCommand.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Contact-Management-System-master/contactmanagementsoftware/commands/DeleteCommand.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Contact-Management-System-master/contactmanagementsoftware/MUI$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Contact-Management-System-master/contactmanagementsoftware/MUI$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Contact-Management-System-master/contactmanagementsoftware/MUI$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Contact-Management-System-master/contactmanagementsoftware/MUI$2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Contact-Management-System-master/contactmanagementsoftware/MUI.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Contact-Management-System-master/contactmanagementsoftware/MUI.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Contact-Management-System-master/contactmanagementsoftware/SaveCommand.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Contact-Management-System-master/contactmanagementsoftware/commands/SaveCommand.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Contact-Management-System-master/contactmanagementsoftware/VFDCommand.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Contact-Management-System-master/contactmanagementsoftware/acquaintances/Acquaintances.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Contact-Management-System-master/contactmanagementsoftware/acquaintances/Acquaintances.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Contact-Management-System-master/contactmanagementsoftware/acquaintances/CasualAcquaintances.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Contact-Management-System-master/contactmanagementsoftware/acquaintances/CasualAcquaintances.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Contact-Management-System-master/contactmanagementsoftware/acquaintances/PersonalFriends.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Contact-Management-System-master/contactmanagementsoftware/acquaintances/PersonalFriends.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Contact-Management-System-master/contactmanagementsoftware/acquaintances/ProfessionalFriends.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Contact-Management-System-master/contactmanagementsoftware/acquaintances/ProfessionalFriends.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Contact-Management-System-master/contactmanagementsoftware/acquaintances/Relatives.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Contact-Management-System-master/contactmanagementsoftware/acquaintances/Relatives.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Contact-Management-System-master/contactmanagementsoftware/addCommand.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Contact-Management-System-master/contactmanagementsoftware/addContactCommand.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Contact-Management-System-master/contactmanagementsoftware/cancelCommand.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Contact-Management-System-master/contactmanagementsoftware/editCommand.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Contact-Management-System-master/contactmanagementsoftware/exitCommand.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Contact-Management-System-master/contactmanagementsoftware/readFromFileCommand.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Contact-Management-System-master/contactmanagementsoftware/searchCommand.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Contact-Management-System-master/contactmanagementsoftware/commands/searchCommand.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/output.ser" beforeDir="false" afterPath="$PROJECT_DIR$/output.ser" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/contactmanagementsoftware/Iterator/AcquaintancesIterator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/contactmanagementsoftware/Iterator/CasualAcquaintancesIterator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/contactmanagementsoftware/Iterator/CasualAcquaintancesIterator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/contactmanagementsoftware/Iterator/PersonalFriendsIterator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/contactmanagementsoftware/Iterator/PersonalFriendsIterator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/contactmanagementsoftware/Iterator/ProfessionalFriendsIterator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/contactmanagementsoftware/Iterator/ProfessionalFriendsIterator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/contactmanagementsoftware/Iterator/RelativesIterator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/contactmanagementsoftware/Iterator/RelativesIterator.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/contactmanagementsoftware/MUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/contactmanagementsoftware/MUI.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/contactmanagementsoftware/acquaintances/Acquaintances.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/contactmanagementsoftware/acquaintances/Acquaintances.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/contactmanagementsoftware/acquaintances/CasualAcquaintances.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/contactmanagementsoftware/acquaintances/CasualAcquaintances.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/contactmanagementsoftware/acquaintances/PersonalFriends.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/contactmanagementsoftware/acquaintances/PersonalFriends.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/contactmanagementsoftware/acquaintances/ProfessionalFriends.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/contactmanagementsoftware/acquaintances/ProfessionalFriends.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/contactmanagementsoftware/acquaintances/Relatives.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/contactmanagementsoftware/acquaintances/Relatives.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/contactmanagementsoftware/commands/addContactCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/contactmanagementsoftware/commands/addContactCommand.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -81,9 +28,41 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="204">
               <caret line="15" column="46" lean-forward="true" selection-start-line="15" selection-start-column="46" selection-end-line="15" selection-end-column="46" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/contactmanagementsoftware/Iterator/AcquaintancesIterator.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="476">
+              <caret line="28" column="29" lean-forward="true" selection-start-line="28" selection-start-column="29" selection-end-line="28" selection-end-column="29" />
               <folding>
-                <element signature="e#952#953#0" expanded="true" />
-                <element signature="e#995#996#0" expanded="true" />
+                <element signature="imports" expanded="true" />
+                <element signature="e#221#222#0" expanded="true" />
+                <element signature="e#246#247#0" expanded="true" />
+                <element signature="e#601#602#0" expanded="true" />
+                <element signature="e#647#648#0" expanded="true" />
+                <element signature="e#687#688#0" expanded="true" />
+                <element signature="e#723#724#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/contactmanagementsoftware/Iterator/CasualAcquaintancesIterator.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="323">
+              <caret line="19" column="5" lean-forward="true" selection-start-line="7" selection-start-column="41" selection-end-line="19" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#600#601#0" expanded="true" />
+                <element signature="e#619#620#0" expanded="true" />
+                <element signature="e#419#420#0" expanded="true" />
+                <element signature="e#476#477#0" expanded="true" />
+                <element signature="e#508#509#0" expanded="true" />
+                <element signature="e#546#547#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -92,57 +71,66 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/contactmanagementsoftware/MUI.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="131">
-              <caret line="209" column="43" selection-start-line="209" selection-start-column="43" selection-end-line="209" selection-end-column="43" />
+            <state relative-caret-position="2125">
+              <caret line="777" column="11" lean-forward="true" selection-start-line="777" selection-start-column="11" selection-end-line="777" selection-end-column="11" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#10089#10178#0" expanded="true" />
+                <element signature="e#8430#8519#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/contactmanagementsoftware/commands/VFDCommand.java">
+        <entry file="file://$PROJECT_DIR$/src/contactmanagementsoftware/Iterator/PersonalFriendsIterator.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="17" column="18" lean-forward="true" selection-start-line="17" selection-start-column="18" selection-end-line="17" selection-end-column="18" />
+            <state relative-caret-position="238">
+              <caret line="14" column="41" selection-start-line="14" selection-start-column="41" selection-end-line="14" selection-end-column="41" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#468#469#0" expanded="true" />
+                <element signature="e#496#497#0" expanded="true" />
+                <element signature="e#403#404#0" expanded="true" />
+                <element signature="e#456#457#0" expanded="true" />
+                <element signature="e#626#627#0" expanded="true" />
+                <element signature="e#664#665#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/contactmanagementsoftware/commands/editCommand.java">
+        <entry file="file://$PROJECT_DIR$/src/contactmanagementsoftware/Iterator/ProfessionalFriendsIterator.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="15" column="41" selection-start-line="15" selection-start-column="41" selection-end-line="15" selection-end-column="41" />
+            <state relative-caret-position="306">
+              <caret line="18" column="1" lean-forward="true" selection-start-line="5" selection-start-column="41" selection-end-line="18" selection-end-column="1" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#474#475#0" expanded="true" />
+                <element signature="e#502#503#0" expanded="true" />
+                <element signature="e#543#544#0" expanded="true" />
+                <element signature="e#600#601#0" expanded="true" />
+                <element signature="e#632#633#0" expanded="true" />
+                <element signature="e#670#671#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/contactmanagementsoftware/strategies/visibility_stratigies/CasualAcquaintancesVisibilityBehaviour.java">
+        <entry file="file://$PROJECT_DIR$/src/contactmanagementsoftware/Iterator/RelativesIterator.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="21" column="5" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/contactmanagementsoftware/strategies/visibility_stratigies/PersonalFriendsVisibilityBehaviour.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="10" column="22" selection-start-line="10" selection-start-column="22" selection-end-line="10" selection-end-column="22" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/contactmanagementsoftware/strategies/visibility_stratigies/ProfessionalFriendsVisibilityBehaviour.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" column="16" selection-start-line="7" selection-end-line="8" />
+            <state relative-caret-position="221">
+              <caret line="13" column="34" lean-forward="true" selection-start-line="13" selection-start-column="34" selection-end-line="13" selection-end-column="34" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#445#446#0" expanded="true" />
+                <element signature="e#464#465#0" expanded="true" />
+                <element signature="e#502#503#0" expanded="true" />
+                <element signature="e#550#551#0" expanded="true" />
+                <element signature="e#579#580#0" expanded="true" />
+                <element signature="e#608#609#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -150,8 +138,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/contactmanagementsoftware/strategies/visibility_stratigies/RelativesVisibilityBehaviour.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="18" column="22" selection-start-line="18" selection-start-column="22" selection-end-line="18" selection-end-column="22" />
+            <state relative-caret-position="68">
+              <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -159,17 +147,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/contactmanagementsoftware/ContactManagementSoftware.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="476">
-              <caret line="31" column="17" selection-start-line="31" selection-start-column="17" selection-end-line="31" selection-end-column="17" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/contactmanagementsoftware/strategies/visibility_stratigies/AcquaintancesVisibilityBehaviour.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+            <state relative-caret-position="153">
+              <caret line="12" column="49" selection-start-line="12" selection-start-column="49" selection-end-line="12" selection-end-column="49" />
             </state>
           </provider>
         </entry>
@@ -217,6 +196,11 @@
         <option value="$PROJECT_DIR$/src/contactmanagementsoftware/acquaintances/Acquaintances.java" />
         <option value="$PROJECT_DIR$/src/contactmanagementsoftware/commands/addContactCommand.java" />
         <option value="$PROJECT_DIR$/src/contactmanagementsoftware/strategies/visibility_stratigies/CasualAcquaintancesVisibilityBehaviour.java" />
+        <option value="$PROJECT_DIR$/src/contactmanagementsoftware/Iterator/CasualAcquaintancesIterator.java" />
+        <option value="$PROJECT_DIR$/src/contactmanagementsoftware/Iterator/PersonalFriendsIterator.java" />
+        <option value="$PROJECT_DIR$/src/contactmanagementsoftware/Iterator/ProfessionalFriendsIterator.java" />
+        <option value="$PROJECT_DIR$/src/contactmanagementsoftware/Iterator/RelativesIterator.java" />
+        <option value="$PROJECT_DIR$/src/contactmanagementsoftware/Iterator/AcquaintancesIterator.java" />
         <option value="$PROJECT_DIR$/src/contactmanagementsoftware/MUI.java" />
       </list>
     </option>
@@ -233,23 +217,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="Contact-Management-System-master" type="58d84e3e:PackageViewProjectNode" />
-              <item name="Contact-Management-System-master" type="616d4139:PackageViewModuleNode" />
-            </path>
-            <path>
-              <item name="Contact-Management-System-master" type="58d84e3e:PackageViewProjectNode" />
-              <item name="Contact-Management-System-master" type="616d4139:PackageViewModuleNode" />
-              <item name="contactmanagementsoftware" type="1f31426a:PackageElementNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -285,20 +252,29 @@
               <item name="Contact-Management-System-master" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="contactmanagementsoftware" type="462c0819:PsiDirectoryNode" />
-              <item name="strategies" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Contact-Management-System-master" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Contact-Management-System-master" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="contactmanagementsoftware" type="462c0819:PsiDirectoryNode" />
-              <item name="strategies" type="462c0819:PsiDirectoryNode" />
-              <item name="visibility_stratigies" type="462c0819:PsiDirectoryNode" />
+              <item name="Iterator" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="Contact-Management-System-master" type="58d84e3e:PackageViewProjectNode" />
+              <item name="Contact-Management-System-master" type="616d4139:PackageViewModuleNode" />
+            </path>
+            <path>
+              <item name="Contact-Management-System-master" type="58d84e3e:PackageViewProjectNode" />
+              <item name="Contact-Management-System-master" type="616d4139:PackageViewModuleNode" />
+              <item name="contactmanagementsoftware" type="1f31426a:PackageElementNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -380,13 +356,22 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="18512000" />
+    <option name="totallyTimeSpent" value="20681000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
   </component>
   <component name="ToolWindowManager">
     <frame x="-6" y="-6" width="1549" height="877" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23474178" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21797451" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -395,7 +380,6 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info id="simpleUML" order="7" />
       <window_info id="Learn" order="8" />
-      <window_info anchor="bottom" id="Duplicates" weight="0.32931727" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32931727" />
@@ -403,12 +387,13 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.28647926" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.28647926" />
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.32931727" />
       <window_info anchor="bottom" id="Database Changes" order="11" />
       <window_info anchor="bottom" id="Version Control" order="12" />
+      <window_info anchor="bottom" id="Duplicates" order="13" weight="0.32931727" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -535,8 +520,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/contactmanagementsoftware/strategies/descriptrion_stratigies/RelativesDescriptionBehaviour.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+        <state relative-caret-position="102">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -600,19 +585,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/contactmanagementsoftware/commands/addContactCommand.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="223">
-          <caret line="177" column="94" selection-start-line="177" selection-start-column="94" selection-end-line="177" selection-end-column="94" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/contactmanagementsoftware/acquaintances/Acquaintances.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="15" column="46" lean-forward="true" selection-start-line="15" selection-start-column="46" selection-end-line="15" selection-end-column="46" />
-          <folding>
-            <element signature="e#952#953#0" expanded="true" />
-            <element signature="e#995#996#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="240">
+          <caret line="158" column="36" selection-start-line="158" selection-start-column="36" selection-end-line="158" selection-end-column="36" />
         </state>
       </provider>
     </entry>
@@ -653,33 +627,127 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/contactmanagementsoftware/strategies/visibility_stratigies/ProfessionalFriendsVisibilityBehaviour.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="16" selection-start-line="7" selection-end-line="8" />
+        <state relative-caret-position="323">
+          <caret line="19" column="1" selection-start-line="19" selection-start-column="1" selection-end-line="19" selection-end-column="1" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/contactmanagementsoftware/strategies/visibility_stratigies/RelativesVisibilityBehaviour.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="18" column="22" selection-start-line="18" selection-start-column="22" selection-end-line="18" selection-end-column="22" />
+        <state relative-caret-position="68">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/contactmanagementsoftware/acquaintances/Acquaintances.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="15" column="46" lean-forward="true" selection-start-line="15" selection-start-column="46" selection-end-line="15" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk-12.0.1/lib/src.zip!/java.base/java/util/Iterator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="73" column="6" selection-start-line="73" selection-start-column="6" selection-end-line="73" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/contactmanagementsoftware/Iterator/CasualAcquaintancesIterator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" column="5" lean-forward="true" selection-start-line="7" selection-start-column="41" selection-end-line="19" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#600#601#0" expanded="true" />
+            <element signature="e#619#620#0" expanded="true" />
+            <element signature="e#419#420#0" expanded="true" />
+            <element signature="e#476#477#0" expanded="true" />
+            <element signature="e#508#509#0" expanded="true" />
+            <element signature="e#546#547#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/contactmanagementsoftware/Iterator/ProfessionalFriendsIterator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" column="1" lean-forward="true" selection-start-line="5" selection-start-column="41" selection-end-line="18" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#474#475#0" expanded="true" />
+            <element signature="e#502#503#0" expanded="true" />
+            <element signature="e#543#544#0" expanded="true" />
+            <element signature="e#600#601#0" expanded="true" />
+            <element signature="e#632#633#0" expanded="true" />
+            <element signature="e#670#671#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/contactmanagementsoftware/Iterator/RelativesIterator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="34" lean-forward="true" selection-start-line="13" selection-start-column="34" selection-end-line="13" selection-end-column="34" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#445#446#0" expanded="true" />
+            <element signature="e#464#465#0" expanded="true" />
+            <element signature="e#502#503#0" expanded="true" />
+            <element signature="e#550#551#0" expanded="true" />
+            <element signature="e#579#580#0" expanded="true" />
+            <element signature="e#608#609#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/contactmanagementsoftware/Iterator/AcquaintancesIterator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="476">
+          <caret line="28" column="29" lean-forward="true" selection-start-line="28" selection-start-column="29" selection-end-line="28" selection-end-column="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#221#222#0" expanded="true" />
+            <element signature="e#246#247#0" expanded="true" />
+            <element signature="e#601#602#0" expanded="true" />
+            <element signature="e#647#648#0" expanded="true" />
+            <element signature="e#687#688#0" expanded="true" />
+            <element signature="e#723#724#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/contactmanagementsoftware/Iterator/PersonalFriendsIterator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="41" selection-start-line="14" selection-start-column="41" selection-end-line="14" selection-end-column="41" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#468#469#0" expanded="true" />
+            <element signature="e#496#497#0" expanded="true" />
+            <element signature="e#403#404#0" expanded="true" />
+            <element signature="e#456#457#0" expanded="true" />
+            <element signature="e#626#627#0" expanded="true" />
+            <element signature="e#664#665#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/contactmanagementsoftware/MUI.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="131">
-          <caret line="209" column="43" selection-start-line="209" selection-start-column="43" selection-end-line="209" selection-end-column="43" />
+        <state relative-caret-position="2125">
+          <caret line="777" column="11" lean-forward="true" selection-start-line="777" selection-start-column="11" selection-end-line="777" selection-end-column="11" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#10089#10178#0" expanded="true" />
+            <element signature="e#8430#8519#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/contactmanagementsoftware/ContactManagementSoftware.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="476">
-          <caret line="31" column="17" selection-start-line="31" selection-start-column="17" selection-end-line="31" selection-end-column="17" />
+        <state relative-caret-position="153">
+          <caret line="12" column="49" selection-start-line="12" selection-start-column="49" selection-end-line="12" selection-end-column="49" />
         </state>
       </provider>
     </entry>

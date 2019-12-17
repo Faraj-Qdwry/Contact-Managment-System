@@ -1,34 +1,19 @@
 package contactmanagementsoftware.Iterator;
+import contactmanagementsoftware.acquaintances.Acquaintances;
 import contactmanagementsoftware.acquaintances.ProfessionalFriends;
-import contactmanagementsoftware.strategies.descriptrion_stratigies.ProfessionalFriendsDescriptionBehaviour;
-
-import java.io.Serializable;
-import java.util.Scanner;
 import java.util.ArrayList;
-import java.util.Iterator;
 
-public class ProfessionalFriendsIterator implements Iterator {
+public class ProfessionalFriendsIterator extends AcquaintancesIterator {
 
-	ArrayList<ProfessionalFriends> items;
-	int position = 0;
- 
-	public ProfessionalFriendsIterator(ArrayList<ProfessionalFriends> items) {
-		this.items = items;
+	public ProfessionalFriendsIterator(ArrayList<Acquaintances> items) {
+		super(items);
 	}
- 
+
 	public ProfessionalFriends next() {
-		ProfessionalFriends item = items.get(position);
-		position = position + 1;
-		return item;
+		return (ProfessionalFriends) super.next();
 	}
- 
+
 	public boolean hasNext() {
-		if (position >= items.size()) {
-			return false;
-		} 
-		else {
-			return true;
-		}
-	
-    }
+		return super.hasNext();
+	}
 }
