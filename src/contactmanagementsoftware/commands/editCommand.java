@@ -44,4 +44,9 @@ public class editCommand implements Command {
         jPanel1.setVisible(false);
         jPanel3.setVisible(true);
     }//GEN-LAST:event_jButton5ActionPerformed
+
+    @Override
+    public void undo(ActionEvent evt) {
+
+    }
 }

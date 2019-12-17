@@ -3,6 +3,7 @@ package contactmanagementsoftware.commands;
 import contactmanagementsoftware.MUI;
 
 import javax.swing.*;
+import java.awt.event.ActionEvent;
 
 public class addCommand implements Command {
     static MUI mui;
@@ -32,4 +33,9 @@ public class addCommand implements Command {
         mui.setDescriptionSet(false) ;
         mui.setDescription();
     }//GEN-LAST:event_jButton1ActionPerformed
+
+    @Override
+    public void undo(ActionEvent evt) {
+
+    }
 }

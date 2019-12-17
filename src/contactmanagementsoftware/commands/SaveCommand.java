@@ -59,4 +59,9 @@ public class SaveCommand implements Command {
         }
         JOptionPane.showMessageDialog(mui, s + " saved successfully");
     }//GEN-LAST:event_jButton8ActionPerformed
+
+    @Override
+    public void undo(ActionEvent evt) {
+
+    }
 }

@@ -51,4 +51,9 @@ public class readFromFileCommand implements Command {
         }
         mui.setUpTableData();
     }//GEN-LAST:event_jButton7ActionPerformed
+
+    @Override
+    public void undo(ActionEvent evt) {
+
+    }
 }

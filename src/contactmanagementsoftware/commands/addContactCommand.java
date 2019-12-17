@@ -180,4 +180,9 @@ public class addContactCommand implements Command {
         mui.setUpTableData();
     }//GEN-LAST:event_jButton10ActionPerformed
 
+    @Override
+    public void undo(ActionEvent evt) {
+
+    }
+
 }

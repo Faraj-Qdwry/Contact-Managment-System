@@ -4,6 +4,7 @@ import contactmanagementsoftware.MUI;
 import org.jdesktop.swingx.JXTable;
 
 import javax.swing.*;
+import java.awt.event.ActionEvent;
 
 public class searchCommand implements Command {
 
@@ -42,5 +43,10 @@ public class searchCommand implements Command {
         details.setContentType("text/html");
         mui.searchContactRun();
     }//GEN-LAST:event_jButton3ActionPerformed
+
+    @Override
+    public void undo(ActionEvent evt) {
+
+    }
 
 }

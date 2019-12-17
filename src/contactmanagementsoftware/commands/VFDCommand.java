@@ -43,4 +43,9 @@ public class VFDCommand implements Command {
         mui.setDescriptionSet(true);
         mui.setDescription();
     }//GEN-LAST:event_jButton6ActionPerformed
+
+    @Override
+    public void undo(ActionEvent evt) {
+
+    }
 }

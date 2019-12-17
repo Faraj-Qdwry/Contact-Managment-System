@@ -3,6 +3,7 @@ package contactmanagementsoftware.commands;
 import contactmanagementsoftware.MUI;
 
 import javax.swing.*;
+import java.awt.event.ActionEvent;
 
 public class BackToMainMenuCommand implements Command {
     static MUI mui;
@@ -21,4 +22,9 @@ public class BackToMainMenuCommand implements Command {
         jPanel2.setVisible(false);
         jPanel1.setVisible(true);
     }//GEN-LAST:event_jButton9ActionPerformed
+
+    @Override
+    public void undo(ActionEvent evt) {
+
+    }
 }

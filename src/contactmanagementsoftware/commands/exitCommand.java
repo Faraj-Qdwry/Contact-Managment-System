@@ -15,4 +15,9 @@ public class exitCommand implements Command {
     public void execute(ActionEvent evt) {//GEN-FIRST:event_jButton4ActionPerformed
         System.exit(0);
     }//GEN-LAST:event_jButton4ActionPerformed
+
+    @Override
+    public void undo(ActionEvent evt) {
+
+    }
 }

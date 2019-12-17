@@ -4,6 +4,7 @@ import contactmanagementsoftware.MUI;
 import org.jdesktop.swingx.JXTable;
 
 import javax.swing.*;
+import java.awt.event.ActionEvent;
 
 public class DeleteCommand implements Command {
     static MUI mui;
@@ -45,4 +46,9 @@ public class DeleteCommand implements Command {
             mui.setUpTableData();
         }
     }//GEN-LAST:event_jButton2ActionPerformed
+
+    @Override
+    public void undo(ActionEvent evt) {
+
+    }
 }
