@@ -13,10 +13,6 @@ import contactmanagementsoftware.composit.ContactManagementComponent;
 import contactmanagementsoftware.composit.DirectoryComponent;
 import contactmanagementsoftware.contacts.*;
 import contactmanagementsoftware.commands.*;
-import contactmanagementsoftware.strategies.descriptrion_stratigies.CasualContactDescriptionBehaviour;
-import contactmanagementsoftware.strategies.descriptrion_stratigies.PersonalFriendsDescriptionBehaviour;
-import contactmanagementsoftware.strategies.descriptrion_stratigies.ProfessionalFriendsDescriptionBehaviour;
-import contactmanagementsoftware.strategies.descriptrion_stratigies.RelativesDescriptionBehaviour;
 import contactmanagementsoftware.strategies.visibility_stratigies.*;
 import org.jdesktop.swingx.JXTable;
 
@@ -47,7 +43,7 @@ public class MUI extends javax.swing.JFrame {
     private String searchString;
 
     private Command command;
-    private UIButton uIButton;
+    private UIButtonManager uIButtonManager;
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
     public javax.swing.JLabel jLabel3;
@@ -753,71 +749,71 @@ public class MUI extends javax.swing.JFrame {
             return true;
     }
 
+    // add Button pressed
     private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {
         command = new addCommand(getInstance());
-        UIButton.setCommand(command);
+        UIButtonManager.setCommand(command);
         command.execute(evt);
     }
-
+    // delete Button pressed
     private void jButton2ActionPerformed(java.awt.event.ActionEvent evt) {
         command = new DeleteCommand(getInstance());
-        UIButton.setCommand(command);
+        UIButtonManager.setCommand(command);
         command.execute(evt);
     }
-
+    // search Button pressed
     private void jButton3ActionPerformed(java.awt.event.ActionEvent evt) {
         command = new searchCommand(getInstance());
-        UIButton.setCommand(command);
+        UIButtonManager.setCommand(command);
         command.execute(evt);
     }
-
+    // exit Button pressed
     private void jButton4ActionPerformed(java.awt.event.ActionEvent evt) {
         command = new exitCommand(getInstance());
-        UIButton.setCommand(command);
+        UIButtonManager.setCommand(command);
         command.execute(evt);
     }
-
+    // edit button pressed
     private void jButton5ActionPerformed(java.awt.event.ActionEvent evt) {
         command = new editCommand(getInstance());
-        UIButton.setCommand(command);
+        UIButtonManager.setCommand(command);
         command.execute(evt);
     }
 
     private void jButton6ActionPerformed(java.awt.event.ActionEvent evt) {
         command = new VFDCommand(getInstance());
-        UIButton.setCommand(command);
+        UIButtonManager.setCommand(command);
         command.execute(evt);
     }
 
     private void jButton7ActionPerformed(java.awt.event.ActionEvent evt) {
         command = new readFromFileCommand(getInstance());
-        UIButton.setCommand(command);
+        UIButtonManager.setCommand(command);
         command.execute(evt);
     }
 
     private void jButton8ActionPerformed(java.awt.event.ActionEvent evt) {
         command = new SaveCommand(getInstance());
-        UIButton.setCommand(command);
+        UIButtonManager.setCommand(command);
         command.execute(evt);
     }
 
     private void jButton9ActionPerformed(java.awt.event.ActionEvent evt) {
         command = new BackToMainMenuCommand(getInstance());
-        UIButton.setCommand(command);
+        UIButtonManager.setCommand(command);
         command.execute(evt);
     }
 
     private void jButton11ActionPerformed(java.awt.event.ActionEvent evt) {
         command = new cancelCommand(getInstance());
-        UIButton.setCommand(command);
+        UIButtonManager.setCommand(command);
         command.execute(evt);
     }
 
     private void jButton10ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton10ActionPerformed
         command = new addContactCommand(getInstance());
-        UIButton.setCommand(command);
+        UIButtonManager.setCommand(command);
         command.execute(evt);
-        isDescriptionSet = true;
     }//GEN-LAST:event_jButton10ActionPerformed
 
     // End of variables declaration//GEN-END:variables

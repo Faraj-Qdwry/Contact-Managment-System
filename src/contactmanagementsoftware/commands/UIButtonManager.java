@@ -1,10 +1,10 @@
 package contactmanagementsoftware.commands;
 
-public class UIButton {
+public class UIButtonManager {
 
     static Command slot;
 
-    public UIButton(Command command) {
+    public UIButtonManager(Command command) {
         slot = command;
     }
 

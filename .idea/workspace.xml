@@ -4,21 +4,23 @@
     <list default="true" id="d6c3708c-b924-4f76-ab27-d2813232adc2" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/contactmanagementsoftware/ContactManagementSoftware.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/contactmanagementsoftware/ContactManagementSoftware.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/contactmanagementsoftware/SerializationUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/contactmanagementsoftware/SerializationUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/contactmanagementsoftware/commands/BackToMainMenuCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/contactmanagementsoftware/commands/BackToMainMenuCommand.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/contactmanagementsoftware/commands/Command.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/contactmanagementsoftware/commands/Command.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/contactmanagementsoftware/commands/DeleteCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/contactmanagementsoftware/commands/DeleteCommand.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/contactmanagementsoftware/commands/SaveCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/contactmanagementsoftware/commands/SaveCommand.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/contactmanagementsoftware/commands/VFDCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/contactmanagementsoftware/commands/VFDCommand.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/contactmanagementsoftware/commands/addCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/contactmanagementsoftware/commands/addCommand.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/contactmanagementsoftware/commands/addContactCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/contactmanagementsoftware/commands/addContactCommand.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/contactmanagementsoftware/commands/cancelCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/contactmanagementsoftware/commands/cancelCommand.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/contactmanagementsoftware/commands/editCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/contactmanagementsoftware/commands/editCommand.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/contactmanagementsoftware/commands/exitCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/contactmanagementsoftware/commands/exitCommand.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/contactmanagementsoftware/commands/readFromFileCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/contactmanagementsoftware/commands/readFromFileCommand.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/contactmanagementsoftware/commands/searchCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/contactmanagementsoftware/commands/searchCommand.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Contact-Managment-System/contactmanagementsoftware/ContactManagementSoftware.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Contact-Managment-System/contactmanagementsoftware/ContactManagementSoftware.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Contact-Managment-System/contactmanagementsoftware/MUI.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Contact-Managment-System/contactmanagementsoftware/MUI.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Contact-Managment-System/contactmanagementsoftware/SerializationUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Contact-Managment-System/contactmanagementsoftware/SerializationUtil.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Contact-Managment-System/contactmanagementsoftware/commands/BackToMainMenuCommand.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Contact-Managment-System/contactmanagementsoftware/commands/BackToMainMenuCommand.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Contact-Managment-System/contactmanagementsoftware/commands/Command.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Contact-Managment-System/contactmanagementsoftware/commands/Command.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Contact-Managment-System/contactmanagementsoftware/commands/DeleteCommand.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Contact-Managment-System/contactmanagementsoftware/commands/DeleteCommand.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Contact-Managment-System/contactmanagementsoftware/commands/SaveCommand.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Contact-Managment-System/contactmanagementsoftware/commands/SaveCommand.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Contact-Managment-System/contactmanagementsoftware/commands/VFDCommand.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Contact-Managment-System/contactmanagementsoftware/commands/VFDCommand.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Contact-Managment-System/contactmanagementsoftware/commands/addCommand.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Contact-Managment-System/contactmanagementsoftware/commands/addCommand.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Contact-Managment-System/contactmanagementsoftware/commands/addContactCommand.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Contact-Managment-System/contactmanagementsoftware/commands/addContactCommand.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Contact-Managment-System/contactmanagementsoftware/commands/cancelCommand.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Contact-Managment-System/contactmanagementsoftware/commands/cancelCommand.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Contact-Managment-System/contactmanagementsoftware/commands/editCommand.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Contact-Managment-System/contactmanagementsoftware/commands/editCommand.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Contact-Managment-System/contactmanagementsoftware/commands/exitCommand.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Contact-Managment-System/contactmanagementsoftware/commands/exitCommand.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Contact-Managment-System/contactmanagementsoftware/commands/readFromFileCommand.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Contact-Managment-System/contactmanagementsoftware/commands/readFromFileCommand.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Contact-Managment-System/contactmanagementsoftware/commands/searchCommand.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Contact-Managment-System/contactmanagementsoftware/commands/searchCommand.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/contactmanagementsoftware/MUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/contactmanagementsoftware/MUI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/contactmanagementsoftware/commands/UIButton.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/contactmanagementsoftware/commands/UIButtonManager.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,8 +61,16 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Downloads/Contact-Management-System-master" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="org.plantuml.idea.lang.settings.PlantUmlSettingsPage" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="contactmanagementsoftware.commands" />
+    </key>
   </component>
   <component name="RunManager">
     <configuration name="ContactManagementSoftware" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
@@ -99,7 +109,7 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="baff9b1c-bcf0-4609-b97d-33c40cb67e97" name="Default Changelist" comment="" />
+      <changelist id="d6c3708c-b924-4f76-ab27-d2813232adc2" name="Default Changelist" comment="" />
       <created>1576565306971</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
@@ -107,6 +117,8 @@
       <workItem from="1576565309338" duration="5803000" />
       <workItem from="1576573187781" duration="1425000" />
       <workItem from="1576578988886" duration="3217000" />
+      <workItem from="1576590760012" duration="3410000" />
+      <workItem from="1576645937419" duration="307000" />
     </task>
     <servers />
   </component>
@@ -141,6 +153,10 @@
     </option>
   </component>
   <component name="WindowStateProjectService">
+    <state x="552" y="198" key="#Project_Structure" timestamp="1576590684335">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="552" y="198" key="#Project_Structure/0.0.1920.1080@0.0.1920.1080" timestamp="1576590684335" />
     <state x="609" y="212" key="#com.intellij.ide.util.MemberChooser" timestamp="1576590236860">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
@@ -148,32 +164,39 @@
     <state x="609" y="212" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1080@0.0.1920.1080" timestamp="1576590236860" />
     <state x="370" y="292" width="542" height="225" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1576578987643" />
     <state x="370" y="292" width="542" height="225" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1280.800@0.0.1280.800" timestamp="1576578987643" />
-    <state x="231" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1576578987643" />
+    <state x="0" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1576646080618">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
     <state x="231" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1280.800@0.0.1280.800" timestamp="1576578987643" />
-    <state width="1877" height="295" key="GridCell.Tab.0.bottom" timestamp="1576582090419">
+    <state x="0" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1576646080618" />
+    <state x="740" y="266" key="FileChooserDialogImpl" timestamp="1576592542404">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="740" y="266" key="FileChooserDialogImpl/0.0.1920.1080@0.0.1920.1080" timestamp="1576592542404" />
+    <state width="1877" height="167" key="GridCell.Tab.0.bottom" timestamp="1576594558958">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state width="1238" height="212" key="GridCell.Tab.0.bottom/0.0.1280.800@0.0.1280.800" timestamp="1576578987643" />
-    <state width="1877" height="295" key="GridCell.Tab.0.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1576582090419" />
-    <state width="1877" height="295" key="GridCell.Tab.0.center" timestamp="1576582090419">
+    <state width="1877" height="167" key="GridCell.Tab.0.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1576594558958" />
+    <state width="1877" height="167" key="GridCell.Tab.0.center" timestamp="1576594558958">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state width="1238" height="212" key="GridCell.Tab.0.center/0.0.1280.800@0.0.1280.800" timestamp="1576578987643" />
-    <state width="1877" height="295" key="GridCell.Tab.0.center/0.0.1920.1080@0.0.1920.1080" timestamp="1576582090419" />
-    <state width="1877" height="295" key="GridCell.Tab.0.left" timestamp="1576582090419">
+    <state width="1877" height="167" key="GridCell.Tab.0.center/0.0.1920.1080@0.0.1920.1080" timestamp="1576594558958" />
+    <state width="1877" height="167" key="GridCell.Tab.0.left" timestamp="1576594558958">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state width="1238" height="212" key="GridCell.Tab.0.left/0.0.1280.800@0.0.1280.800" timestamp="1576578987643" />
-    <state width="1877" height="295" key="GridCell.Tab.0.left/0.0.1920.1080@0.0.1920.1080" timestamp="1576582090419" />
-    <state width="1877" height="295" key="GridCell.Tab.0.right" timestamp="1576582090419">
+    <state width="1877" height="167" key="GridCell.Tab.0.left/0.0.1920.1080@0.0.1920.1080" timestamp="1576594558958" />
+    <state width="1877" height="167" key="GridCell.Tab.0.right" timestamp="1576594558958">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state width="1238" height="212" key="GridCell.Tab.0.right/0.0.1280.800@0.0.1280.800" timestamp="1576578987643" />
-    <state width="1877" height="295" key="GridCell.Tab.0.right/0.0.1920.1080@0.0.1920.1080" timestamp="1576582090419" />
-    <state x="661" y="363" key="com.intellij.ide.util.TipDialog" timestamp="1576578990820">
+    <state width="1877" height="167" key="GridCell.Tab.0.right/0.0.1920.1080@0.0.1920.1080" timestamp="1576594558958" />
+    <state x="661" y="363" key="com.intellij.ide.util.TipDialog" timestamp="1576646041511">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="661" y="363" key="com.intellij.ide.util.TipDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1576578990820" />
+    <state x="661" y="363" key="com.intellij.ide.util.TipDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1576646041511" />
     <state x="298" y="43" width="837" height="714" key="find.popup" timestamp="1576578987643" />
     <state x="298" y="43" width="837" height="714" key="find.popup/0.0.1280.800@0.0.1280.800" timestamp="1576578987643" />
     <state x="305" y="124" width="670" height="676" key="search.everywhere.popup" timestamp="1576578987643" />
