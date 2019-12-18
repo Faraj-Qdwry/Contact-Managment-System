@@ -1,27 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d6c3708c-b924-4f76-ab27-d2813232adc2" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="f3a09033-809d-4de1-bb29-e9ba828d6a2a" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Contact-Managment-System/contactmanagementsoftware/ContactManagementSoftware.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Contact-Managment-System/contactmanagementsoftware/ContactManagementSoftware.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Contact-Managment-System/contactmanagementsoftware/MUI.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Contact-Managment-System/contactmanagementsoftware/MUI.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Contact-Managment-System/contactmanagementsoftware/SerializationUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Contact-Managment-System/contactmanagementsoftware/SerializationUtil.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Contact-Managment-System/contactmanagementsoftware/commands/BackToMainMenuCommand.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Contact-Managment-System/contactmanagementsoftware/commands/BackToMainMenuCommand.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Contact-Managment-System/contactmanagementsoftware/commands/Command.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Contact-Managment-System/contactmanagementsoftware/commands/Command.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Contact-Managment-System/contactmanagementsoftware/commands/DeleteCommand.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Contact-Managment-System/contactmanagementsoftware/commands/DeleteCommand.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Contact-Managment-System/contactmanagementsoftware/commands/SaveCommand.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Contact-Managment-System/contactmanagementsoftware/commands/SaveCommand.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Contact-Managment-System/contactmanagementsoftware/commands/VFDCommand.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Contact-Managment-System/contactmanagementsoftware/commands/VFDCommand.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Contact-Managment-System/contactmanagementsoftware/commands/addCommand.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Contact-Managment-System/contactmanagementsoftware/commands/addCommand.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Contact-Managment-System/contactmanagementsoftware/commands/addContactCommand.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Contact-Managment-System/contactmanagementsoftware/commands/addContactCommand.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Contact-Managment-System/contactmanagementsoftware/commands/cancelCommand.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Contact-Managment-System/contactmanagementsoftware/commands/cancelCommand.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Contact-Managment-System/contactmanagementsoftware/commands/editCommand.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Contact-Managment-System/contactmanagementsoftware/commands/editCommand.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Contact-Managment-System/contactmanagementsoftware/commands/exitCommand.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Contact-Managment-System/contactmanagementsoftware/commands/exitCommand.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Contact-Managment-System/contactmanagementsoftware/commands/readFromFileCommand.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Contact-Managment-System/contactmanagementsoftware/commands/readFromFileCommand.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Contact-Managment-System/contactmanagementsoftware/commands/searchCommand.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Contact-Managment-System/contactmanagementsoftware/commands/searchCommand.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/contactmanagementsoftware/MUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/contactmanagementsoftware/MUI.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/contactmanagementsoftware/commands/UIButton.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/contactmanagementsoftware/commands/UIButtonManager.java" afterDir="false" />
     </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -31,8 +16,263 @@
     <option name="done" value="true" />
   </component>
   <component name="DefaultGradleProjectSettings">
-    <option name="testRunner" value="GRADLE" />
-    <option name="delegatedBuild" value="true" />
+    <option name="isMigrated" value="true" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/contactmanagementsoftware/MUI.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="289">
+              <caret line="94" column="18" lean-forward="true" selection-start-line="94" selection-start-column="18" selection-end-line="94" selection-end-column="18" />
+              <folding>
+                <element signature="e#4141#4142#0" expanded="true" />
+                <element signature="e#4176#4177#0" expanded="true" />
+                <element signature="e#4222#4223#0" expanded="true" />
+                <element signature="e#4259#4260#0" expanded="true" />
+                <element signature="e#4303#4304#0" expanded="true" />
+                <element signature="e#4342#4343#0" expanded="true" />
+                <element signature="e#4369#4370#0" expanded="true" />
+                <element signature="e#4395#4396#0" expanded="true" />
+                <element signature="e#4433#4434#0" expanded="true" />
+                <element signature="e#4466#4467#0" expanded="true" />
+                <element signature="e#4505#4506#0" expanded="true" />
+                <element signature="e#4540#4541#0" expanded="true" />
+                <element signature="e#4585#4586#0" expanded="true" />
+                <element signature="e#4622#4623#0" expanded="true" />
+                <element signature="e#4659#4660#0" expanded="true" />
+                <element signature="e#4689#4690#0" expanded="true" />
+                <element signature="e#4725#4726#0" expanded="true" />
+                <element signature="e#4753#4754#0" expanded="true" />
+                <element signature="e#4785#4786#0" expanded="true" />
+                <element signature="e#4814#4815#0" expanded="true" />
+                <element signature="e#4848#4849#0" expanded="true" />
+                <element signature="e#4878#4879#0" expanded="true" />
+                <element signature="e#4912#4913#0" expanded="true" />
+                <element signature="e#4942#4943#0" expanded="true" />
+                <element signature="e#4976#4977#0" expanded="true" />
+                <element signature="e#5006#5007#0" expanded="true" />
+                <element signature="e#5042#5043#0" expanded="true" />
+                <element signature="e#5073#5074#0" expanded="true" />
+                <element signature="e#5110#5111#0" expanded="true" />
+                <element signature="e#5139#5140#0" expanded="true" />
+                <element signature="e#5172#5173#0" expanded="true" />
+                <element signature="e#5198#5199#0" expanded="true" />
+                <element signature="e#5231#5232#0" expanded="true" />
+                <element signature="e#5257#5258#0" expanded="true" />
+                <element signature="e#5292#5293#0" expanded="true" />
+                <element signature="e#5320#5321#0" expanded="true" />
+                <element signature="e#5992#5993#0" expanded="true" />
+                <element signature="e#6033#6034#0" expanded="true" />
+                <element signature="e#6085#6086#0" expanded="true" />
+                <element signature="e#6121#6122#0" expanded="true" />
+                <element signature="e#6210#6211#0" expanded="true" />
+                <element signature="e#6260#6261#0" expanded="true" />
+                <element signature="e#6297#6298#0" expanded="true" />
+                <element signature="e#6324#6325#0" expanded="true" />
+                <element signature="e#6376#6377#0" expanded="true" />
+                <element signature="e#6417#6418#0" expanded="true" />
+                <element signature="e#6455#6456#0" expanded="true" />
+                <element signature="e#6492#6493#0" expanded="true" />
+                <element signature="e#9381#9470#0" expanded="true" />
+                <element signature="e#12290#12291#0" expanded="true" />
+                <element signature="e#12343#12344#0" expanded="true" />
+                <element signature="e#12392#12393#0" expanded="true" />
+                <element signature="e#12441#12442#0" expanded="true" />
+                <element signature="e#13652#13653#0" expanded="true" />
+                <element signature="e#13709#13710#0" expanded="true" />
+                <element signature="e#13785#13786#0" expanded="true" />
+                <element signature="e#13844#13845#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="uml://JAVA/contactmanagementsoftware">
+          <provider selected="true" editor-type-id="UmlEditorProvider">
+            <state>
+              <ID>JAVA</ID>
+              <OriginalElement>contactmanagementsoftware</OriginalElement>
+              <nodes>
+                <node x="0.0" y="77.0">contactmanagementsoftware.strategies.visibility_stratigies.RelativesVisibilityBehaviour</node>
+                <node x="879.9999999999999" y="77.0">contactmanagementsoftware.strategies.visibility_stratigies.ProfessionalFriendsVisibilityBehaviour</node>
+                <node x="576.9999999999999" y="77.0">contactmanagementsoftware.strategies.visibility_stratigies.CasualContactsVisibilityBehaviour</node>
+                <node x="266.9999999999999" y="77.0">contactmanagementsoftware.strategies.visibility_stratigies.PersonalFriendsVisibilityBehaviour</node>
+                <node x="608.2499999999999" y="174.0">contactmanagementsoftware.MUI</node>
+                <node x="592.8035714285713" y="0.0">contactmanagementsoftware.strategies.visibility_stratigies.ContactsVisibilityBehaviour</node>
+              </nodes>
+              <notes />
+              <edges>
+                <edge source="contactmanagementsoftware.MUI" target="contactmanagementsoftware.strategies.visibility_stratigies.RelativesVisibilityBehaviour">
+                  <point x="-35.111111111111086" y="-24.5" />
+                  <point x="612.6388888888888" y="154.0" />
+                  <point x="61.75" y="154.0" />
+                  <point x="-61.75" y="13.5" />
+                </edge>
+                <edge source="contactmanagementsoftware.strategies.visibility_stratigies.RelativesVisibilityBehaviour" target="contactmanagementsoftware.MUI">
+                  <point x="61.75" y="13.5" />
+                  <point x="185.25" y="144.0" />
+                  <point x="621.4166666666665" y="144.0" />
+                  <point x="-26.33333333333337" y="-24.5" />
+                </edge>
+                <edge source="contactmanagementsoftware.MUI" target="contactmanagementsoftware.strategies.visibility_stratigies.ContactsVisibilityBehaviour">
+                  <point x="35.111111111111086" y="-24.5" />
+                  <point x="682.861111111111" y="154.0" />
+                  <point x="1209.5" y="154.0" />
+                  <point x="1209.5" y="47.0" />
+                  <point x="808.8035714285713" y="47.0" />
+                  <point x="96.0" y="13.5" />
+                </edge>
+                <edge source="contactmanagementsoftware.strategies.visibility_stratigies.RelativesVisibilityBehaviour" target="contactmanagementsoftware.strategies.visibility_stratigies.ContactsVisibilityBehaviour">
+                  <point x="0.0" y="-13.5" />
+                  <point x="123.5" y="47.0" />
+                  <point x="616.8035714285713" y="47.0" />
+                  <point x="-96.0" y="13.5" />
+                </edge>
+                <edge source="contactmanagementsoftware.strategies.visibility_stratigies.ProfessionalFriendsVisibilityBehaviour" target="contactmanagementsoftware.MUI">
+                  <point x="79.75" y="13.5" />
+                  <point x="1119.25" y="144.0" />
+                  <point x="674.0833333333333" y="144.0" />
+                  <point x="26.33333333333337" y="-24.5" />
+                </edge>
+                <edge source="contactmanagementsoftware.strategies.visibility_stratigies.CasualContactsVisibilityBehaviour" target="contactmanagementsoftware.MUI">
+                  <point x="70.74999999999994" y="13.5" />
+                  <point x="789.2499999999999" y="124.0" />
+                  <point x="656.5277777777777" y="124.0" />
+                  <point x="8.777777777777828" y="-24.5" />
+                </edge>
+                <edge source="contactmanagementsoftware.MUI" target="contactmanagementsoftware.strategies.visibility_stratigies.CasualContactsVisibilityBehaviour">
+                  <point x="0.0" y="-24.5" />
+                  <point x="-70.75" y="13.5" />
+                </edge>
+                <edge source="contactmanagementsoftware.strategies.visibility_stratigies.PersonalFriendsVisibilityBehaviour" target="contactmanagementsoftware.strategies.visibility_stratigies.ContactsVisibilityBehaviour">
+                  <point x="0.0" y="-13.5" />
+                  <point x="411.9999999999999" y="57.0" />
+                  <point x="664.8035714285713" y="57.0" />
+                  <point x="-48.0" y="13.5" />
+                </edge>
+                <edge source="contactmanagementsoftware.strategies.visibility_stratigies.PersonalFriendsVisibilityBehaviour" target="contactmanagementsoftware.MUI">
+                  <point x="72.5" y="13.5" />
+                  <point x="484.4999999999999" y="124.0" />
+                  <point x="638.9722222222221" y="124.0" />
+                  <point x="-8.777777777777828" y="-24.5" />
+                </edge>
+                <edge source="contactmanagementsoftware.MUI" target="contactmanagementsoftware.strategies.visibility_stratigies.ProfessionalFriendsVisibilityBehaviour">
+                  <point x="17.555555555555543" y="-24.5" />
+                  <point x="665.3055555555554" y="134.0" />
+                  <point x="959.7499999999999" y="134.0" />
+                  <point x="-79.75" y="13.5" />
+                </edge>
+                <edge source="contactmanagementsoftware.strategies.visibility_stratigies.CasualContactsVisibilityBehaviour" target="contactmanagementsoftware.strategies.visibility_stratigies.ContactsVisibilityBehaviour">
+                  <point x="-5.6843418860808015E-14" y="-13.5" />
+                  <point x="718.4999999999999" y="57.0" />
+                  <point x="712.8035714285713" y="57.0" />
+                  <point x="0.0" y="13.5" />
+                </edge>
+                <edge source="contactmanagementsoftware.strategies.visibility_stratigies.ProfessionalFriendsVisibilityBehaviour" target="contactmanagementsoftware.strategies.visibility_stratigies.ContactsVisibilityBehaviour">
+                  <point x="0.0" y="-13.5" />
+                  <point x="1039.5" y="57.0" />
+                  <point x="760.8035714285713" y="57.0" />
+                  <point x="48.0" y="13.5" />
+                </edge>
+                <edge source="contactmanagementsoftware.MUI" target="contactmanagementsoftware.strategies.visibility_stratigies.PersonalFriendsVisibilityBehaviour">
+                  <point x="-17.555555555555543" y="-24.5" />
+                  <point x="630.1944444444443" y="134.0" />
+                  <point x="339.4999999999999" y="134.0" />
+                  <point x="-72.5" y="13.5" />
+                </edge>
+              </edges>
+              <settings layout="Hierarchic Group" zoom="0.9056910569105691" x="254.9910233393178" y="-7.745960502692981" />
+              <SelectedNodes>
+                <node>contactmanagementsoftware.strategies.visibility_stratigies.PersonalFriendsVisibilityBehaviour</node>
+              </SelectedNodes>
+              <Categories>
+                <Category>Inner Classes</Category>
+                <Category>Constructors</Category>
+              </Categories>
+              <SCOPE>All</SCOPE>
+              <VISIBILITY>private</VISIBILITY>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/contactmanagementsoftware/contacts/Relatives.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/contactmanagementsoftware/ContactManagementSoftware.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="102">
+              <caret line="8" column="71" selection-start-line="8" selection-start-column="71" selection-end-line="8" selection-end-column="71" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/contactmanagementsoftware/composit/DirectoryComponent.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/contactmanagementsoftware/composit/ContactManagementComponent.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="4" column="22" selection-start-line="4" selection-start-column="22" selection-end-line="4" selection-end-column="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/contactmanagementsoftware/composit/ContactComponent.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/contactmanagementsoftware/strategies/descriptrion_stratigies/CasualContactDescriptionBehaviour.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/contactmanagementsoftware/Iterator/CasualContactsIterator.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="85">
+              <caret line="6" selection-start-line="6" selection-end-line="6" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/contactmanagementsoftware/Iterator/ContactsIterator.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="85">
+              <caret line="7" column="22" selection-start-line="7" selection-start-column="22" selection-end-line="7" selection-end-column="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -44,12 +284,56 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/contactmanagementsoftware/MUI.java" />
+      </list>
+    </option>
+  </component>
   <component name="ProjectCodeStyleSettingsMigration">
     <option name="version" value="1" />
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="170" />
+    <option name="y" value="50" />
+    <option name="width" value="3500" />
+    <option name="height" value="1960" />
   </component>
   <component name="ProjectId" id="1V6dFJNZHIfbLLrZIFTvFWNKBao" />
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="Contact-Management-System-master" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Contact-Management-System-master" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Contact-Management-System-master" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Contact-Management-System-master" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Contact-Management-System-master" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Contact-Management-System-master" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="contactmanagementsoftware" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+    </panes>
   </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -67,10 +351,17 @@
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="org.plantuml.idea.lang.settings.PlantUmlSettingsPage" />
   </component>
-  <component name="RecentsManager">
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="contactmanagementsoftware.commands" />
-    </key>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
   </component>
   <component name="RunManager">
     <configuration name="ContactManagementSoftware" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
@@ -109,7 +400,7 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="d6c3708c-b924-4f76-ab27-d2813232adc2" name="Default Changelist" comment="" />
+      <changelist id="f3a09033-809d-4de1-bb29-e9ba828d6a2a" name="Default Changelist" comment="" />
       <created>1576565306971</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
@@ -117,10 +408,48 @@
       <workItem from="1576565309338" duration="5803000" />
       <workItem from="1576573187781" duration="1425000" />
       <workItem from="1576578988886" duration="3217000" />
-      <workItem from="1576590760012" duration="3410000" />
-      <workItem from="1576645937419" duration="307000" />
+      <workItem from="1576635864782" duration="3438000" />
     </task>
     <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="3456000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-6" y="-6" width="1549" height="877" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25285044" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="Capture Tool" order="4" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info id="simpleUML" order="7" />
+      <window_info id="Learn" order="8" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.32931727" />
+      <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Database Changes" order="10" />
+      <window_info anchor="bottom" id="Version Control" order="11" weight="0.32931727" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Maven" order="3" />
+      <window_info anchor="right" id="Palette" order="4" />
+      <window_info anchor="right" id="Capture Analysis" order="5" />
+      <window_info anchor="right" id="Database" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Theme Preview" order="8" />
+    </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -131,6 +460,12 @@
         <entry key="MAIN">
           <value>
             <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
               <option name="COLUMN_ORDER" />
             </State>
           </value>
@@ -201,6 +536,247 @@
     <state x="298" y="43" width="837" height="714" key="find.popup/0.0.1280.800@0.0.1280.800" timestamp="1576578987643" />
     <state x="305" y="124" width="670" height="676" key="search.everywhere.popup" timestamp="1576578987643" />
     <state x="305" y="124" width="670" height="676" key="search.everywhere.popup/0.0.1280.800@0.0.1280.800" timestamp="1576578987643" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/contactmanagementsoftware/contacts/Contact.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="7" column="20" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/contactmanagementsoftware/contacts/Relatives.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/contactmanagementsoftware/ContactManagementSoftware.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="8" column="71" selection-start-line="8" selection-start-column="71" selection-end-line="8" selection-end-column="71" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/contactmanagementsoftware/composit/DirectoryComponent.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/contactmanagementsoftware/composit/ContactManagementComponent.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="22" selection-start-line="4" selection-start-column="22" selection-end-line="4" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/contactmanagementsoftware/composit/ContactComponent.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/contactmanagementsoftware/strategies/descriptrion_stratigies/CasualContactDescriptionBehaviour.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/contactmanagementsoftware/Iterator/CasualContactsIterator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/contactmanagementsoftware/Iterator/ContactsIterator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="7" column="22" selection-start-line="7" selection-start-column="22" selection-end-line="7" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/contactmanagementsoftware">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>contactmanagementsoftware</OriginalElement>
+          <nodes>
+            <node x="0.0" y="77.0">contactmanagementsoftware.strategies.visibility_stratigies.RelativesVisibilityBehaviour</node>
+            <node x="879.9999999999999" y="77.0">contactmanagementsoftware.strategies.visibility_stratigies.ProfessionalFriendsVisibilityBehaviour</node>
+            <node x="576.9999999999999" y="77.0">contactmanagementsoftware.strategies.visibility_stratigies.CasualContactsVisibilityBehaviour</node>
+            <node x="266.9999999999999" y="77.0">contactmanagementsoftware.strategies.visibility_stratigies.PersonalFriendsVisibilityBehaviour</node>
+            <node x="608.2499999999999" y="174.0">contactmanagementsoftware.MUI</node>
+            <node x="592.8035714285713" y="0.0">contactmanagementsoftware.strategies.visibility_stratigies.ContactsVisibilityBehaviour</node>
+          </nodes>
+          <notes />
+          <edges>
+            <edge source="contactmanagementsoftware.MUI" target="contactmanagementsoftware.strategies.visibility_stratigies.RelativesVisibilityBehaviour">
+              <point x="-35.111111111111086" y="-24.5" />
+              <point x="612.6388888888888" y="154.0" />
+              <point x="61.75" y="154.0" />
+              <point x="-61.75" y="13.5" />
+            </edge>
+            <edge source="contactmanagementsoftware.strategies.visibility_stratigies.RelativesVisibilityBehaviour" target="contactmanagementsoftware.MUI">
+              <point x="61.75" y="13.5" />
+              <point x="185.25" y="144.0" />
+              <point x="621.4166666666665" y="144.0" />
+              <point x="-26.33333333333337" y="-24.5" />
+            </edge>
+            <edge source="contactmanagementsoftware.MUI" target="contactmanagementsoftware.strategies.visibility_stratigies.ContactsVisibilityBehaviour">
+              <point x="35.111111111111086" y="-24.5" />
+              <point x="682.861111111111" y="154.0" />
+              <point x="1209.5" y="154.0" />
+              <point x="1209.5" y="47.0" />
+              <point x="808.8035714285713" y="47.0" />
+              <point x="96.0" y="13.5" />
+            </edge>
+            <edge source="contactmanagementsoftware.strategies.visibility_stratigies.RelativesVisibilityBehaviour" target="contactmanagementsoftware.strategies.visibility_stratigies.ContactsVisibilityBehaviour">
+              <point x="0.0" y="-13.5" />
+              <point x="123.5" y="47.0" />
+              <point x="616.8035714285713" y="47.0" />
+              <point x="-96.0" y="13.5" />
+            </edge>
+            <edge source="contactmanagementsoftware.strategies.visibility_stratigies.ProfessionalFriendsVisibilityBehaviour" target="contactmanagementsoftware.MUI">
+              <point x="79.75" y="13.5" />
+              <point x="1119.25" y="144.0" />
+              <point x="674.0833333333333" y="144.0" />
+              <point x="26.33333333333337" y="-24.5" />
+            </edge>
+            <edge source="contactmanagementsoftware.strategies.visibility_stratigies.CasualContactsVisibilityBehaviour" target="contactmanagementsoftware.MUI">
+              <point x="70.74999999999994" y="13.5" />
+              <point x="789.2499999999999" y="124.0" />
+              <point x="656.5277777777777" y="124.0" />
+              <point x="8.777777777777828" y="-24.5" />
+            </edge>
+            <edge source="contactmanagementsoftware.MUI" target="contactmanagementsoftware.strategies.visibility_stratigies.CasualContactsVisibilityBehaviour">
+              <point x="0.0" y="-24.5" />
+              <point x="-70.75" y="13.5" />
+            </edge>
+            <edge source="contactmanagementsoftware.strategies.visibility_stratigies.PersonalFriendsVisibilityBehaviour" target="contactmanagementsoftware.strategies.visibility_stratigies.ContactsVisibilityBehaviour">
+              <point x="0.0" y="-13.5" />
+              <point x="411.9999999999999" y="57.0" />
+              <point x="664.8035714285713" y="57.0" />
+              <point x="-48.0" y="13.5" />
+            </edge>
+            <edge source="contactmanagementsoftware.strategies.visibility_stratigies.PersonalFriendsVisibilityBehaviour" target="contactmanagementsoftware.MUI">
+              <point x="72.5" y="13.5" />
+              <point x="484.4999999999999" y="124.0" />
+              <point x="638.9722222222221" y="124.0" />
+              <point x="-8.777777777777828" y="-24.5" />
+            </edge>
+            <edge source="contactmanagementsoftware.MUI" target="contactmanagementsoftware.strategies.visibility_stratigies.ProfessionalFriendsVisibilityBehaviour">
+              <point x="17.555555555555543" y="-24.5" />
+              <point x="665.3055555555554" y="134.0" />
+              <point x="959.7499999999999" y="134.0" />
+              <point x="-79.75" y="13.5" />
+            </edge>
+            <edge source="contactmanagementsoftware.strategies.visibility_stratigies.CasualContactsVisibilityBehaviour" target="contactmanagementsoftware.strategies.visibility_stratigies.ContactsVisibilityBehaviour">
+              <point x="-5.6843418860808015E-14" y="-13.5" />
+              <point x="718.4999999999999" y="57.0" />
+              <point x="712.8035714285713" y="57.0" />
+              <point x="0.0" y="13.5" />
+            </edge>
+            <edge source="contactmanagementsoftware.strategies.visibility_stratigies.ProfessionalFriendsVisibilityBehaviour" target="contactmanagementsoftware.strategies.visibility_stratigies.ContactsVisibilityBehaviour">
+              <point x="0.0" y="-13.5" />
+              <point x="1039.5" y="57.0" />
+              <point x="760.8035714285713" y="57.0" />
+              <point x="48.0" y="13.5" />
+            </edge>
+            <edge source="contactmanagementsoftware.MUI" target="contactmanagementsoftware.strategies.visibility_stratigies.PersonalFriendsVisibilityBehaviour">
+              <point x="-17.555555555555543" y="-24.5" />
+              <point x="630.1944444444443" y="134.0" />
+              <point x="339.4999999999999" y="134.0" />
+              <point x="-72.5" y="13.5" />
+            </edge>
+          </edges>
+          <settings layout="Hierarchic Group" zoom="0.9056910569105691" x="254.9910233393178" y="-7.745960502692981" />
+          <SelectedNodes>
+            <node>contactmanagementsoftware.strategies.visibility_stratigies.PersonalFriendsVisibilityBehaviour</node>
+          </SelectedNodes>
+          <Categories>
+            <Category>Inner Classes</Category>
+            <Category>Constructors</Category>
+          </Categories>
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/contactmanagementsoftware/MUI.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="94" column="18" lean-forward="true" selection-start-line="94" selection-start-column="18" selection-end-line="94" selection-end-column="18" />
+          <folding>
+            <element signature="e#4141#4142#0" expanded="true" />
+            <element signature="e#4176#4177#0" expanded="true" />
+            <element signature="e#4222#4223#0" expanded="true" />
+            <element signature="e#4259#4260#0" expanded="true" />
+            <element signature="e#4303#4304#0" expanded="true" />
+            <element signature="e#4342#4343#0" expanded="true" />
+            <element signature="e#4369#4370#0" expanded="true" />
+            <element signature="e#4395#4396#0" expanded="true" />
+            <element signature="e#4433#4434#0" expanded="true" />
+            <element signature="e#4466#4467#0" expanded="true" />
+            <element signature="e#4505#4506#0" expanded="true" />
+            <element signature="e#4540#4541#0" expanded="true" />
+            <element signature="e#4585#4586#0" expanded="true" />
+            <element signature="e#4622#4623#0" expanded="true" />
+            <element signature="e#4659#4660#0" expanded="true" />
+            <element signature="e#4689#4690#0" expanded="true" />
+            <element signature="e#4725#4726#0" expanded="true" />
+            <element signature="e#4753#4754#0" expanded="true" />
+            <element signature="e#4785#4786#0" expanded="true" />
+            <element signature="e#4814#4815#0" expanded="true" />
+            <element signature="e#4848#4849#0" expanded="true" />
+            <element signature="e#4878#4879#0" expanded="true" />
+            <element signature="e#4912#4913#0" expanded="true" />
+            <element signature="e#4942#4943#0" expanded="true" />
+            <element signature="e#4976#4977#0" expanded="true" />
+            <element signature="e#5006#5007#0" expanded="true" />
+            <element signature="e#5042#5043#0" expanded="true" />
+            <element signature="e#5073#5074#0" expanded="true" />
+            <element signature="e#5110#5111#0" expanded="true" />
+            <element signature="e#5139#5140#0" expanded="true" />
+            <element signature="e#5172#5173#0" expanded="true" />
+            <element signature="e#5198#5199#0" expanded="true" />
+            <element signature="e#5231#5232#0" expanded="true" />
+            <element signature="e#5257#5258#0" expanded="true" />
+            <element signature="e#5292#5293#0" expanded="true" />
+            <element signature="e#5320#5321#0" expanded="true" />
+            <element signature="e#5992#5993#0" expanded="true" />
+            <element signature="e#6033#6034#0" expanded="true" />
+            <element signature="e#6085#6086#0" expanded="true" />
+            <element signature="e#6121#6122#0" expanded="true" />
+            <element signature="e#6210#6211#0" expanded="true" />
+            <element signature="e#6260#6261#0" expanded="true" />
+            <element signature="e#6297#6298#0" expanded="true" />
+            <element signature="e#6324#6325#0" expanded="true" />
+            <element signature="e#6376#6377#0" expanded="true" />
+            <element signature="e#6417#6418#0" expanded="true" />
+            <element signature="e#6455#6456#0" expanded="true" />
+            <element signature="e#6492#6493#0" expanded="true" />
+            <element signature="e#9381#9470#0" expanded="true" />
+            <element signature="e#12290#12291#0" expanded="true" />
+            <element signature="e#12343#12344#0" expanded="true" />
+            <element signature="e#12392#12393#0" expanded="true" />
+            <element signature="e#12441#12442#0" expanded="true" />
+            <element signature="e#13652#13653#0" expanded="true" />
+            <element signature="e#13709#13710#0" expanded="true" />
+            <element signature="e#13785#13786#0" expanded="true" />
+            <element signature="e#13844#13845#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
   </component>
   <component name="simpleUML.UMLToolWindowPlugin">
     <General>
