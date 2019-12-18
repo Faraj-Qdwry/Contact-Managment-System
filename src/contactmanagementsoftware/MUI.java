@@ -34,7 +34,6 @@ public class MUI extends javax.swing.JFrame {
     /**
      * Creates new form MUI
      */
-    static MUI mg;
     private DirectoryComponent mainDirectory;
     private DirectoryComponent tempDirectory;
 
@@ -91,6 +90,9 @@ public class MUI extends javax.swing.JFrame {
     private javax.swing.JTextArea two;
     private javax.swing.JTextArea three;
 
+    //todo ===> done singleton
+
+    static MUI mg;
     private MUI() {
         initComponents();
         String[] columnNames = {"S.No", "Name", "Mobile", " Email"};
@@ -99,7 +101,6 @@ public class MUI extends javax.swing.JFrame {
         setUpTableData();
     }
 
-    //todo ===> done singleton
     public static synchronized MUI getInstance() {
         if (mg == null) {
             mg = new MUI();
